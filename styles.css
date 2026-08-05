@@ -116,8 +116,6 @@ h3{font-size:1.2rem}
 }
 .navbar .navbar-brand{
   font-family:'Source Serif 4',Georgia,serif !important;
-  font-weight:700 !important;
-  font-size:1.5rem !important;
   color:var(--ink) !important;
   line-height:1.15;
   position:relative;
@@ -125,14 +123,26 @@ h3{font-size:1.2rem}
   flex-direction:column;
   padding-right:1.5rem;
 }
+/* brand wordmark: show "CNA" large; keep full name in DOM (a11y) not display */
+.navbar .navbar-brand .navbar-title{font-size:0;line-height:0}
+.navbar .navbar-brand::before{
+  content:"CNA";
+  font-family:'Source Serif 4',Georgia,serif;
+  font-weight:700 !important;
+  font-size:2rem;
+  line-height:1.05;
+  letter-spacing:.08em;
+  padding-right:.08em;
+  color:var(--ink);
+}
 .navbar .navbar-brand::after{
-  content:"A configurational method for causal learning";
+  content:"Discovering causal complexity";
   font-family:'Space Grotesk',sans-serif;
   font-size:.72rem;
   font-weight:500;
   letter-spacing:.02em;
   color:var(--accent);
-  margin-top:.1rem;
+  margin-top:.15rem;
 }
 /* uppercase, airy nav links */
 .navbar .navbar-nav .nav-link{
@@ -197,7 +207,7 @@ h3{font-size:1.2rem}
 
 /* -------------------------------------------------------------- news cards */
 .cna-card{display:grid;grid-template-columns:200px 1fr;gap:22px;padding:1.1rem 0;border-top:1px solid var(--rule);align-items:start}
-.cna-card img{width:190px;height:auto;border:1px solid var(--line)}
+.cna-card img{width:100%;height:auto;border:1px solid var(--line)}
 .cna-card .kicker{font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-2);margin-bottom:.25rem}
 .cna-card h3{font-size:1.25rem;margin:0 0 .35rem;border:none}
 .cna-card h3 a{color:var(--ink) !important;text-decoration:none}
@@ -343,7 +353,13 @@ th,td{padding:.6rem .8rem;border-bottom:1px solid var(--rule);text-align:left}
   .cna-rail{flex:none;width:auto;border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:1rem;margin-top:1rem}
   .cna-card,.cna-train,.cna-peer{grid-template-columns:1fr;gap:8px}
   .cna-tile{grid-template-columns:1fr}
-  .cna-card img{width:100%;max-width:340px}
+  /* news images are fluid (width:100%) like the hero banner, so they scale with the screen */
+  /* horizontal gutters so content isn't flush to the screen edges on small devices */
+  main, main > .content, #quarto-content, .page-columns, main.quarto-document-content{
+    box-sizing:border-box;
+    padding-left:18px;
+    padding-right:18px;
+  }
 }
 
 /* ---------------------------------------------------------- news (archive) */
