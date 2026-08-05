@@ -207,7 +207,7 @@ h3{font-size:1.2rem}
 
 /* -------------------------------------------------------------- news cards */
 .cna-card{display:grid;grid-template-columns:200px 1fr;gap:22px;padding:1.1rem 0;border-top:1px solid var(--rule);align-items:start}
-.cna-card img{width:100%;height:auto;border:1px solid var(--line)}
+.cna-card img{width:100%;max-width:200px;margin:0 auto;height:auto;border:1px solid var(--line)}
 .cna-card .kicker{font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-2);margin-bottom:.25rem}
 .cna-card h3{font-size:1.25rem;margin:0 0 .35rem;border:none}
 .cna-card h3 a{color:var(--ink) !important;text-decoration:none}
