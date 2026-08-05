@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - assets/g1.svg
+    - CNAME
 
 website:
   title: "Coincidence Analysis"
