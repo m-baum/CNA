@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Literature – Coincidence Analysis</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Noto+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Coincidence Analysis</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./method.html"> 
+<span class="menu-text">The Method</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./literature.html" aria-current="page"> 
+<span class="menu-text">Literature</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./events.html"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Literature</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="literature-top">
+
+</div>
+<div class="cna-page cna-lit">
+<div class="cna-nav">
+<p><a href="#methodological">Methodological</a> <a href="#applied">Applied</a> <a href="#conceptual">Conceptual</a> <a href="#protocol">Protocol</a> <a href="#book-chapters">Book chapters</a> <a href="#phd-theses">PhD theses</a></p>
+</div>
+<div class="cna-intro">
+<p>The methodological literature on CNA and the applied literature using CNA is rapidly growing. This page provides a mere snapshot. For a full list of CNA resources visit the <a href="https://www.zotero.org/groups/4567107/coincidence.analysis/library">Zotero CNA Group library</a>.</p>
+</div>
+<section id="methodological" class="level2 cna-sec">
+<h2 data-anchor-id="methodological">Methodological</h2>
+<p>The details of the state of the art of the CNA method, as implemented in the <strong>cna</strong> R package, are described in:</p>
+<ul>
+<li>Baumgartner, M. and Ambühl, M. (2025), <a href="https://cran.r-project.org/web/packages/cna/vignettes/cna.pdf">cna: An R Package for Configurational Causal Inference and Modeling</a>, R package vignette, The Comprehensive R Archive Network.</li>
+<li>Baumgartner, M. and Ambühl, M. (2020), <a href="https://doi.org/10.1017/psrm.2018.45">Causal Modeling with Multi-Value and Fuzzy-Set Coincidence Analysis</a>, <em>Political Science Research and Methods</em> 8, 526-542, doi: 10.1017/psrm.2018.45. Replication material at <a href="https://doi.org/10.7910/DVN/YIEAF1">10.7910/DVN/YIEAF1</a>.</li>
+</ul>
+<p><strong>Short and informal introductions to configurational causal modeling are provided in the following papers:</strong></p>
+<ul>
+<li>von Thiele Schwarz, U., Sørensen, O. H., Tafvelin, S., and Roczniewska, M. (2024), <a href="https://doi.org/10.1080/02678373.2024.2349000">Complexity Embraced: A New Perspective on the Evaluation of Organisational Interventions</a>, <em>Work &amp; Stress</em>, 1-7, doi: 10.1080/02678373.2024.2349000</li>
+<li>Whitaker, R.G., Sperber, N., Baumgartner, M., et al.&nbsp;(2020), <a href="https://implementationscience.biomedcentral.com/articles/10.1186/s13012-020-01070-3">Coincidence Analysis: A New Method for Causal Inference in Implementation Science</a>, <em>Implementation Science</em> 15, 108, doi: 10.1186/s13012-020-01070-3</li>
+<li>Distel, B., Plattfaut, R., and Baumgartner, M. (2026), <a href="https://aisel.aisnet.org/cais/vol59/iss1/46">Coincidence Analysis: An Alternative Method for Studying Causal Complexity in IS Research</a>, <em>Communications of the Association for Information Systems</em> 59.</li>
+</ul>
+<p><strong>This paper introduces CNA robustness scoring, as implemented in the frscore R package:</strong></p>
+<ul>
+<li>Parkkinen, V.P. and Baumgartner, M. (2023), <a href="https://doi.org/10.1177/0049124120986200">Robustness and Model Selection in Configurational Causal Modeling</a>, <em>Sociological Methods &amp; Research</em> 52(1), 176-208, doi: 10.1177/0049124120986200</li>
+</ul>
+<p><strong>This paper discusses a protocol for finding optimally obtainable consistency and coverage scores for a given data set. (The algorithms introduced in this paper are implemented in the cnaOpt R package):</strong></p>
+<ul>
+<li>Baumgartner, M. and Ambühl, M. (2021), <a href="https://doi.org/10.1177/0049124121995554">Optimizing Consistency and Coverage in Configurational Causal Modeling</a>, <em>Sociological Methods &amp; Research</em>, doi: 10.1177/0049124121995554</li>
+</ul>
+<p><strong>These papers uncover shortcomings of consistency and coverage and introduce two evaluation measures:</strong></p>
+<ul>
+<li>De Souter, L. (2024), <a href="https://doi.org/10.1515/jci-2023-0014">Evaluating Boolean Relationships in Configurational Comparative Methods</a>, <em>Journal of Causal Inference</em> 12(1), doi: 10.1515/jci-2023-0014</li>
+<li>De Souter, L. and Baumgartner, M. (2025), <a href="https://doi.org/10.5281/zenodo.13619580">New Sufficiency and Necessity Measures for Model Building with Coincidence Analysis</a>, <em>Zenodo</em>, doi: 10.5281/zenodo.13619580 (preprint).</li>
+</ul>
+<p><strong>This paper investigates the impact of data imbalances (skewness) on CNA’s performance:</strong></p>
+<ul>
+<li>Swiatczak, M. and Baumgartner, M. (2024), <a href="https://doi.org/10.1177/00491241241227039">Data Imbalances in Coincidence Analysis: A Simulation Study</a>, <em>Sociological Methods &amp; Research</em>, doi: 10.1177/00491241241227039</li>
+</ul>
+<p><strong>These papers compare CNA and QCA:</strong></p>
+<ul>
+<li>Swiatczak, M. (2022), <a href="https://link.springer.com/article/10.1007/s11135-021-01193-9">Different Algorithms, Different Models</a>, <em>Quality &amp; Quantity</em> 56, 1913-1937</li>
+<li>Haesebrouck, T. and Thomann, E. (2022), <a href="https://doi.org/10.1007/s11135-021-01209-4">Introduction: Causation, Inferences, and Solution Types in Configurational Comparative Methods</a>, <em>Quality &amp; Quantity</em> 56, 1867-1888</li>
+</ul>
+<p><strong>This paper compares CNA and Logic Regression:</strong></p>
+<ul>
+<li>Baumgartner, M. and Falk, C. (2023), <a href="https://doi.org/10.1080/00273171.2021.1971510">Configurational Causal Modeling and Logic Regression</a>, <em>Multivariate Behavioral Research</em> 58(2), 292-310</li>
+</ul>
+<p><strong>Older versions of the CNA method are introduced/discussed here:</strong></p>
+<ul>
+<li>Baumgartner, M. and Thiem, A. (2015), <a href="https://journal.r-project.org/articles/RJ-2015-014/RJ-2015-014.pdf">Identifying Complex Causal Dependencies in Configurational Data with Coincidence Analysis</a>, <em>The R Journal</em> 7, 176-184</li>
+<li>Baumgartner, M. (2013), <a href="http://dx.doi.org/10.1177/1525822X12462527">Detecting Causal Chains in Small-N Data</a>, <em>Field Methods</em> 25, 3-24</li>
+<li>Baumgartner, M. (2009), <a href="https://doi.org/10.1007/s11229-008-9348-0">Uncovering Deterministic Causal Structures: A Boolean Approach</a>, <em>Synthese</em> 170, 71-96</li>
+<li>Baumgartner, M. (2009), <a href="http://smr.sagepub.com/cgi/content/abstract/38/1/71">Inferring Causal Complexity</a>, <em>Sociological Methods &amp; Research</em> 38, 71-101</li>
+</ul>
+<p><a class="cna-backtop" href="#">↑ Back to top</a></p>
+</section>
+<section id="applied" class="level2 cna-sec">
+<h2 data-anchor-id="applied">Applied</h2>
+<ul>
+<li>Semenza, Daniel C., Edward J. Miech, Brielle Savage, and Devon Ziminski (2026), <a href="https://doi.org/10.1057/s41271-026-00654-5">How local prevention efforts and state regulations intersect to reduce fatal shootings: a configurational analysis of firearm policies in the United States</a>, <em>Journal of Public Health Policy</em>, doi: 10.1057/s41271-026-00654-5</li>
+<li>Zhang, Jingwen, Yanan Li, Yuhao Wang, and Bing Feng (2026), <a href="https://doi.org/10.3390/pr14132077">High-Fatality Escalation Pathways in Hazardous Chemical Accidents: A Hierarchical Configurational Analysis for Process Safety</a>, <em>Processes</em> 14(13), 2077</li>
+<li>Tavernier, Rebecca L. Emery, Kelly E. Coates, May Oo, et al.&nbsp;(2026), <a href="https://doi.org/10.1016/j.acap.2026.103368">Using coincidence analysis to understand implementation of a play-promotion program through a national learning collaborative</a>, <em>Academic Pediatrics</em>, 103368</li>
+<li>Rehn, Henrik J., Alexandre Sukhov, Lars E. Olsson, and Margareta Friman (2026), <a href="https://doi.org/10.1016/j.jenvp.2026.103093">Exploring the ‘window of opportunity’ for car use reduction with a configurational comparative method</a>, <em>Journal of Environmental Psychology</em>, 103093</li>
+<li>Caci, L., Blum, K., Johnson, C. et al.&nbsp;(2026), <a href="https://doi.org/10.1186/s43058-026-00884-4">Organizational readiness for implementing infection control in European hospitals: insights from Coincidence Analysis</a>, <em>Implement Sci Commun</em> 7, 65</li>
+<li>Caci, L., Blum, K., Clack, L., and Albers, B. (2026), <a href="https://doi.org/10.1186/s43058-026-00981-4">Factor selection in configurational comparative analysis – guidance for implementation researchers</a>, <em>Implement Sci Commun</em>, doi: 10.1186/s43058-026-00981-4</li>
+<li>Huang, Zishuo, Gonghang Qiu, Changmiao Shi, et al.&nbsp;(2026), <a href="https://doi.org/10.1002/alz.71560">Implementing multidomain non-pharmaceutical interventions for preventing cognitive decline in community-dwelling older adults in China: An embedded mixed-methods implementation study of determinants and strategies</a>, <em>Alzheimer’s &amp; Dementia</em> 22(6), e71560</li>
+<li>Rich, John, Edward Miech, Kate Mackie, Deborah Cragun, Eve Shapiro, Sage Kim, Minyoung Do, Jessica Bishop-Royse, David Ansell, and Theodore Corbin (2026), <a href="https://doi.org/10.1093/haschl/qxag080">How segregation, low birth weight, unemployment, and violence link to low life expectancy in Chicago</a>, <em>Health Affairs Scholar</em> 4(4), qxag080, doi: 10.1093/haschl/qxag080</li>
+<li>Gothilander, J., Miech, E.J., Almqvist, L., Fritz, J., and Eriksson, C. (2026), <a href="https://doi.org/10.3389/fpubh.2026.1723898">Exploring paths to participation and non-participation in physical exercise among Swedish adolescents</a>, <em>Frontiers in Public Health</em> 14, 1723898, doi: 10.3389/fpubh.2026.1723898</li>
+<li>Rhodes, Jesse (2025), <a href="https://doi.org/10.1017/psrm.2025.10051">Laboratories of democratic renewal: explaining substantial improvement in the quality of democracy in the American States</a>, <em>Political Science Research and Methods</em>, 1-18, doi: 10.1017/psrm.2025.10051</li>
+<li>Adamu, Abdu A., Ndwandwe, Duduzile, Uthman, Olalekan A., and Wiysonge, Charles S. (2025), <a href="https://doi.org/10.1080/21645515.2025.2582302">Enhancing the use of routine program data for immunization decision-making: The role of Coincidence Analysis in localized learning and adaptation</a>, <em>Human Vaccines &amp; Immunotherapeutics</em> 21(1), 2582302, doi: 10.1080/21645515.2025.2582302</li>
+<li>Talal, A.H., Markatou, M., Zeremski, M. et al.&nbsp;(2025), <a href="https://doi.org/10.1186/s12906-025-05138-9">Opioid treatment program-integrated facilitated telemedicine for hepatitis C treatment: a hybrid effectiveness-implementation analysis</a>, <em>BMC Complement Med Ther</em> 25, 377, doi: 10.1186/s12906-025-05138-9</li>
+<li>Zamantakis, A., Gomez, W., Lukose, L. et al.&nbsp;(2025), <a href="https://doi.org/10.1007/s10461-025-04898-2">Barriers to Same-Day Pre-exposure Prophylaxis (PrEP) Implementation in Federally Funded HIV Clinics Within High-Burden Areas of the U.S.: A Coincidence Analysis</a>, <em>AIDS Behav</em>, doi: 10.1007/s10461-025-04898-2</li>
+<li>Wasmuth, Sally, Bravata, Dawn, and Miech, Edward (2025), <a href="https://doi.org/10.5014/ajot.2025.051085">Difference-Making Conditions for the Successful Implementation of IDEAS: A Provider Stigma-Reduction Training for and by Occupational Therapy Practitioners</a>, <em>Am J Occup Ther</em> 79(5), 7905205070, doi: 10.5014/ajot.2025.051085</li>
+<li>Tafvelin, S. and Stenling, A. (2025), <a href="https://doi.org/10.1111/ijtd.12373">How Do Individual and Work Environment Factors Combine in Their Influence on Transfer of Leadership Training? A Configural Approach</a>, <em>International Journal of Training and Development</em>, doi: 10.1111/ijtd.12373</li>
+<li>Huang, Reiping, Remer, Sarah L., Knapp, Leandra K., Cohen, Mark E., Rosen, Michael A., Hall, Bruce L., Wick, Elizabeth C., and Ko, Clifford Y. (2025), <a href="https://doi.org/10.1097/SLA.0000000000006731">Hospital Configurations Leading to Successful Implementation of Enhanced Recovery Programs</a>, <em>Annals of Surgery</em>, doi: 10.1097/SLA.0000000000006731</li>
+<li>Pratt-Chapman, M.L., Miech, E.J., Mullins, M.A., Chang, S., Quinn, G.P., Maingi, S., Schabath, M.B., and Kamen, C. (2025), <a href="https://doi.org/10.1002/cam4.70727">Difference-Makers for Collecting Sexual Orientation and Gender Identity Data in Oncology Settings</a>, <em>Cancer Medicine</em> 14, e70727, doi: 10.1002/cam4.70727</li>
+<li>Matson, T.E., Lee, A.K., Miech, E.J., Wartko, P.D., et al., Bradley, K.A. (2025), <a href="https://doi.org/10.1016/j.josat.2025.209642">The Difference-Making Role of Staff Support in Implementing Nurse Care Management for Opioid Use Disorder Treatment: A Configurational Analysis</a>, <em>J Subst Use Addict Treat</em>, 209642, doi: 10.1016/j.josat.2025.209642</li>
+<li>Chuang, E., Bunger, A., Smith, R. et al.&nbsp;(2024), <a href="https://doi.org/10.1186/s43058-024-00666-w">Collaboration strategies affecting implementation of a cross-systems intervention for child welfare and substance use treatment: a mixed methods analysis</a>, <em>Implement Sci Commun</em> 5, 127, doi: 10.1186/s43058-024-00666-w</li>
+<li>Kelley, A.T., Incze, M.A., Baumgartner, M., Campbell, A.N.C., Nunes, E.V., and Scharfstein, D.O. (2024), <a href="https://doi.org/10.1016/j.drugalcdep.2024.111368">Predictors of urine toxicology and other biological specimen missingness in randomized trials of substance use disorders</a>, <em>Drug and Alcohol Dependence</em> 260, doi: 10.1016/j.drugalcdep.2024.111368</li>
+<li>Becker, J., Poast, P., and Haesebrouck, T. (2024), <a href="https://doi.org/10.1177/00223433241267798">Setting targets: Abatement cost, vulnerability, and the agreement of NATO’s Wales Pledge on Defense Investment</a>, <em>Journal of Peace Research</em>, doi: 10.1177/00223433241267798</li>
+<li>Duan, Y., Wang, J., Lanham, H.J. et al.&nbsp;(2024), <a href="https://doi.org/10.1186/s43058-024-00600-0">How context links to best practice use in long-term care homes: a mixed methods study</a>, <em>Implement Sci Commun</em> 5, 63, doi: 10.1186/s43058-024-00600-0</li>
+<li>Barroso, M. B. C. and Moraes, S. M. (2024), <a href="https://doi.org/10.5585/remark.v23i2.23369">Influencing factors of the purchase intention of virtual cosmetic goods in online games</a>, <em>Brazilian Journal of Marketing</em> 23(2), 580-602, doi: 10.5585/remark.v23i2.23369</li>
+<li>Haesebrouck, T. (2024), <a href="https://doi.org/10.1093/fpa/orae005">EU Member State Support to Ukraine</a>, <em>Foreign Policy Analysis</em> 20(2), orae005, doi: 10.1093/fpa/orae005</li>
+<li>Kaye, S., Hood, S., Cragun, D. et al.&nbsp;(2024), <a href="https://doi.org/10.1007/s11121-024-01669-8">Maintaining Family Engagement During Home Visitor Turnover: a Mixed Methods Study of Best Practices</a>, <em>Prevention Science</em>, doi: 10.1007/s11121-024-01669-8</li>
+<li>Akerstrom, M., Severin, J., Miech, E.J., Wikström, E., and Roczniewska, M. (2024), <a href="https://doi.org/10.1007/s00420-024-02048-0">Reducing sickness absence among public-sector healthcare employees: The difference-making roles of managerial and employee participation</a>, <em>Int Arch Occup Environ Health</em>, doi: 10.1007/s00420-024-02048-0</li>
+<li>Johnson, C., AlRasheed, R., Gray, C., Triplett, N., Mbwayo, A., Weinhold, A., Whetten, K., and Dorsey, S. (2024), <a href="https://journals.sagepub.com/doi/10.1177/26334895231220277">Uncovering determinants of perceived feasibility of TF-CBT through Coincidence Analysis</a>, <em>Implementation Research and Practice</em> 5, doi: 10.1177/26334895231220277</li>
+<li>Pollak, Chava, Verghese, Joe, Blumen, Helena M. (2024), <a href="https://doi.org/10.1093/geront/gnad173">Difference-Making Pathways to Frailty Through Social Factors: A Configurational Analysis</a>, <em>The Gerontologist</em> 64(6), gnad173, doi: 10.1093/geront/gnad173</li>
+<li>Roczniewska, M., Tafvelin, S., Nielsen, K., von Thiele Schwarz, U., Miech, E.J., Hasson, H., Edwards, K., Abildgaard, J.S., and Sorensen, O.H. (2023), <a href="https://iaap-journals.onlinelibrary.wiley.com/doi/10.1111/apps.12502">Simple Roads to Failure, Complex Paths to Success: An Evaluation of Conditions Explaining Perceived Fit of an Organizational Occupational Health Intervention</a>, <em>Applied Psychology</em>, doi: 10.1111/apps.12502</li>
+<li>Damush, T.M., Wilkinson, J.R., Martin, H., Miech, E.J., et al.&nbsp;(2023), <a href="https://doi.org/10.3389/frhs.2023.1210197">The VA National TeleNeurology Program implementation: a mixed-methods evaluation guided by RE-AIM framework</a>, <em>Frontiers in Health Services</em> 3, 1210197, doi: 10.3389/frhs.2023.1210197</li>
+<li>Dean, M., Tezak, A., Johnson, S., Weidner, A., Almanza, D., Pal, T., and Cragun, D. (2023), <a href="https://www.gimjournal.org/article/S1098-3600(23)00958-9/fulltext">Factors that Differentiate Cancer Risk Management Decisions Among Females with Pathogenic/Likely Pathogenic Variants in PALB2, CHEK2, and ATM</a>, <em>Genetics in Medicine</em> 25, 100945, doi: 10.1016/j.gim.2023.100945</li>
+<li>Piper, K.N., Anderson, K.M., Kokubun, C.W., Sheth, A.N., and Sales, J. (2023), <a href="https://doi.org/10.1186/s43058-023-00450-2">Using Qualitative Comparative Analysis To Understand The Conditions That Produce Successful PrEP Implementation In Family Planning Clinics</a>, <em>Implementation Science Communications</em> 4(1), 64, doi: 10.1186/s43058-023-00450-2</li>
+<li>Dodge, J.R., Youles, B., Caldararo, J. et al.&nbsp;(2023), <a href="https://link.springer.com/article/10.1007/s11606-023-08115-5">Engaging Operational Partners Is Critical for Successful Implementation of Research Products: a Coincidence Analysis of Access-Related Projects in the Veterans Affairs Healthcare System</a>, <em>Journal of General Internal Medicine</em>, doi: 10.1007/s11606-023-08115-5</li>
+<li>Salvati, Z.M., Rahm, A.K., Williams, M.S., … Cragun, D. (2023), <a href="https://implementationsciencecomms.biomedcentral.com/articles/10.1186/s43058-023-00424-4">A picture Is worth a thousand words: advancing the use of visualization tools in implementation science through process mapping and matrix heat mapping</a>, <em>Implementation Science Communications</em> 4, 43, doi: 10.1186/s43058-023-00424-4</li>
+<li>Knott, C.L., Miech, E.J., Woodward, N., and Huq, M. (2023), <a href="https://link.springer.com/article/10.1007/s43477-023-00089-0">The role of organizational capacity in intervention efficacy in a church-based cancer education program: a configurational analysis</a>, <em>Global Implementation Research and Applications</em>, doi: 10.1007/s43477-023-00089-0</li>
+<li>Haesebrouck, T. (2023), <a href="https://doi.org/10.1080/03050629.2023.2184815">The populist radical right and military intervention: A coincidence analysis of military deployment votes</a>, <em>International Interactions</em>, doi: 10.1080/03050629.2023.2184815</li>
+<li>Sprang, G., Miech, E.J., and Gusler, S. (2023), <a href="https://doi.org/10.1177/26334895231164582">The role of secondary traumatic stress breakthrough champions in reducing worker trauma and improving organizational health using a configurational analysis approach</a>, <em>Implementation Research and Practice</em> 4, doi: 10.1177/26334895231164582</li>
+<li>Dodge, J., Sullivan, K., Miech, E., Clomax, A., Riviere, L., and Castro, C. (2024), <a href="https://doi.org/10.1007/s40615-023-01551-3">Exploring the Social Determinants of Mental Health by Race and Ethnicity in Army Wives</a>, <em>Journal of Racial and Ethnic Health Disparities</em> 11(2), 669-684, doi: 10.1007/s40615-023-01551-3</li>
+<li>Santos, L.F.M., Martins, R.S., and Freitas, J.S. (2023), <a href="https://doi.org/10.1590/0034-761220220209">Explanatory settings of the development of resilience in public administration supply networks</a>, <em>Revista de Administração Pública</em> 57(1), e-2022-0209, doi: 10.1590/0034-761220220209</li>
+<li>Cragun, D.L., Hunt, P.P., Dean, M., Weidner, A., Shields, A.K., Tezak, A., and Pal, T. (2023), <a href="https://doi.org/10.1016/j.pecinn.2023.100133">Applying the Framework for Developing and Evaluating Complex Interventions to Increase Family Communication About Hereditary Cancer</a>, <em>PEC Innovation</em> 2, 100133, doi: 10.1016/j.pecinn.2023.100133</li>
+<li>Rattray, Nicholas, Miech, Edward J., True, Gala, Natividad, Diana, Laws, Brian, Frankel, Richard M., and Kukla, Marina (2022), <a href="https://doi.org/10.1177/15586898211059616">Modeling Contingency in Veteran Community Reintegration: A Mixed Approach</a>, <em>Journal of Mixed Methods Research</em>, doi: 10.1177/15586898211059616</li>
+<li>Damschroder, L.J., Miech, E.J., Freitag, M.B., Evans, R., Burns, J.A., Raffa, S.D., Goldstein, M.G., Annis, A., Spohr, S.A., and Wiitala, W.L. (2022), <a href="https://doi.org/10.1093/tbm/ibac051">Facility-level program components leading to population impact: a coincidence analysis of obesity treatment options within the Veterans Health Administration</a>, <em>Translational Behavioral Medicine</em> 12(11), 1029-1037, doi: 10.1093/tbm/ibac051</li>
+<li>Sánchez Ibáñez, A., Franco Hidalgo-Chacón, M.M., Sánchez-Romero, E.A., and Cuenca-Zaldivar, J.N. (2022), <a href="https://doi.org/10.3390/su142416439">Situation of Physiotherapy Clinics in the Community of Madrid in Relation to the Concept of Sustainability: A Survey Study</a>, <em>Sustainability</em> 14(24), 16439, doi: 10.3390/su142416439</li>
+<li>Adams, K.K., Miech, E.J., and Sobieraj, D.M. (2022), <a href="https://ascpjournal.biomedcentral.com/articles/10.1186/s13722-022-00336-z">Factors that distinguish opioid withdrawal during induction with buprenorphine microdosing: a configurational analysis</a>, <em>Addiction Science &amp; Clinical Practice</em> 17(1), 55, doi: 10.1186/s13722-022-00336-z</li>
+<li>Rich, J.A., Miech, E.J., Semenza, D.C., and Corbin, T.J. (2022), <a href="https://www.sciencedirect.com/science/article/pii/S0091743522003115">How combinations of state firearm laws link to low firearm suicide and homicide rates: A configurational analysis</a>, <em>Preventive Medicine</em>, doi: 10.1016/j.ypmed.2022.107262</li>
+<li>Charns, M.P., Lerner, B., Yakovchenko, V., Urech, T.H., Shin, M.H., Kim, B., Engle, R.L., and Vashi, A.A. (2022), <a href="https://onlinelibrary.wiley.com/doi/10.1111/1475-6773.14072">Achieving transformation to Lean Management Systems in health care</a>, <em>Health Services Research</em>, doi: 10.1111/1475-6773.14072</li>
+<li>Sperber, N.R., Miech, E.J., Clary, A.S., Perry, K., Edwards-Orr, M., Rudolph, J.L., Van Houtven, C.H., and Thomas, K.S. (2022), <a href="https://doi.org/10.1016/j.hjdsi.2022.100653">Determinants of inter-organizational implementation success: A mixed-methods evaluation of Veteran Directed Care</a>, <em>Healthcare</em> 10(4), 100653, doi: 10.1016/j.hjdsi.2022.100653</li>
+<li>Womack, D.M., Miech, E.J., Fox, N.J., Silvey, L.C., Somerville, A.M., Eldredge, D.H., and Steege, L.M. (2022), <a href="https://pubmed.ncbi.nlm.nih.gov/36044917/">Coincidence Analysis: A Novel Approach to Modeling Nurses’ Workplace Experience</a>, <em>Applied Clinical Informatics</em> 4, 794-802, doi: 10.1055/s-0042-1756368</li>
+<li>Gwayi-Chore, M.C., Aruldas, K., Avokpaho, E. et al.&nbsp;(2022), <a href="https://doi.org/10.1186/s12913-022-08080-5">Defining optimal implementation packages for delivering community-wide mass drug administration for soil-transmitted helminths with high coverage</a>, <em>BMC Health Serv Res</em> 22, 792, doi: 10.1186/s12913-022-08080-5</li>
+<li>Miech, E.J., Perkins, A.J., Zhang, Y., Myers, L.J., Sico, J.J., Daggy, J., and Bravata, D.M. (2022), <a href="https://bmjopen.bmj.com/content/12/6/e061469">Pairing regression and configurational analysis in health services research: modelling outcomes in an observational cohort using a split-sample design</a>, <em>BMJ Open</em> 12, e061469, doi: 10.1136/bmjopen-2022-061469</li>
+<li>Rich, J.A., Miech, E.J., Bilal, U., and Corbin, T.J. (2022), <a href="https://doi.org/10.1186/s12889-022-13414-3">How education and racial segregation intersect in neighborhoods with persistently low COVID-19 vaccination rates in Philadelphia</a>, <em>BMC Public Health</em> 22, 1044, doi: 10.1186/s12889-022-13414-3</li>
+<li>Mulrooney, M., Smith, M., Sobieraj, D., Shipley, B., and Miech, E. (2022), <a href="https://www.japha.org/article/S1544-3191(22)00091-7/fulltext">Factors Influencing Primary Care Organization Commitment to Technical Assistance Services for Clinical Pharmacist Integration Using Configurational Comparative Methods</a>, <em>Journal of the American Pharmacists Association</em>, doi: 10.1016/j.japh.2022.03.019</li>
+<li>Davis, M.M., Schneider, J.L., Petrik, A.F., Miech, E.J., Younger, B., Escaron, A.L., Rivelli, J.S., Thompson, J.H., Nyongesa, D., and Coronado, G.D. (2022), <a href="https://pubmed.ncbi.nlm.nih.gov/35346927/">Clinic Factors Associated With Mailed Fecal Immunochemical Test (FIT) Completion: The Difference-Making Role of Support Staff</a>, <em>Ann Fam Med</em> 20(2), 123-129, doi: 10.1370/afm.2772</li>
+<li>Edianto, Achmed, Trencher, Gregory, and Matsubae, Kazuyo (2022), <a href="https://doi.org/10.1016/j.esd.2021.12.004">Why Do Some Countries Receive More International Financing for Coal-Fired Power Plants than Renewables? Influencing Factors in 23 Countries</a>, <em>Energy for Sustainable Development</em> 66, 177-188, doi: 10.1016/j.esd.2021.12.004</li>
+<li>Winchester, B., Cragun, D., Redlinger-Grosse, K., et al., Zierhut, H. (2022), <a href="https://onlinelibrary.wiley.com/doi/10.1002/jgc4.1554">Application of motivational interviewing strategies with the extended parallel process model to improve risk communication for parents of children with familial hypercholesterolemia</a>, <em>Journal of Genetic Counseling</em>, doi: 10.1002/jgc4.1554</li>
+<li>Yakovchenko, V., Morgan, T.R., Miech, E.J., et al., Rogal, S.S. (2022), <a href="https://aasldpubs.onlinelibrary.wiley.com/doi/abs/10.1002/hep.32395">Core implementation strategies for improving cirrhosis care in the Veterans Health Administration</a>, <em>Hepatology</em>, doi: 10.1002/hep.32395</li>
+<li>Knott, C.L., Miech, E.J., Slade, J., Woodard, N., Robinson-Shaneman, B.J., and Huq, M. (2022), <a href="https://doi.org/10.1007/s43477-021-00033-0">Evaluation of Organizational Capacity in the Implementation of a Church-Based Cancer Education Program</a>, <em>Glob Implement Res Appl</em>, doi: 10.1007/s43477-021-00033-0</li>
+<li>Dy, S.M., Acton, R.M., Yuan, C.T., Hsu, Y.J., Lai, A.Y., Marsteller, J., et al.&nbsp;(2022), <a href="https://doi.org/10.1097/PTS.0000000000000752">Association of Implementation and Social Network Factors With Patient Safety Culture in Medical Homes. A Coincidence Analysis</a>, <em>The Journal of Patient Safety</em> 18(1), e249-e256, doi: 10.1097/PTS.0000000000000752</li>
+<li>Schlick, C.J., Huang, R., Brajcich, B.C., Halverson, A.L., Yang, A.D., Kreutzer, L., et al.&nbsp;(2021), <a href="https://journals.lww.com/dcrjournal/Abstract/9000/Unbundling_Bundles__Evaluating_the_Association_of.99255.aspx">Unbundling bundles: Evaluating the effectiveness of individual colorectal surgical site infection reduction bundle elements in a statewide collaborative</a>, <em>Diseases of the Colon and Rectum</em>, doi: 10.1097/DCR.0000000000002223</li>
+<li>Swiatczak, M.D.&nbsp;(2021), <a href="https://doi.org/10.1007/s11031-021-09906-1">Towards a neo-configurational theory of intrinsic motivation</a>, <em>Motivation and Emotion</em>, doi: 10.1007/s11031-021-09906-1</li>
+<li>Miech, E.J., Freitag, M.B., Evans, R.R. et al.&nbsp;(2021), <a href="https://doi.org/10.1186/s12913-021-06774-w">Facility-level conditions leading to higher reach: a configurational analysis of national VA weight management programming</a>, <em>BMC Health Serv Res</em> 21, 797, doi: 10.1186/s12913-021-06774-w</li>
+<li>Cohen, D.J., Sweeney, Shannon M., Miller, William L., et al., Marino, Miguel (2021), <a href="https://www.annfammed.org/content/19/3/240">Improving smoking and blood pressure outcomes: The interplay between operational changes and local context</a>, <em>The Annals of Family Medicine</em> 19(3), 240-248, doi: 10.1370/afm.2668</li>
+<li>Coury, J., Miech, E., Styer, P. et al.&nbsp;(2021), <a href="https://doi.org/10.1186/s43058-020-00104-7">What’s the “secret sauce”? How implementation variation affects the success of colorectal cancer screening outreach</a>, <em>Implement Sci Commun</em> 2, 5</li>
+<li>Nunes, F.A.S.F. and Freitas, J.S. (2021), <a href="http://www.rigd.periodikos.com.br/article/doi/10.51995/2237-3373.v11i1e110022">Combination of factors for the presence of the public: a look at the lower levels of football in Minas Gerais</a>, <em>Revista Intercontinental de Gestão Desportiva</em> 11(e1122), 1-11, doi: 10.51995/2237-3373.v11i1e110022</li>
+<li>Whitaker, R.G., Sperber, N., Baumgartner, M., et al.&nbsp;(2020), <a href="https://implementationscience.biomedcentral.com/articles/10.1186/s13012-020-01070-3">Coincidence Analysis: A New Method for Causal Inference in Implementation Science</a>, <em>Implementation Science</em> 15, 108, doi: 10.1186/s13012-020-01070-3</li>
+<li>Chebbi Nekhili, D. and Chakroun, H. (2021), <a href="https://doi.org/10.3917/rsg.303.0099">Performance environnementale et performance financière: Le cas des entreprises françaises</a>, <em>La Revue des Sciences de Gestion</em> (303-304), 95-104, doi: 10.3917/rsg.303.0099</li>
+<li>Petrik, A., Green, B., Schneider, J. et al.&nbsp;(2020), <a href="https://link.springer.com/article/10.1007/s11606-020-06186-2">Factors influencing implementation of a colorectal cancer screening improvement program in community health centers: an applied use of configurational comparative methods</a>, <em>Journal of General Internal Medicine</em>, doi: 10.1007/s11606-020-06186-2</li>
+<li>Hickman, S.E., Miech, E. et al.&nbsp;(2020), <a href="https://academic.oup.com/gerontologist/advance-article/doi/10.1093/geront/gnaa041/5841891">Identifying the Implementation Conditions Associated With Positive Outcomes in a Successful Nursing Facility Demonstration Project</a>, <em>The Gerontologist</em>, doi: 10.1093/geront/gnaa041</li>
+<li>Yakovchenko, V., Miech, E. et al.&nbsp;(2020), <a href="https://journals.lww.com/lww-medicalcare/FullText/2020/05000/Strategy_Configurations_Directly_Linked_to_Higher.12.aspx">Strategy Configurations Directly Linked to Higher Hepatitis C Virus Treatment Starts. An Applied Use of Configurational Comparative Methods</a>, <em>Medical Care</em> 58(5), e31-e38, doi: 10.1097/MLR.0000000000001319</li>
+<li>Moret, W. and Lorenzetti, L. (2020), <a href="https://www.tandfonline.com/doi/abs/10.1080/17450128.2020.1738022">Realistic expectations: exploring the sustainability of graduation outcomes in a program for children affected by HIV in Kenya’s Northern Arid Lands</a>, <em>Vulnerable Children and Youth Studies</em>, doi: 10.1080/17450128.2020.1738022</li>
+<li>Haesebrouck, T. (2019), <a href="https://journals.sagepub.com/doi/10.1177/0022343319854787">Who follows whom? A coincidence analysis of military action, public opinion and threats</a>, <em>Journal of Peace Research</em>, doi: 10.1177/0022343319854787</li>
+<li>Epple, R. and Schief, S. (2016), <a href="https://www.interfacejournal.net/wordpress/wp-content/uploads/2016/12/Interface-8-2-Epple-Schief.pdf">Fighting (for) gender equality: the roles of social movements and power resources</a>, <em>Interface</em> 8(2), 394-432</li>
+<li>Baumgartner, M. and Epple, R. (2014), <a href="http://smr.sagepub.com/content/43/2/280">A Coincidence Analysis of a Causal Chain: The Swiss Minaret Vote</a>, <em>Sociological Methods &amp; Research</em> 43, 280-312</li>
+</ul>
+<p><a class="cna-backtop" href="#">↑ Back to top</a></p>
+</section>
+<section id="conceptual" class="level3 cna-sec">
+<h3 data-anchor-id="conceptual">Conceptual</h3>
+<ul>
+<li>Ding, H. (2023), <a href="https://doi.org/10.1177/16094069231182634">Qualitative Comparative Analysis: Search Target, Reflection on the Top-Down Approach, and Introduction of the Bottom-Up Approach</a>, <em>International Journal of Qualitative Methods</em> 22, doi: 10.1177/16094069231182634</li>
+<li>McGinty, E.E. et al.&nbsp;(2024), <a href="https://doi.org/10.1007/s11121-022-01427-8">Scaling Interventions to Manage Chronic Disease: Innovative Methods at the Intersection of Health Policy Research and Implementation Science</a>, <em>Prevention Science</em> 25(S1), 96-108, doi: 10.1007/s11121-022-01427-8</li>
+<li>Quintana, R. (2022), <a href="https://doi.org/10.1007/s11135-022-01349-1">Embracing complexity in social science research</a>, <em>Quality &amp; Quantity</em>, doi: 10.1007/s11135-022-01349-1</li>
+<li>Veri, F. and Barrowman, H. (2022), <a href="https://doi.org/10.1111/spsr.12485">The added value of configurational meta-analyses</a>, <em>Swiss Political Science Review</em> 28(1), 116-128, doi: 10.1111/spsr.12485</li>
+<li>Rendle, K.A. and Beidas, R.S. (2021), <a href="https://doi.org/10.1093/tbm/ibab105">Four strategic areas to advance equitable implementation of evidence-based practices in cancer care</a>, <em>Translational Behavioral Medicine</em> 11(11), 1980-1988, doi: 10.1093/tbm/ibab105</li>
+<li>Baumgartner, M. and Falk, C. (2023), <a href="https://doi.org/10.1093/bjps/axz047">Boolean Difference-Making: A Modern Regularity Theory of Causation</a>, <em>The British Journal for the Philosophy of Science</em> 74(1), 171-197, doi: 10.1093/bjps/axz047</li>
+<li>Baumgartner, M. (2015), <a href="https://doi.org/10.1007/s11135-014-0026-7">Parsimony and Causality</a>, <em>Quality &amp; Quantity</em> 49(2), 839-856, doi: 10.1007/s11135-014-0026-7</li>
+<li>Baumgartner, M. (2008), <a href="https://doi.org/10.1007/s11406-007-9114-4">Regularity Theories Reassessed</a>, <em>Philosophia</em> 36(3), 327-354, doi: 10.1007/s11406-007-9114-4</li>
+</ul>
+<p><a class="cna-backtop" href="#">↑ Back to top</a></p>
+</section>
+<section id="protocol" class="level3 cna-sec">
+<h3 data-anchor-id="protocol">Protocol</h3>
+<ul>
+<li>Fisher, E.R., Cragun, D., Dedrick, R.F., Lumpkins, C.Y., Ramírez, M., Kaphingst, K.A., Petersen, A., MacFarlane, I.M., Redlinger-Grosse, K., Shire, A., Culhane-Pera, K.A., and Zierhut, H.A. (2024), <a href="https://doi.org/10.1136/bmjopen-2024-085472">Linking genetic counseling communication skills to patient outcomes and experiences using a community-engagement and provider-engagement approach: research protocol for the GC-PRO mixed methods sequential explanatory study</a>, <em>BMJ Open</em> 14(4), e085472, doi: 10.1136/bmjopen-2024-085472</li>
+<li>Wang, R., Rouleau, G., Booth, G.L., Brazeau, A.-S., El-Dassouki, N., Taylor, M., Cafazzo, J.A., Greenberg, M., Nakhla, M., Shulman, R., and Desveaux, L. (2023), <a href="https://doi.org/10.2196/46115">Understanding Whether and How a Digital Health Intervention Improves Transition Care for Emerging Adults Living With Type 1 Diabetes: Protocol for a Mixed Methods Realist Evaluation</a>, <em>JMIR Research Protocols</em> 12, e46115, doi: 10.2196/46115</li>
+<li>Roczniewska, M., Rogala, A., Marszałek, M., Hasson, H., Bakker, A.B., and von Thiele Schwarz, U. (2023), <a href="https://doi.org/10.1186/s13643-023-02170-z">Job crafting interventions: what works, for whom, why, and in which contexts? Research protocol for a systematic review with coincidence analysis</a>, <em>Systematic Reviews</em> 12(1), 10, doi: 10.1186/s13643-023-02170-z</li>
+<li>Sperber, N.R., Cragun, D., Roberts, M.C., Bendz, L.M., Ince, P., Gonzales, S., Haga, S.B., Wu, R.R., Petry, N.J., Ramsey, L., and Uber, R. (2022), <a href="https://doi.org/10.3390/jpm12081313">A Mixed-Methods Protocol to Identify Best Practices for Implementing Pharmacogenetic Testing in Clinical Settings</a>, <em>Journal of Personalized Medicine</em> 12(8), 1313</li>
+<li>Wasmuth, S., Belkiewitz, J., Bravata, D., Horsford, C., Harris, A., Smith, C., Austin, C., and Miech, E. (2022), <a href="https://doi.org/10.1186/s43058-022-00332-z">Protocol for evaluating external facilitation as a strategy to nationally implement a novel stigma reduction training tool for healthcare providers</a>, <em>Implementation Science Communications</em> 3(1), 88</li>
+<li>Cragun, D., Beckstead, J., Farmer, M., Hooker, G., Dean, M., Matloff, E., Reid, S., Tezak, A., Weidner, A., Whisenant, J.G., and Pal, T. (2021), <a href="https://doi.org/10.1186/s12885-021-08822-4">IMProving care After inherited Cancer Testing (IMPACT) study: protocol of a randomized trial evaluating the efficacy of two interventions designed to improve cancer risk management and family communication of genetic test results</a>, <em>BMC Cancer</em> 21(1), 1099</li>
+<li>Rogal, S.S., Yakovchenko, V., Morgan, T., Bajaj, J.S., Gonzalez, R., Park, A., Beste, L., Miech, E.J., et al.&nbsp;(2020), <a href="https://doi.org/10.1186/s13012-020-01050-7">Getting to implementation: a protocol for a Hybrid III stepped wedge cluster randomized evaluation of using data-driven implementation strategies to improve cirrhosis care for Veterans</a>, <em>Implementation Science</em> 15(1), 92</li>
+<li>Rahm, A.K., Cragun, D., Hunter, J.E., Epstein, M.M., Lowery, J., Lu, C.Y., Pawloski, P.A., Sharaf, R.N., Liang, S.Y., Burnett-Hartman, A.N., Gudgeon, J.M., Hao, J., Snyder, S., Gogoi, R., Ladd, I., and Williams, M.S. (2018), <a href="https://doi.org/10.1186/s12913-018-3636-2">Implementing universal Lynch syndrome screening (IMPULSS): protocol for a multi-site study to identify strategies to implement, adapt, and sustain genomic medicine programs in different organizational contexts</a>, <em>BMC Health Services Research</em> 18(1), 824</li>
+</ul>
+<p><a class="cna-backtop" href="#">↑ Back to top</a></p>
+</section>
+<section id="book-chapters" class="level3 cna-sec">
+<h3 data-anchor-id="book-chapters">Book chapters</h3>
+<ul>
+<li>Brownson, R.C., Colditz, G.A., and Proctor, E.K., eds.&nbsp;(2023), <a href="https://global.oup.com/academic/product/dissemination-and-implementation-research-in-health-9780197660690">Dissemination and Implementation Research in Health: Translating Science to Practice</a>, 3rd ed., Oxford University Press, New York.</li>
+<li>Cragun, D. (2020), <a href="https://doi.org/10.4337/9781788975995.00034">Configurational Comparative Methods</a>, in: <em>Handbook on Implementation Science</em>, eds.&nbsp;P. Nilsen &amp; S. A. Birken, Northampton, MA: Edward Elgar Publishing, doi: 10.4337/9781788975995.00034</li>
+</ul>
+<p><a class="cna-backtop" href="#">↑ Back to top</a></p>
+</section>
+<section id="phd-theses" class="level2 cna-sec">
+<h2 data-anchor-id="phd-theses">PhD theses using or on CNA</h2>
+<ul>
+<li><strong>Anna C. Quon</strong>, 2025 (Rush University), “Exploring factors associated with mammography screening among women with autism spectrum disorder and/or intellectual disabilities.”</li>
+<li><strong>Sarah Shaw</strong>, 2025 (University of Washington), “Moving Beyond Research Settings to Strengthen HIV Services: Determinants of Intervention Sustainability and Community-Generated Implementation Strategies.” <a href="https://www.proquest.com/openview/fde7e20a1b1daf5c5be8e89afa29326a/1">link</a></li>
+<li><strong>Luna de Souter</strong>, 2025 (University of Bergen), “Defining and discovering causal regularities.”</li>
+<li><strong>Nattarinee Jittiang</strong>, 2025 (RMIT University), “What Drives Transition from Natural Rubber to Other Types of Farming in Thailand: An Exploratory Study.” <a href="https://digital.lib.washington.edu/researchworks/items/0c2f512b-af64-4d47-a476-12d498aecf6a">link</a></li>
+<li><strong>Jennifer Gothilander</strong>, 2025 (Mälardalen University), “Exploring contexts for participation in daily and physical activities among adolescents with and without disabilities.” <a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1953739&amp;dswid=-4902">link</a></li>
+<li><strong>Lauren Niles</strong>, 2022 (Johns Hopkins University, Baltimore, MD), “Effectiveness of Maryland Opioid Treatment Program Response During the COVID-19 Pandemic and National Regulatory Exemption Period.” <a href="https://jscholarship.library.jhu.edu/handle/1774.2/67640">link</a></li>
+<li><strong>Claire Gwayi-Chore</strong>, 2022 (University of Washington, Seattle), “Scaling up deworming programs: implementation science approaches to guide the transition from school-based to community-wide mass drug administration for soil-transmitted helminths.” (This multi-method study included a CNA analysis to identify necessary and/or sufficient combinations of intervention delivery activities related to successful implementation of a community-wide public health intervention in three countries: Benin, India and Malawi.)</li>
+<li><strong>Sepheen Byron</strong>, 2022 (University of North Carolina – Chapel Hill), “State Medicaid Policy Levers Related to Successful Health Information Exchange Among Providers.”</li>
+<li><strong>Laysse Fernanda Macêdo dos Santos</strong>, 2022 (Universidade Federal de Minas Gerais, UFMG/Brazil), “O desenvolvimento da resiliência nas redes de suprimentos da administração pública: a perspectiva do capital social.” (ENG: “The development of resilience in public administration supply networks: the perspective of social capital”)</li>
+<li><strong>Kelly Coates</strong>, 2021 (Portland State), “Affecting Absenteeism Through School-Based Health Services Delivery: A Configurational Comparative Methods Study of Oregon’s Public Secondary Schools.” <a href="https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=6825&amp;context=open_access_etds">link</a> (First standalone use of CNA in an applied analysis in any doctoral-level dissertation in any subject.)</li>
+<li><strong>Jessica Dodge</strong>, 2021 (USC), “Exploring the Social Determinants of Health in a Population with Similar Access to Healthcare: Experiences from United States Active-Duty Army Wives.” (First formal pairing of CNA and QCA in an applied analysis in any doctoral-level dissertation in any subject.)</li>
+<li><strong>Davi Pires Andrade Brescia</strong>, 2021 (Universidade Federal de Minas Gerais, UFMG/Brazil), “Respostas gerenciais a dilemas estratégicos: capturando políticas de decisão e suas fundações morais.” (ENG: “Managerial responses to strategic dilemmas: capturing decision-making policies and their moral foundations”)</li>
+<li><strong>Christoph Falk</strong>, 2020 (University of Geneva), “Konfigurationales kausales Modellieren. Ein theoretisches Fundament und Verfahren für Kausalanalysen mit crisp-set Konfigurationen.”</li>
+<li><strong>Bruno de Castro Rozenberg</strong>, 2020 (Universidade Federal de Minas Gerais, UFMG/Brazil), “Complexidade causal na seleção de startups para programas públicos de aceleração: uma abordagem configuracional comparativa.” (ENG: “Causal complexity in the selection of startups for public acceleration programs: a comparative configurational approach.”)</li>
+<li><strong>Felipe Alexandre de Souza Félix Nunes</strong>, 2020 (Universidade Federal de Minas Gerais, UFMG/Brazil), “Comportamento de não consumo de produtos dos patrocinadores de Cruzeiro e Atlético-MG pelos torcedores do clube rival.” (ENG: “Non-consumption of products from the sponsors of Cruzeiro and Atlético-MG by fans of the rival club”)</li>
+<li><strong>Rebecca Whitaker</strong>, 2019 (UNC-Chapel Hill), “A Study of Preventable Hospital Utilization Among Medicaid-Insured Pediatric Patients in North Carolina’s Federally Qualified Health Centers.” (First doctoral-level dissertation in the United States to prominently feature CNA in an applied analysis.)</li>
+<li><strong>Rui Fernando Correia Ferreira</strong>, 2018 (Universidade Federal de Minas Gerais, UFMG/Brazil), “Estratégia de influência: O ganho de vantagens competitivas de empresas em suas relações com o Estado.” (ENG: “Influence strategy: Gaining competitive advantages for companies in their relations with the State”)</li>
+</ul>
+<p><a class="cna-backtop" href="#">↑ Back to top</a></p>
+</section>
+<p>A <a href="https://www.zotero.org/groups/4567107/coincidence.analysis/library">Zotero Group Library on CNA</a> provides more detailed bibliographic information.</p>
+</div>
+
+
+
+
+<footer class="cna-footer">
+  <div class="cna-footer-inner">
+    <div>
+      <h4>Coincidence Analysis</h4>
+      <p>CNA is a configurational comparative method of causal inference and data analysis. The community hub for CNA users worldwide.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>
+        <a href="mailto:post@fof.uib.no">post@fof.uib.no</a><br>
+        +47 55 58 23 82<br>
+        Dept of Philosophy, UiB<br>
+        Postboks 7805, NO-5020 Bergen
+      </p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p>Sydnesplassen 12–13<br>5007 Bergen, Norway</p>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  function initLightbox(){
+    var links = Array.prototype.slice.call(document.querySelectorAll('a.cna-lb'));
+    if(!links.length) return;
+
+    var wrap = document.createElement('div');
+    wrap.className = 'cna-lightbox';
+    wrap.setAttribute('role','dialog');
+    wrap.setAttribute('aria-modal','true');
+    wrap.innerHTML =
+      '<div class="lb-body">' +
+        '<button class="lb-close" aria-label="Close">&times;</button>' +
+        '<button class="lb-nav lb-prev" aria-label="Previous">&lsaquo;</button>' +
+        '<img src="" alt="">' +
+        '<button class="lb-nav lb-next" aria-label="Next">&rsaquo;</button>' +
+      '</div>' +
+      '<div class="lb-caption"></div>';
+    document.body.appendChild(wrap);
+
+    var img = wrap.querySelector('img');
+    var caption = wrap.querySelector('.lb-caption');
+    var close = wrap.querySelector('.lb-close');
+    var prev = wrap.querySelector('.lb-prev');
+    var next = wrap.querySelector('.lb-next');
+    var current = 0;
+
+    function show(i){
+      current = (i + links.length) % links.length;
+      var l = links[current];
+      img.src = l.getAttribute('href');
+      img.alt = l.getAttribute('data-caption') || '';
+      caption.textContent = l.getAttribute('data-caption') || '';
+      wrap.classList.add('open');
+      document.body.classList.add('lb-open');
+    }
+    function closeLb(){
+      wrap.classList.remove('open');
+      document.body.classList.remove('lb-open');
+      img.src = '';
+    }
+
+    links.forEach(function(l, idx){
+      l.addEventListener('click', function(e){
+        e.preventDefault(); show(idx);
+      });
+    });
+    close.addEventListener('click', closeLb);
+    prev.addEventListener('click', function(){ show(current-1); });
+    next.addEventListener('click', function(){ show(current+1); });
+    wrap.addEventListener('click', function(e){
+      if(e.target === wrap) closeLb();
+    });
+    document.addEventListener('keydown', function(e){
+      if(!wrap.classList.contains('open')) return;
+      if(e.key === 'Escape') closeLb();
+      else if(e.key === 'ArrowLeft') show(current-1);
+      else if(e.key === 'ArrowRight') show(current+1);
+    });
+  }
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', initLightbox);
+  } else {
+    initLightbox();
+  }
+})();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cna-method\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
