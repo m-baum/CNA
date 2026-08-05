@@ -1,0 +1,14 @@
+---
+title: "New member of the CNA group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · January 24, 2022</div>
+<div class="cna-news-hero"><img src="../assets/news/151047_0.png" alt="Luna"></div>
+<p class="cna-news-lead">The CNA group has the pleasure to welcome Luna de Souter to the team.</p>
+<p>Luna de Souter has joined the CNA group from KU Leuven, Belgium. She has a Bachelor of Philosophy and a Master of Statistics, and she will pursue a PhD in the field of causal inference and modeling under the supervision of Michael Baumgartner.</p>
+<p>For more on Luna click here.</p>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

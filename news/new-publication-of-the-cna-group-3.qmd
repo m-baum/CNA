@@ -1,0 +1,16 @@
+---
+title: "New publication of the CNA group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 23, 2021</div>
+<div class="cna-news-hero"><img src="../assets/news/146101_0.jpg" alt="logo"></div>
+<p class="cna-news-lead">Michael Baumgartner's paper on "Qualitative Comparative Analysis and robust sufficiency" was published in Quality &amp; Quantity (2021): https://doi.org/10.1007/s11135-021-01157-z</p>
+<p>Qualitative Comparative Analysis and robust sufficiency</p>
+<p>Some methodologists take the search target of Qualitative Comparative Analysis (QCA) to be causal INUS-conditions, others contend that QCA should instead be used to search for some form of sufficiency that is more substantive than mere Boolean sufficiency. While the notion of an INUS-condition has a long and uncontroversial definitional history, Adrian Dusa, in a recent paper, is the first to explicitly define a notion of substantive sufficiency, which he labels robust sufficiency. Dusa’s definition, however, is vacuous in real-life research contexts. As an alternative, the first part of this paper non-vacuously defines robust sufficiency and supplies a corresponding notion of minimality, which—I argue—captures Dusa’s conceptual intentions. In the second part, I then report and discuss the results of a series of simulation experiments benchmarking the performance of the different QCA solution types in recovering robust sufficiency and minimality.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Baumgartner, M. (2021) Qualitative Comparative Analysis and robust sufficiency. Quality & Quantity. <a href="https://doi.org/10.1007/s11135-021-01157-z">https://doi.org/10.1007/s11135-021-01157-z</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

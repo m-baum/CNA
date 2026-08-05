@@ -1,0 +1,16 @@
+---
+title: "New measures for evaluating CNA models"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · January 15, 2024</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/167590_0.jpg" alt="JCI"></div>
+<p class="cna-news-lead">Luna De Souter identifies shortcomings of the two main measures for evaluating CNA models, consistency and coverage, and introduces two new evaluation measures.</p>
+<h2>Abstract</h2>
+<p>Configurational Comparative Methods (CCMs) aim to learn causal structures from datasets by exploiting Boolean sufficiency and necessity relationships. One important challenge for these methods is that such Boolean relationships are often not satisfied in real-life datasets, as these datasets usually contain noise. Hence, CCMs infer models that only approximately fit the data, introducing a risk of inferring incorrect or incomplete models, especially when data are also fragmented (have limited empirical diversity). To minimize this risk, evaluation measures for sufficiency and necessity should be sensitive to all relevant evidence. This article points out that the standard evaluation measures in CCMs, consistency and coverage, neglect certain evidence for these Boolean relationships. Correspondingly, two new measures, contrapositive consistency and contrapositive coverage, which are equivalent to the binary classification measures specificity and negative predictive value, respectively, are introduced to the CCM context as additions to consistency and coverage. A simulation experiment demonstrates that the introduced contrapositive measures indeed help to identify correct CCM models.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Luna De Souter, (2024), Evaluating Boolean relationships in Configurational Comparative Methods, Journal of Causal Inference, vol. 12, no. 1, 2024. <a href="https://doi.org/10.1515/jci-2023-0014">https://doi.org/10.1515/jci-2023-0014</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

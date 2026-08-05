@@ -1,0 +1,19 @@
+---
+title: "CNA applied in Implementation Science"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · March 07, 2025</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/176787_0.png" alt="IS Communications"></div>
+<p class="cna-news-lead">Emmeline Chuang and colleagues applied CNA in a mixed methods analysis to identify the conditions under which collaboration strategies affect implementations of cross-systems interventions for child welfare and substance use treatment.</p>
+<h2>Abstract</h2>
+<p>Collaboration strategies refer to policies and practices used to align operations and services across organizations or systems. These strategies can influence implementation of cross-system interventions focused on improving integration of care, but remain under-specified and under-examined. This study identifies collaboration strategies and the conditions under which they affected implementation of Sobriety Treatment and Recovery Teams (START), an evidence-based intervention focused on integrating child welfare and behavioral health services for families involved with both systems.</p>
+<p>Our study sample included 17 county child welfare agencies that implemented START. Data on collaboration strategies and organizational context were obtained from key informant interviews, frontline worker surveys, and contracts. Contextual data were drawn from secondary data, and fidelity data were drawn from an administrative database. Qualitative and quantitative data were integrated using coincidence analysis, and used to identify combinations of conditions that uniquely differentiated agencies with higher and lower fidelity to START.</p>
+<p>Fidelity was lower for intervention components requiring cross-system collaboration. Although key informants acknowledged the importance of collaboration for START implementation, few agencies used formal collaboration strategies other than staff co-location or reported high communication quality between frontline staff in child welfare and behavioral health. In coincidence analysis, four conditions differentiated agencies with higher and lower fidelity with 100% consistency and 88% coverage. We found that either strong leadership support or, in high need communities, third-party resource support from local behavioral health boards were sufficient for high fidelity. Similarly, in high need communities, absence of third-party resource support was sufficient for low fidelity, while in low need communities, absence of communication quality was sufficient for low fidelity.</p>
+<p>Administrators, frontline workers, and interested third parties (i.e., other stakeholders not directly involved in implementation) can use collaboration strategies to facilitate implementation. However, the effectiveness of collaboration strategies depends on local context. In agencies where internal leadership support for implementation is low but need for intervention is high, third-party resource support may still be sufficient for high fidelity. Further research is needed to test effectiveness of collaboration strategies in different conditions and on a broader range of process and implementation outcomes.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Chuang, E., Bunger, A., Smith, R. et al. Collaboration strategies affecting implementation of a cross-systems intervention for child welfare and substance use treatment: a mixed methods analysis. Implement Sci Commun 5, 127 (2024). <a href="https://doi.org/10.1186/s43058-024-00666-w">https://doi.org/10.1186/s43058-024-00666-w</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

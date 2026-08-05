@@ -1,0 +1,17 @@
+---
+title: "How local prevention efforts and state regulations reduce fatal shootings"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 03, 2026</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/semenza_cover.webp" alt="Journal of Public Health Policy"></div>
+<p class="cna-news-lead">Daniel C. Semenza, Edward J. Miech, Brielle Savage, and Devon Ziminski use CNA to examine how combinations of city-level prevention efforts and state-level firearm policies correspond to fatal shooting rates across 100 US cities.</p>
+<h2>Abstract</h2>
+<p>Firearm violence arises from a complex interplay of local conditions and state regulations. Using coincidence analysis (CNA), the authors examined how combinations of city-level prevention efforts and state-level firearm policies correspond to fatal shooting rates across 100 US cities. Drawing on data from the Community Justice Violence Prevention Index, Everytown's gun-law rankings, the US Census Bureau, and the Gun Violence Archive, they identified configurations of state policies and local efforts associated with relatively low rates of firearm-related fatalities.</p>
+<p>Five distinct pathways characterized cities with lower shooting rates, involving combinations of regional location, restraining order prohibitors, authority to deny firearm purchases, police use-of-force data collection, microstamping for new handguns, city population, ban-the-box initiatives, city-wide reporting for hate crimes, school-based violence prevention programs, and local emergency response improvements. The five-pathway model was highly reliable, with an overall consistency of 89.3% and a coverage of 75.8% of the cities in the lowest tertile of fatal shooting rates, and remained robust across alternative thresholds for the outcome.</p>
+<p>The findings underscore how multilevel policy environments jointly shape firearm violence outcomes and demonstrate the value of configurational methods for public health and policy research.</p>
+<div class="cna-factbox"><strong>Publication</strong><p>Semenza, D.C., Miech, E.J., Savage, B., Ziminski, D. (2026), How local prevention efforts and state regulations intersect to reduce fatal shootings: a configurational analysis of firearm policies in the United States, Journal of Public Health Policy. <a href="https://doi.org/10.1057/s41271-026-00654-5">https://doi.org/10.1057/s41271-026-00654-5</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,14 @@
+---
+title: "The CNA method applied in patient safety"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 09, 2020</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/137392_0.jpg" alt="JPS"></div>
+<p class="cna-news-lead">The CNA method was applied in a study about the patient safety culture in medical homes.</p>
+<p>Sydney M. Dy et al. (2020), Association of Implementation and Social Network Factors With Patient Safety Culture in Medical Homes. A Coincidence Analysis, The Journal of Patient Safety, doi: 10.1097/PTS.0000000000000752</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,9 @@
+---
+title: ""
+toc: false
+format:
+  html:
+    toc: false
+    include-before-body:
+      - _partials/home.html
+---

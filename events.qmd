@@ -1,0 +1,62 @@
+---
+title: "Events"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+We collect news and information on CNA trainings and conferences. Each event has its own page with the full program, speakers, and practical details.
+
+## Trainings
+
+### Upcoming
+
+<div class="cna-event-upcoming">
+<div class="when">Upcoming · Online · KOMEX</div>
+<h2><a href="training-komex-2027.html">Coincidence Analysis for Causal Learning</a></h2>
+<div class="loc">Feb 22.–24. 2027 · Three-day online compact course, hosted in cooperation with the <a href="https://afww.uni-konstanz.de/komex/">Konstanz Methods Excellence Workshops</a> (KOMEX)</div>
+<p>This hands-on online course introduces Coincidence Analysis (CNA), a configurational method for causal data analysis and modeling widely used in the health and social sciences. CNA is uniquely designed to capture causal complexity and context-sensitivity: it bundles multiple factors into complex causes in which every element is indispensable for producing an outcome, and places these bundles on the same or on alternative causal paths to one or more outcomes.</p>
+<p>Taught by CNA's main developer, Michael Baumgartner, the course covers the conceptual foundations, the search algorithm, hands-on data analysis using the <em>cna</em> R package, model evaluation, and strategies for robustness analyses. No prior knowledge of CNA is required, though familiarity with R is an asset.</p>
+<p>More information, including registration details, will be published in due course.</p>
+<a class="more" href="training-komex-2027.html">Course page →</a>
+</div>
+
+### Previous
+
+<ul class="cna-train">
+  <li><span class="when">Berkeley · Jun 8–11, 2026</span><div class="what"><a href="events/training-2026-berkeley.html">Introduction to Causal Data Analysis &amp; Modeling with CNA</a><small>UC Berkeley, School of Social Welfare</small></div></li>
+  <li><span class="when">Copenhagen · May 19–22, 2025</span><div class="what"><a href="events/training-2025-copenhagen.html">Introduction to Causal Data Analysis &amp; Modeling with CNA</a><small>The National Research Centre for the Working Environment (NFA), Copenhagen</small></div></li>
+  <li><span class="when">Chicago · May 20–23, 2024</span><div class="what"><a href="events/training-2024-chicago.html">Introduction to Causal Data Analysis &amp; Modeling with CNA</a><small>RUSH University, Chicago</small></div></li>
+  <li><span class="when">Prague · May 15–18, 2023</span><div class="what"><a href="events/training-2023-prague.html">Introduction to Causal Data Analysis &amp; Modeling with CNA</a><small>Prague University of Economics and Business</small></div></li>
+  <li><span class="when">Bergen · May 30–Jun 2, 2022</span><div class="what"><a href="events/training-2022-bergen.html">Introduction to Causal Data Analysis &amp; Modeling with CNA</a><small>Grand Hotel Terminus, Bergen</small></div></li>
+  <li><span class="when">Indianapolis · Aug 3–5, 2021</span><div class="what">Introduction to Causal Modeling with Coincidence Analysis<small>Via Zoom</small></div></li>
+  <li><span class="when">Indianapolis · 2020</span><div class="what">Advanced Topics in Configurational Causal Data Analysis<small>Via Zoom</small></div></li>
+  <li><span class="when">Indianapolis · 2020</span><div class="what">Beginners' Introduction to Configurational Causal Data Analysis<small>Via Zoom</small></div></li>
+  <li><span class="when">Arlington · 2019</span><div class="what">Coincidence Analysis (CNA) Workshop at the D&amp;I Conference<small>In-person</small></div></li>
+  <li><span class="when">Indianapolis · 2017</span><div class="what">Configurational Research with QCA and CNA<small>In-person</small></div></li>
+  <li><span class="when">Konstanz · 2016</span><div class="what">Configurational Research with QCA and CNA<small>In-person</small></div></li>
+  <li><span class="when">Geneva · 2015</span><div class="what">Configurational Research with QCA and CNA<small>In-person</small></div></li>
+</ul>
+
+## Conferences
+
+<div class="cna-train">
+  <div class="when">Berkeley · June 12–13, 2026</div><div class="what"><a href="events/conference-2026-berkeley.html">5th International Conference on Current Issues in Coincidence Analysis</a><small>UC Berkeley, School of Social Welfare · venue: Residence Inn by Marriott Berkeley</small></div>
+</div>
+<div class="cna-train">
+  <div class="when">Copenhagen · May 23–24, 2025</div><div class="what"><a href="events/conference-2025-copenhagen.html">4th International Conference on Current Issues in Coincidence Analysis</a><small>The National Research Centre for the Working Environment (NFA), Copenhagen</small></div>
+</div>
+<div class="cna-train">
+  <div class="when">Chicago · May 24–25, 2024</div><div class="what"><a href="events/conference-2024-chicago.html">3rd International Conference on Current Issues in Coincidence Analysis</a><small>BMO Institute for Health Equity, RUSH University, Chicago</small></div>
+</div>
+<div class="cna-train">
+  <div class="when">Prague · May 19–20, 2023</div><div class="what"><a href="events/conference-2023-prague.html">2nd International Conference on Current Issues in Coincidence Analysis</a><small>Prague University of Economics and Business</small></div>
+</div>
+<div class="cna-train">
+  <div class="when">Bergen · June 3–4, 2022</div><div class="what"><a href="events/conference-2022-bergen.html">1st International Conference on Current Issues in Coincidence Analysis</a><small>Grand Hotel Terminus, Bergen</small></div>
+</div>
+<div class="cna-train">
+  <div class="when">Bergen · December 3–4, 2018</div><div class="what"><a href="events/conference-2018-bergen.html">Conference: Causation vs. Constitution: Loosening the Friction</a><small>Department of Philosophy, UiB · scientific conference</small></div>
+</div>
+
+</div>

@@ -1,0 +1,18 @@
+---
+title: "Update 3.5.4 of the cna R package released on CRAN"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 25, 2023</div>
+<div class="cna-news-hero"><img src="../assets/news/164406_0.png" alt="cna_CRAN"></div>
+<p class="cna-news-lead">Mathias Ambühl and Michael Baumgartner released a new update of the cna R package on CRAN. The latest version is 3.5.4.</p>
+<p>On August 10, 2023, version 3.5.4 of the cna R package was released on CRAN. As always, it can be downloaded here:</p>
+<p>https://CRAN.R-project.org/package=cna</p>
+<p>Changes in version 3.5.4</p>
+<ul class="cna-news-list"><li>Default values of arguments rm.const.factors and rm.dup.factors in configTable() and cna() have changed from TRUE to FALSE.</li><li>In randomConds(), the flexibility in specifying complexity in argument \code{compl} has been increased.</li></ul>
+<p>The first change is of some relevance to applied users. While in previous versions, the cna() and configTable() functions automatically eliminated constant factors and all but one of a set of duplicated factors, constants and duplicates are now left in the analysis by default. Instead, the functions simply issue a warning message alerting the user to the fact that the data contain constants or duplicates.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

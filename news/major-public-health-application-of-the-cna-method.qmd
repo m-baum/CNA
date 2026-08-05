@@ -1,0 +1,14 @@
+---
+title: "Major public health application of the CNA method"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · April 11, 2020</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/135144_0.jpg" alt="Medicare"></div>
+<p class="cna-news-lead">The official journal of the medical care section of the American Public Health Association just published an application of the CNA method, among other configurational comparative methods, to the effectiveness of the implementation of hepatitis C treatments.</p>
+<p>Yakovchenko, V., Miech, E. et al. (2020), Strategy Configurations Directly Linked to Higher Hepatitis C Virus Treatment Starts. An Applied Use of Configurational Comparative Methods, Medical Care 58(5), p. e31-e38, doi: 10.1097/MLR.0000000000001319</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

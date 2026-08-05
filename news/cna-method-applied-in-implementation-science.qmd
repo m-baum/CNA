@@ -1,0 +1,14 @@
+---
+title: "CNA method applied in implementation science"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · October 27, 2020</div>
+<div class="cna-news-hero"><img src="../assets/news/139796_0.png" alt="logo"></div>
+<p class="cna-news-lead">CNA has been applied in a study on factors influencing the implementation of a colorectal cancer screening improvement program in community health centers.</p>
+<p>New CNA application: Petrik, A., B. Green et al. (2020), Factors influencing implementation of a colorectal cancer screening improvement program in community health centers: an applied use of configurational comparative methods, Journal of General Internal Medicine, doi: 10.1007/s11606-020- 06186-2.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

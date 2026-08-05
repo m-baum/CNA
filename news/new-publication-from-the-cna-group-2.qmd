@@ -1,0 +1,15 @@
+---
+title: "New publication from the CNA group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 03, 2021</div>
+<div class="cna-news-hero"><img src="../assets/news/145544_0.png" alt="smr"></div>
+<p class="cna-news-lead">A procedure for optimizing the fit of configurational causal models has been introduced in a new paper published in Sociological Methods &amp; Research.</p>
+<p>Consistency and coverage are two core parameters of model fit used by configurational comparative methods (CCMs) of causal inference. Among causal models that perform equally well in other respects (e.g., robustness or compliance with background theories), those with higher consistency and coverage are typically considered preferable. Finding the optimally obtainable consistency and coverage scores for data d, so far, is a matter of repeatedly applying CCMs to d while varying threshold settings. This article introduces a procedure called ConCovOpt that calculates, prior to actual CCM analyses, the consistency and coverage scores that can optimally be obtained by models inferred from d. Moreover, we show how models reaching optimal scores can be methodically built in case of crisp-set and multi-value data. ConCovOpt is a tool, not for blindly maximizing model fit, but for rendering transparent the space of viable models at optimal fit scores in order to facilitate informed model selection—which, as we demonstrate by various data examples, may have substantive modeling implications.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>M. Baumgartner and M. Ambühl (2021), Optimizing Consistency and Coverage in Configurational Causal Modeling, Sociological Methods &amp; Research. [penultimate draft]; Replication material.</p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,16 @@
+---
+title: "New geoconfiguational application of CNA"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · September 29, 2022</div>
+<div class="cna-news-hero"><img src="../assets/news/156996_0.jpg" alt="logo"></div>
+<p class="cna-news-lead">John Rich, Edward Miech, Daniel Semenza and Theodore Corbin applied CNA in a new study investigating the effect of 10 firearm laws in US states on homocide and suicide rates.</p>
+<h2>Abstract</h2>
+<p>Firearm violence, including both homicide and suicide, is a major public health problem in the US (United States). To decrease firearm mortality, US states have implemented laws to restrict firearm availability. We evaluated ten state firearm laws using configurational comparative methods (CCMs) designed to uncover how multiple factors are linked to a given outcome. We applied coincidence analysis, a novel CCM, to ten firearm laws in US states in 2016, to assess how different combinations of firearm laws distinguished states with low firearm homicide or suicide rates from those states with higher rates. The suicide analysis included all 50 US states; the homicide analysis involved the 47 US states with homicide rates reported by the Center for Disease Control and Prevention (CDC) in 2016. For low firearm suicide rates, we identified three solution pathways - the presence of universal background checks OR the presence of under 21 firearm possession restrictions OR the presence of junk gun bans - which were sufficient for low firearm suicide rates with high consistency (0.87) and coverage (0.76). For low firearm homicide rates, we identified three solution pathways - presence of under 21 firearm possession restrictions OR the presence of universal background checks together with the absence of trafficking prohibited laws OR membership in the Northern Great Plains – which were sufficient for low firearm homicide rates with high consistency (0.87) and coverage (0.81). We conclude that CCM analysis can add new insights to how multiple firearm laws work together to reduce firearm violence.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Rich JA, Miech EJ, Semenza DC, Corbin TJ. (2022), How combinations of state firearm laws link to low firearm suicide and homicide rates: A configurational analysis, Preventive Medicine. <a href="https://doi.org/10.1016/j.ypmed.2022.107262">https://doi.org/10.1016/j.ypmed.2022.107262</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,51 @@
+---
+title: "Coincidence Analysis for Causal Learning"
+toc: true
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-event-upcoming" style="margin-bottom:1.8rem">
+<div class="when">Upcoming · Online · KOMEX</div>
+<h2 style="border-bottom:0;margin-bottom:.6rem">Coincidence Analysis for Causal Learning</h2>
+<p>Feb 22.–24. 2027 · Three-day online compact course, hosted in cooperation with the <a href="https://afww.uni-konstanz.de/komex/">Konstanz Methods Excellence Workshops</a> (KOMEX) · Instructor: Michael Baumgartner (University of Bergen)</p>
+</div>
+
+This hands-on three-day online course teaches how to learn complex causal structures from data using Coincidence Analysis (CNA), a configurational method used in the health and social sciences for modeling how causes and context factors bundle into alternative paths to outcomes.
+
+Many causes do not operate in isolation but only become effective in combination with suitable context factors; moreover, the same cause placed in different contexts can have radically different effects, such that there is no significant pairwise association between causes and effects on the population level. To model such structures, CNA bundles multiple factors into complex causes in which every element is indispensable for producing the outcome, and places these bundles on the same or on alternative causal paths to one or more outcomes.
+
+## About the course
+
+The course covers:
+
+- The conceptual and philosophical foundations of Coincidence Analysis — from Boolean algebra and the INUS theory of causation to configurational causal modeling.
+- The CNA search algorithm and inference principles.
+- Hands-on data analysis using the **cna** R package, including data preparation, calibration, and factor selection.
+- Model evaluation, measures of fit, robustness analyses, and strategies for dealing with model ambiguities.
+- How to critically assess published CNA applications.
+
+No prior knowledge of CNA is required, though familiarity with R is an asset. All R code and instructions are provided and explained during the course.
+
+## Learning goals
+
+This course will teach you to:
+
+- Understand the philosophical and technical foundations of Coincidence Analysis and its methodological protocols and workflows.
+- Identify suitable research questions for CNA.
+- Prepare data for CNA (including calibration and factor selection) and conduct a complete CNA analysis using the **cna** R package.
+- Interpret, evaluate, and compare CNA solutions using measures of fit, robustness checks, and available theory and case knowledge.
+- Critically assess published CNA applications.
+
+## Course dates & format
+
+- **Dates:** 22–24 February 2027 (Monday–Wednesday)
+- **Platform:** Online (Zoom)
+- **Format:** A mix of synchronous labs and independent small-group learning, plus daily office hours.
+- **Assignments:** Two formative (non-graded) in-class exercises — a hands-on CNA exercise using provided data and R scripts, and a quiz-style exercise to consolidate core concepts.
+
+<div class="abstract">
+**More information**, including registration details and fees, will be published here in due course.
+</div>
+
+</div>

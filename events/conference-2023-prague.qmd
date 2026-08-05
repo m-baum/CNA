@@ -1,0 +1,46 @@
+---
+title: "2nd International Conference on Current Issues in Coincidence Analysis"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<p class="cna-kicker">Conference · May 19–20, 2023 · Prague</p>
+<p class="cna-evloc">Prague University of Economics and Business, Czech Republic</p>
+<div class="cna-evhero"><img src="../assets/events/161438_0.jpg" alt="2nd International Conference on Current Issues in Coincidence Analysis"></div>
+
+<div class="cna-evtwo">
+<div class="cna-evmain">
+<div class="cna-evdesc">
+<p class="cna-evtag">The second international conference dedicated exclusively to the configurational comparative method of Coincidence Analysis (CNA).</p>
+<p>The second edition of this international conference on Coincidence Analysis provides a platform for exchange between CNA methodologists and applied researchers. The newest methodological developments and open questions will be presented alongside exemplary applications from public health, surgical research, social and political science.</p>
+</div>
+<h2>Confirmed speakers</h2>
+<ul class="cna-speakers">
+<li>Deborah Cragun (Univ. of South Florida): Real-world examples illustrating challenges and considerations when building, selecting, and presenting CNA models</li>
+<li>Jonathan Freitas (Univ. of Minas Gerais): A CNA of CNAs: Searching for causal models of the performance of the method</li>
+<li>Reiping Huang (Northwestern): Evaluating the implementation of a multi-component surgical quality collaborative</li>
+<li>Edward Miech (Regenstrief Institute): A bottom-up approach to factor selection in CNA: Findings from a reanalysis of three QCA-based studies using the "msc" routine</li>
+<li>Veli-Pekka Parkkinen (Univ. of Bergen): Measuring the robustness of CNA models</li>
+<li>Martyna Swiatczak (Univ. of Bergen): To Be or Not to Be a Good Leader? A Coincidence Analysis of Identity Leadership, Work-Related Attitudes, and Burnout</li>
+<li>Ole Henning Sørensen (NFA Denmark): Simple roads to failure, complex paths to success: An evaluation of conditions explaining perceived fit of an organizational occupational health intervention</li>
+<li>Trond Løkling (NTNU Trondheim): What makes workplace conflict deescalate? A Coincidence Analysis on longitudinal panel data</li>
+<li>Luna De Souter (Univ. of Bergen): Evaluating Boolean relationships in Configurational Comparative Methods</li>
+</ul>
+<p><a href="https://m-baum.github.io/docs/programCNA23.pdf">Tentative program</a>.</p>
+</div>
+
+<div class="cna-evside">
+<h4>Location</h4>
+<div class="cna-evmap">
+<iframe src="https://maps.google.com/maps?q=Prague+University+of+Economics+and+Business&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Prague University of Economics and Business"></iframe>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Prague+University+of+Economics+and+Business" target="_blank" rel="noopener">Google Maps →</a>
+</div>
+<div class="cna-evphotos">
+<h4 style="margin-top:1rem">Photos</h4>
+<figure><a class="cna-lb" href="../assets/events/161438_1.jpg" data-caption="2nd Conference, Prague 2023"><img src="../assets/events/161438_1.jpg" alt="2023 conference group photo"></a><figcaption>2nd Conference, Prague 2023</figcaption></figure>
+</div>
+</div>
+</div>
+<p class="cna-backtop"><a href="../events.html">← All events</a></p>
+</div>

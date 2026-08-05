@@ -1,0 +1,61 @@
+---
+title: "Conference: Causation vs. Constitution: Loosening the Friction"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<p class="cna-kicker">Conference · December 3–4, 2018 · Bergen</p>
+<p class="cna-evloc">Department of Philosophy, Sydnesplassen 12-13 · <em>Causation vs. constitution: loosening the friction</em></p>
+
+<div class="cna-evtwo">
+<div class="cna-evmain">
+
+<div class="cna-evdesc">
+<p>This conference brought together scholars working on the conceptual and methodological interplay between causal and constitutional dependencies, with the aim of making progress in resolving the apparent tension between these two modes of explanation, discovery, and modeling.</p>
+<p>Theories of mechanistic explanation hold that an explanandum phenomenon (e.g., a car moving) is explained by its constituting entities (e.g., the car engine) and activities (e.g., the engine running). Such mechanistic explanations are often interpreted as "downward-looking": they explain upper-level phenomena in terms of their lower-level constituents. They differ from causal explanations, which explain effects in terms of their causes, and are thus "backward-looking".</p>
+<p>Constitution is prima facie different from causation, on the alleged ground that it is a synchronic and mutual dependence relation. Yet, most have proposed to define constitution along the lines of causation and to use causal discovery methods also for constitutional discovery. At the same time, it is a widely held tenet in the modeling literature that causal and constitutional dependence relations must not be mixed in analyzed variable sets. This creates an apparent tension: on the one hand analyzing constitutive relations seems to presuppose means from causal modeling, on the other hand, such means must only be applied to variable sets that are free of constitutive dependencies.</p>
+</div>
+
+<h2>Program — Monday 3 December</h2>
+<table class="cna-evprog">
+<tr><td>9:00–10:00</td><td>Bert Leuridan (University of Antwerp) — "Constitution versus causation – what after the Redux?"</td></tr>
+<tr><td>10:00–10:20</td><td>coffee break</td></tr>
+<tr><td>10:20–11:20</td><td>Maria Serban (Technische Universität Berlin) — "Reconstruction (not interlevel) experiments"</td></tr>
+<tr><td>11:20–12:20</td><td>Peter Fazekas (University of Antwerp and Aarhus University) — "Fat hands are not that fat in a flat world: Constitution and mutual manipulability in flat mechanisms"</td></tr>
+<tr><td>12:20–14:00</td><td>lunch break</td></tr>
+<tr><td>14:00–15:00</td><td>Markus Eronen (University of Groningen) — "Discovering constitutive relevance through interventions: Obstacles and challenges"</td></tr>
+<tr><td>15:00–15:20</td><td>coffee break</td></tr>
+<tr><td>15:20–16:20</td><td>Beate Krickel (Ruhr University Bochum) — "Mechanistic constitution – How many relations?"</td></tr>
+<tr><td>16:20–17:20</td><td>Daniel Malinsky (Johns Hopkins University) — "Learning about changes to causal structure"</td></tr>
+</table>
+
+<h2>Program — Tuesday 4 December</h2>
+<table class="cna-evprog">
+<tr><td>9:00–10:00</td><td>Alexander Gebharter (University of Groningen) &amp; Jens Harbecke (Witten/Herdecke University) — "Constitutive relevance discovery without interventions: Boole meets Bayes"</td></tr>
+<tr><td>10:00–10:20</td><td>coffee break</td></tr>
+<tr><td>10:20–11:20</td><td>Mark Couch (Seton Hall University) — "How to model determination relations with INUS conditions"</td></tr>
+<tr><td>11:20–12:20</td><td>Jiji Zhang (Lingnan University) — "Structural equation models with both causation and constitution"</td></tr>
+<tr><td>12:20–14:00</td><td>lunch break</td></tr>
+<tr><td>14:00–15:00</td><td>Frederick Eberhardt (CalTech) — "Causal macro variables"</td></tr>
+<tr><td>15:00–15:20</td><td>coffee break</td></tr>
+<tr><td>15:20–16:20</td><td>David Kinney (LSE) — "Pragmatic causal feature learning"</td></tr>
+<tr><td>16:20–17:20</td><td>Alessio Moneta (Scuola Superiore Sant'Anna) — "Independent components and the causation-constitution distinction"</td></tr>
+</table>
+
+<h2>Organizers</h2>
+<p>Michael C. Baumgartner, Veli Pekka Kalevi Parkkinen, and Lorenzo Casini (University of Geneva).</p>
+
+</div>
+
+<div class="cna-evside">
+<h4>Location</h4>
+<div class="cna-evmap">
+<iframe src="https://maps.google.com/maps?q=University+of+Bergen+Department+of+Philosophy+Sydnesplassen&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Department of Philosophy, Bergen"></iframe>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Sydnesplassen+12-13+5007+Bergen" target="_blank" rel="noopener">Google Maps →</a>
+</div>
+</div>
+</div>
+
+<p class="cna-backtop"><a href="../events.html">← All events</a></p>
+</div>

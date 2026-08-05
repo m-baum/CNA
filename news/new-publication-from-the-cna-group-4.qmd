@@ -1,0 +1,14 @@
+---
+title: "New publication from the CNA group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 03, 2021</div>
+<div class="cna-news-hero"><img src="../assets/news/145549_0.png" alt="BJPS"></div>
+<p class="cna-news-lead">L. Casini and M. Baumgartner (2021), The PC Algorithm and the Inference to Constitution, The British Journal for the Philosophy of Science. doi: 10.1086/714820. Online supplementary material; [penultimate draft]</p>
+<p>Gebharter ([2017b]) has proposed to use one of the best known Bayesian network (BN) causal discovery algorithms, PC, to identify the constitutive dependencies underwriting mechanistic explanations. His proposal assumes that mechanistic constitution behaves like deterministic direct causation, such that PC is directly applicable to mixed vari- able sets featuring both causal and constitutive dependencies. Gebharter claims that such mixed sets, under certain restrictions, comply with PC’s background assumptions. The aim of this paper is to show that Gebharter’s proposal incurs severe problems, ul- timately rooted in the widespread non-compliance of mechanistic systems with PC’s assumptions. This casts severe doubts on the attempt to implicitly define constitution as a form of deterministic direct causation complying with PC’s assumptions.</p>
+<p>https://doi.org/10.1086/714820</p>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,13 @@
+---
+title: "New Software from the \"Coincidence Analysis\" group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · October 22, 2019</div>
+<div class="cna-news-hero"><img src="../assets/news/130824_0.png" alt="Rlogo"></div>
+<p class="cna-news-lead">New CNA software published on the The Comprehensive R Archive Network.</p>
+<p>cnaOpt is an add-on to the cna package comprising various functions for optimizing consistency and coverage scores of models of configurational comparative methods as Coincidence Analysis (CNA) and Qualitative Comparative Analysis (QCA). The function conCovOpt() calculates con-cov optima, selectMax() selects con-cov maxima among the con-cov optima, DNFbuild() can be used to build models actually reaching those optima, and findOutcomes() identifies those factor values in analyzed data that can be modeled as outcomes. For a theoretical introduction to these functions see here.</p>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,13 @@
+---
+title: "New Software from the \"Coincidence Analysis\" Group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 20, 2021</div>
+<div class="cna-news-hero"><img src="../assets/news/147146_0.png" alt="Rlogo"></div>
+<p class="cna-news-lead">New CNA software published on The Comprehensive R Archive Network.</p>
+<p>frscore is an add-on package to the cna package that provides functions for automatically analyzing a data set with CNA using varying consistency and coverage threshold values, and calculating the fit-robustness of the resulting models. Fit-robustness is a robustness measure tailor-made for configurational comparative methods, that aims to provide a criterion for model selection that is independent of (but can be combined with) model fit measures like consistency and coverage. It is especially geared towards circumstances in which the analyzed data may be noisy to an unknown degree, such that there is a danger of overfitting and no clear justification for relying on particular consistency and coverage values as an indicator of the correctness of the models recovered in an analysis. The theoretical background of fit-robustness is presented in this article, together with benchmarking results for using fit-robustness as a model selection criteria when analyzing noisy data.</p>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

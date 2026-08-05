@@ -1,0 +1,16 @@
+---
+title: "CNA introduced for causal learning in vaccination settings"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · November 03, 2025</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/180276_0.jpg" alt="HVI cover"></div>
+<p class="cna-news-lead">Abdu A. Adamu and colleagues introduced CNA as a tool to improve immunization decision-making and address disparities in vaccination coverage, arguing that CNA can help immunization stakeholders better understand implementation conditions across districts and develop tailored strategies for optimizing service delivery in underserved areas such as conflict zones, informal urban settlements, and remote villages.</p>
+<h2>ABSTRACT</h2>
+<p>Real-world program data, collected through information management systems and activities like supportive supervision, are abundant in many low- and middle-income countries across the world. These data can be harnessed for systems learning to improve immunization decision-making and address disparities in vaccination coverage. However, effective systems learning relies on pragmatic causal reasoning, and the main question is: “How can these routine program data be used to support causal learning to improve equity in vaccination?” This commentary introduces coincidence analysis as a supplementary tool that can facilitate causal learning in vaccination settings using existing real-world program data. This innovative tool employs a custom-built algorithm for causal inference. It can help immunization stakeholders better understand implementation conditions across districts by using a configurational approach that identifies causal structures and chains. Such insights can guide tailored strategies for optimizing service delivery in underserved areas such as conflict zones, informal urban settlements, and remote villages.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Adamu, Abdu A., Ndwandwe, Duduzile, Uthman, Olalekan A., and Wiysonge, Charles S. (2025), Enhancing the use of routine program data for immunization decision-making: The role of Coincidence Analysis in localized learning and adaptation, Human Vaccines & Immunotherapeutics, 21:1, 2582302. <a href="https://doi.org/10.1080/21645515.2025.2582302">https://doi.org/10.1080/21645515.2025.2582302</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

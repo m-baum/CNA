@@ -1,0 +1,15 @@
+---
+title: "International Visiting Fellowship for Martyna Swiatczak"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 30, 2022</div>
+<div class="cna-news-hero"><img src="../assets/news/156356_0.png" alt="JQ_young"></div>
+<p class="cna-news-lead">Martyna Swiatczak is visiting the University of Frankfurt for three months.</p>
+<p>Martyna Swiatczak was awarded the International Visiting Fellowship 2022 by the Johanna Quandt Young Academy (funded with 15 000 €). The program is indirectly financed by DFG (German Research Foundation). She spends her 3-month research visit at the Social Psychology Department at Goethe University in Frankfurt. She collaborates with the research group of Prof. Rolf van Dick and applies the CNA method to study identity leadership and well-being at work from a configurational perspective.</p>
+<p>The CNA group congratulates Martyna Swiatczak on this fellowship.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

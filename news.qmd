@@ -1,0 +1,426 @@
+---
+title: "News"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<p class="cna-news-intro">Information about new publications, applications, software releases, training activities, and projects.</p>
+<div class="cna-news-list">
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/180278_0.jpg" alt="Env Psych cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">04.08.2026</span></div>
+<h3><a href="news/cna-applied-in-environmental-psychology.html">CNA applied in Environmental Psychology</a></h3>
+<p>Henrik Johansson Rehn, Alexandre Sukhov, Lars E. Olsson, and Margareta Friman use CNA to explore the "window of opportunity" for car use reduction and to identify the causal pathways that lead people to reduce their car use.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/semenza_cover.webp" alt="Journal of Public Health Policy cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.08.2026</span></div>
+<h3><a href="news/cna-applied-in-firearm-policy.html">How local prevention efforts and state regulations reduce fatal shootings</a></h3>
+<p>Daniel C. Semenza, Edward J. Miech, Brielle Savage, and Devon Ziminski use CNA to examine how combinations of city-level prevention efforts and state-level firearm policies link to fatal shooting rates across 100 US cities.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/com_imp_cover.webp" alt="Implementation Science Communications cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">19.06.2026</span></div>
+<h3><a href="news/factor-selection-guidance-for-configurational-comparative-methods.html">Guidance for factor selection in configurational comparative analysis</a></h3>
+<p>Laura Caci, Kathrin Blum, Lauren Clack, and Bianca Albers provide guidance on selecting factors for Coincidence Analysis and other configurational comparative methods, offering a four-stage approach for implementation researchers.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/hasqc_cover.jpg" alt="Health Affairs Scholar cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">17.04.2026</span></div>
+<h3><a href="news/cna-applied-in-chicago-life-expectancy.html">CNA applied to low life expectancy in Chicago</a></h3>
+<p>John Rich, Edward Miech, and colleagues apply CNA to identify the social factors that link to low life expectancy across Chicago's 77 community areas, finding that low birth weight, unemployment, and non-fatal shootings combine across alternative pathways to the outcome.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/180276_0.jpg" alt="HVI cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.11.2025</span></div>
+<h3><a href="news/cna-introduced-for-causal-learning-in-vaccination-settings.html">CNA introduced for causal learning in vaccination settings</a></h3>
+<p>Abdu A. Adamu and colleagues introduced CNA as a tool to improve immunization decision-making and address disparities in vaccination coverage, arguing that CNA can help immunization stakeholders better understand impleme</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/180277_0.jpg" alt="PSRM cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.11.2025</span></div>
+<h3><a href="news/exemplary-application-of-cna-in-democracy-research.html">Exemplary application of CNA in democracy research</a></h3>
+<p>Jesse Rhodes delivers an exemplary study applying Coincidence Analysis (CNA) to discover causal paths leading to substantial improvement in subnational democracy in the U.S. states.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/179112_0.jpg" alt="Group Madras"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">07.08.2025</span></div>
+<h3><a href="news/cna-taught-at-two-training-workshops-in-asia.html">CNA taught at two training workshops in Asia</a></h3>
+<p>In July 2025, the PATANG team at The George Institute for Global Health (TGI) organized two CNA training workshops in Asia: one in Bali, Indonesia, in collaboration with the International Health Economics Association (IH</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/177715_0.jpg" alt="Annals"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.04.2025</span></div>
+<h3><a href="news/cna-applied-in-surgery.html">CNA applied in surgery</a></h3>
+<p>Reiping Huang and colleagues applied CNA in the field of surgery and published their results in the world's most highly referenced surgery journal: Annals of Surgery. Their study explains the successful implementation of</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/169522_0.png" alt="causalHyperGraph Logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">06.04.2025</span></div>
+<h3><a href="news/new-r-package-for-drawing-causal-hypergraphs.html">New R package for drawing causal Hypergraphs</a></h3>
+<p>Christoph Falk, Mathias Ambühl, and Michael Baumgartner released a new R package called causalHyperGraph on CRAN. It draws causal Hypergraphs from solution formulas of the CNA method.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/177520_0.png" alt="cna_CRAN"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">06.04.2025</span></div>
+<h3><a href="news/version-4-0-0-of-the-cna-r-package-released-on-cran.html">Version 4.0.0 of the cna R package released on CRAN</a></h3>
+<p>Mathias Ambühl and Michael Baumgartner released version 4.0.0 of the cna R package on CRAN. Many new measures for sufficiency and necessity evaluation are now available for CNA model building.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/176787_0.png" alt="IS Communications"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">07.03.2025</span></div>
+<h3><a href="news/cna-applied-in-implementation-science.html">CNA applied in Implementation Science</a></h3>
+<p>Emmeline Chuang and colleagues applied CNA in a mixed methods analysis to identify the conditions under which collaboration strategies affect implementations of cross-systems interventions for child welfare and substance</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/176786_0.jpg" alt="Cancer Medicine"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">07.03.2025</span></div>
+<h3><a href="news/cna-applied-in-cancer-medicine.html">CNA applied in Cancer Medicine</a></h3>
+<p>Mandi L. Pratt-Chapman and colleagues applied CNA to identify key difference-makers distinguishing oncology institutions that collect sexual orientation and gender identity (SOGI) data across a sample of American Society</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/174692_0.jpeg" alt="Group Photo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">05.12.2024</span></div>
+<h3><a href="news/cna-course-at-the-university-of-sao-paulo.html">CNA course at the University of São Paulo</a></h3>
+<p>On October 10 and 11, 2024, Dr. Jonathan Freitas (UFMG/Brazil) conducted an introductory CNA course at the Clinical Hospital of the School of Medicine at the University of São Paulo (HC/FMUSP). The course brought togethe</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/174479_0.png" alt="JPR"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">28.11.2024</span></div>
+<h3><a href="news/cna-applied-in-peace-research.html">CNA applied in Peace Research</a></h3>
+<p>Jordan Becker, Paul Poast, and Tim Haesebrouck combined CNA with Regression Analysis in a mixed method approach to investigate why countries with disparate geography and perceptions of the international security environm</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/172237_0.jpg" alt="JCI"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">17.08.2024</span></div>
+<h3><a href="news/new-publication-from-the-cna-group.html">New publication from the CNA group</a></h3>
+<p>Michael Baumgartner and Christoph Falk published a paper entitled "Quantifying the quality of configurational causal models" in the Journal of Causal Inference. The paper introduces quantitative quality criteria for caus</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/172238_0.jpg" alt="Genetics in Medicine"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">17.08.2024</span></div>
+<h3><a href="news/cna-applied-in-genetics-in-medicine.html">CNA applied in Genetics in Medicine</a></h3>
+<p>Deborah Cragun, Zachary M. Salvati, Jennifer L. Schneider, et al. use CNA to identify factors and causal chains associated with optimal implementation of Lynch syndrome tumor screening.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/171307_0.png" alt="cna_frscore"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">12.06.2024</span></div>
+<h3><a href="news/updates-for-r-packages-cna-and-frscore.html">Updates for R packages CNA and FRSCORE</a></h3>
+<p>Version 3.6.2 of the cna R package was released on CRAN, accompanied by a minor adjustment of the frscore package. Both updates should be installed.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/171022_0.jpg" alt="appPsych cover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">31.05.2024</span></div>
+<h3><a href="news/cna-applied-in-psychology.html">CNA applied in Psychology</a></h3>
+<p>Marta Roczniewska, Ole Henning Sørensen, Susanne Tafvelin et al. use CNA to invesitigate the causes of how employees perceive the relevance of health interventions at the workplace.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/171023_0.jpg" alt="gerontCover"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">31.05.2024</span></div>
+<h3><a href="news/cna-applied-in-gerontology.html">CNA applied in Gerontology</a></h3>
+<p>Chava Pollak, Joe Verghese, Helena M Blumen use CNA to identify combinations of social factors that make a difference for frailty among older adults.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/167590_0.jpg" alt="JCI"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">15.01.2024</span></div>
+<h3><a href="news/new-measures-for-evaluating-cna-models.html">New measures for evaluating CNA models</a></h3>
+<p>Luna De Souter identifies shortcomings of the two main measures for evaluating CNA models, consistency and coverage, and introduces two new evaluation measures.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/164406_0.png" alt="cna_CRAN"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">25.08.2023</span></div>
+<h3><a href="news/update-3-5-4-of-the-cna-r-package-released-on-cran.html">Update 3.5.4 of the cna R package released on CRAN</a></h3>
+<p>Mathias Ambühl and Michael Baumgartner released a new update of the cna R package on CRAN. The latest version is 3.5.4.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/164403_0.jpg" alt="genetics in medicine"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">25.08.2023</span></div>
+<h3><a href="news/cna-applied-in-genetics-in-medicine-1.html">CNA applied in Genetics in Medicine</a></h3>
+<p>Dean, M, Tezak, A, Johnson, S, ... Cragun, D. used CNA to identify factors differentiating cancer risk management decisions among females with pathogenic/likely pathogenic variants in PALB2, CHEK2, and ATM. Accompanied b</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/163416_0.jpg" alt="jgim_logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.06.2023</span></div>
+<h3><a href="news/cna-applied-in-general-internal-medicine.html">CNA applied in General Internal Medicine</a></h3>
+<p>Jessica Dodge et al. (2023) conducted a Coincidence Analysis investigating various factors influencing timely implementation of research findings into clinical practice in the Veterans Health Administration (VHA).</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/162708_0.png" alt="tbm_logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.05.2023</span></div>
+<h3><a href="news/cna-applied-in-editor-s-choice-article-of-translational-behavioral-med.html">CNA applied in "Editor's Choice" article of Translational Behavioral Medicine</a></h3>
+<p>Laura J Damschroder et al. (2022) conducted a Coincidence Analysis of obesity treatment options within the Veterans Health Administration, which was selected "Editor's Choice" by Translational Behavioral Medicine.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/162345_0.png" alt="frscore.png"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.05.2023</span></div>
+<h3><a href="news/version-0-3-1-of-frscore-is-released.html">Version 0.3.1 of `frscore` is released</a></h3>
+<p>A new version of the `frscore` extension package for `cna` is now available on CRAN.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/161714_0.png" alt="logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">10.04.2023</span></div>
+<h3><a href="news/template-application-of-the-frscore-routine.html">Template application of the frscore routine</a></h3>
+<p>Tim Haesebrouck applied the frscore routine in an exemplary manner to examine the conditions under which populist radical right parties support military deployment decisions in national parliaments: Haesebrouck T. (2023)</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/156996_0.jpg" alt="logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">29.09.2022</span></div>
+<h3><a href="news/new-geoconfiguational-application-of-cna.html">New geoconfiguational application of CNA</a></h3>
+<p>John Rich, Edward Miech, Daniel Semenza and Theodore Corbin applied CNA in a new study investigating the effect of 10 firearm laws in US states on homocide and suicide rates.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/156762_0.png" alt="frscore plot"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">19.09.2022</span></div>
+<h3><a href="news/frscore-news-tips-and-tricks.html">frscore news, tips and tricks</a></h3>
+<p>In a series of news articles, Veli-Pekka Parkkinen informs about new developments concerning the frscore package for CNA robustness analysis. To make the best of frscore, users are encouraged to follow these updates.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/156524_0.jpg" alt="ACI"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">07.09.2022</span></div>
+<h3><a href="news/coincidence-analysis-introduced-to-medical-informatics.html">Coincidence Analysis introduced to medical informatics</a></h3>
+<p>The data analysis method of Coincidence Analysis has been introduced to the field of medical informatics: Womack DM, Miech EJ, Fox NJ, Silvey LC, Somerville AM, Eldredge DH, Steege LM. (2022), Coincidence Analysis: A Nov</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/156356_0.png" alt="JQ_young"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">30.08.2022</span></div>
+<h3><a href="news/international-visiting-fellowship-for-martyna-swiatczak.html">International Visiting Fellowship for Martyna Swiatczak</a></h3>
+<p>Martyna Swiatczak is visiting the University of Frankfurt for three months.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/154812_0.png" alt="synthese"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">07.06.2022</span></div>
+<h3><a href="news/new-publication-of-the-cna-group.html">New publication of the CNA group</a></h3>
+<p>Veli-Pekka Parkkinen argues that variable relativity is good, in a paper that recently appeared in Synthese: Parkkinen, VP. Variable relativity of causation is good. Synthese 200, 194 (2022). https://doi.org/10.1007/s112</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/151047_0.png" alt="Luna"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">24.01.2022</span></div>
+<h3><a href="news/new-member-of-the-cna-group.html">New member of the CNA group</a></h3>
+<p>The CNA group has the pleasure to welcome Luna de Souter to the team.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/148391_0.png" alt="Logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">01.10.2021</span></div>
+<h3><a href="news/new-publication-of-the-cna-group-1.html">New publication of the CNA group</a></h3>
+<p>Martyna Swiatczak's paper entitled "Towards a neo-configurational theory of intrinsic motivation" was published in Motivation and Emotion (2021): https://doi.org/10.1007/s11031-021-09906-1</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/148418_0.jpg" alt="MBR Logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">01.10.2021</span></div>
+<h3><a href="news/new-publication-of-the-cna-group-2.html">New publication of the CNA group</a></h3>
+<p>Michael Baumgartner and Christoph Falk published a paper entitled "Configurational Causal Modeling and Logic Regression" in Multivariate Behavioral Research (2021): https://doi.org/10.1080/00273171.2021.1971510</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/147146_0.png" alt="Rlogo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">20.08.2021</span></div>
+<h3><a href="news/new-software-from-the-coincidence-analysis-group-1.html">New Software from the "Coincidence Analysis" Group</a></h3>
+<p>New CNA software published on The Comprehensive R Archive Network.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/146986_0.png" alt="logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">16.08.2021</span></div>
+<h3><a href="news/new-publication-of-the-cna-group-4.html">New publication of the CNA group</a></h3>
+<p>Martyna Swiatczak's paper on "Different algorithms, different models" was published in Quality &amp; Quantity (2021): https://doi.org/10.1007/s11135-021-01193-9</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/146141_0.jpg" alt="logoNCR"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">24.06.2021</span></div>
+<h3><a href="news/fripro-project-granted.html">FRIPRO project granted</a></h3>
+<p>The CNA group is very happy to announce that the Research Council of Norway (Forskningsrådet) will fund the further development of CNA with NOK 12,000,000 (about 1,2 M EUR) over the coming years.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/146101_0.jpg" alt="logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">23.06.2021</span></div>
+<h3><a href="news/new-publication-of-the-cna-group-3.html">New publication of the CNA group</a></h3>
+<p>Michael Baumgartner's paper on "Qualitative Comparative Analysis and robust sufficiency" was published in Quality &amp; Quantity (2021): https://doi.org/10.1007/s11135-021-01157-z</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/145544_0.png" alt="smr"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.06.2021</span></div>
+<h3><a href="news/new-publication-from-the-cna-group-2.html">New publication from the CNA group</a></h3>
+<p>A procedure for optimizing the fit of configurational causal models has been introduced in a new paper published in Sociological Methods &amp; Research.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/145547_0.png" alt="smr"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.06.2021</span></div>
+<h3><a href="news/new-publication-from-the-cna-group-3.html">New publication from the CNA group</a></h3>
+<p>New procedure estimating the robustness of configurational causal models introduced in a paper in Sociological Methods &amp; Research</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/145549_0.png" alt="BJPS"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">03.06.2021</span></div>
+<h3><a href="news/new-publication-from-the-cna-group-4.html">New publication from the CNA group</a></h3>
+<p>L. Casini and M. Baumgartner (2021), The PC Algorithm and the Inference to Constitution, The British Journal for the Philosophy of Science. doi: 10.1086/714820. Online supplementary material; [penultimate draft]</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/143425_0.jpg" alt="Christoph Falk"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">11.03.2021</span></div>
+<h3><a href="news/dr-christoph-falk-has-joined-the-cna-project.html">Dr. Christoph Falk has joined the CNA project</a></h3>
+<p>Christoph Falk (PhD 2020, Geneva) has joined the CNA project as a part-time researcher.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/141304_0.jpg" alt="IS logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">14.12.2020</span></div>
+<h3><a href="news/new-publication-from-the-cna-group-1.html">New publication from the CNA group</a></h3>
+<p>The CNA method has been showcased in the flagship journal of implementation science.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/139796_0.png" alt="logo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">27.10.2020</span></div>
+<h3><a href="news/cna-method-applied-in-implementation-science.html">CNA method applied in implementation science</a></h3>
+<p>CNA has been applied in a study on factors influencing the implementation of a colorectal cancer screening improvement program in community health centers.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/137392_0.jpg" alt="JPS"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">09.08.2020</span></div>
+<h3><a href="news/the-cna-method-applied-in-patient-safety.html">The CNA method applied in patient safety</a></h3>
+<p>The CNA method was applied in a study about the patient safety culture in medical homes.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/136036_0.png" alt="cover image"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">24.05.2020</span></div>
+<h3><a href="news/cna-method-applied-in-gerontology.html">CNA method applied in gerontology</a></h3>
+<p>Susan Hickman et al. (2020) published an article entitled "Identifying the Implementation Conditions Associated With Positive Outcomes in a Successful Nursing Facility Demonstration Project" in the Gerontologist. They an</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/135144_0.jpg" alt="Medicare"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">11.04.2020</span></div>
+<h3><a href="news/major-public-health-application-of-the-cna-method.html">Major public health application of the CNA method</a></h3>
+<p>The official journal of the medical care section of the American Public Health Association just published an application of the CNA method, among other configurational comparative methods, to the effectiveness of the imp</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/134041_0.jpg" alt="cover page"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">25.02.2020</span></div>
+<h3><a href="news/article-on-causation-in-the-sage-handbook-of-political-science.html">Article on Causation in the SAGE Handbook of Political Science</a></h3>
+<p>Michael Baumgartner published an article introducing the main theories of causation to political scientists in the SAGE Handbook of Political Science.</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/133077_0.png" alt="Martyna Swiatczak"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.01.2020</span></div>
+<h3><a href="news/martyna-swiatczak-has-joined-the-cna-project.html">Martyna Swiatczak has joined the CNA project</a></h3>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/133079_0.png" alt="Regenstrief Institute"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.01.2020</span></div>
+<h3><a href="news/cna-training.html">CNA Training</a></h3>
+<p>From September 21 to 25, 2020, Michael Baumgartner and Alrik Thiem (University of Lucerne) will hold a training seminar on configurational causal modeling with a heavy focus on CNA at the Regenstrief Institute for public</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/130822_0.png" alt="BJPS"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.10.2019</span></div>
+<h3><a href="news/new-publication-of-the-toppforskproject-coincidence-analysis.html">New publication of the Toppforskproject "Coincidence Analysis"</a></h3>
+<p>Michael Baumgartner and Christoph Falk, Boolean Difference-Making: A Modern Regularity Theory of Causation, The British Journal for the Philosophy of Science</p>
+</div>
+</article>
+<article class="cna-news-item">
+<div class="cna-news-thumb"><img src="assets/news/130824_0.png" alt="Rlogo"></div>
+<div class="cna-news-body">
+<div class="cna-news-meta"><span class="cna-news-dateline">22.10.2019</span></div>
+<h3><a href="news/new-software-from-the-coincidence-analysis-group.html">New Software from the "Coincidence Analysis" group</a></h3>
+<p>New CNA software published on the The Comprehensive R Archive Network.</p>
+</div>
+</article>
+</div>
+</div>

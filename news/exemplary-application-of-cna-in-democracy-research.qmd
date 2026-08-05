@@ -1,0 +1,16 @@
+---
+title: "Exemplary application of CNA in democracy research"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · November 03, 2025</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/180277_0.jpg" alt="PSRM cover"></div>
+<p class="cna-news-lead">Jesse Rhodes delivers an exemplary study applying Coincidence Analysis (CNA) to discover causal paths leading to substantial improvement in subnational democracy in the U.S. states.</p>
+<h2>Abstract</h2>
+<p>In this article, I center substantial improvement in subnational democracy in the U.S. states as an object of inquiry and seek to explain it. I theorize that strong unions, high Democratic Party control of state government, an especially liberal Democratic Party, a large population of people of color, and a particularly liberal public mood may each contribute to substantial improvement in democratic quality. Using Coincidence Analysis (CNA), a configurational causal method, I assess the evidence for my hypotheses. The CNA identifies three alternative paths to substantial improvement in electoral democracy in the states. The results of my analysis highlight that substantial improvement in electoral democracy is the product of political struggle centrally involving unions and the Democratic Party.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Rhodes, Jesse (2025), Laboratories of democratic renewal: explaining substantial improvement in the quality of democracy in the American States. Political Science Research and Methods, 1-18. <a href="https://doi.org/10.1017/psrm.2025.10051">https://doi.org/10.1017/psrm.2025.10051</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

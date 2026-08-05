@@ -1,0 +1,14 @@
+---
+title: "CNA method applied in gerontology"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · May 24, 2020</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/136036_0.png" alt="cover image"></div>
+<p class="cna-news-lead">Susan Hickman et al. (2020) published an article entitled "Identifying the Implementation Conditions Associated With Positive Outcomes in a Successful Nursing Facility Demonstration Project" in the Gerontologist. They analyze their data using Coincidence Analysis.</p>
+<p>S. E. Hickman, E. Miech et al. (2020), Identifying the Implementation Conditions Associated With Positive Outcomes in a Successful Nursing Facility Demonstration Project , The Gerontologist, doi: 10.1093/geront/gnaa041</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

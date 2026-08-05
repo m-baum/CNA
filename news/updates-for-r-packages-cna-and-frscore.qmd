@@ -1,0 +1,29 @@
+---
+title: "Updates for R packages CNA and FRSCORE"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 12, 2024</div>
+<div class="cna-news-hero"><img src="../assets/news/171307_0.png" alt="cna_frscore"></div>
+<p class="cna-news-lead">Version 3.6.2 of the cna R package was released on CRAN, accompanied by a minor adjustment of the frscore package. Both updates should be installed.</p>
+<p>The cna() function has a new argument "exclude", which provides a new way of constraining the search space through prior causal knowledge. A causal ordering excludes all values of a factor as potential causes of an outcome. However, a user might only wish to exclude some values as potential causes. This selective exclusion can be specified in the "exclude" argument, available as of version 3.6.2 of cna package. It is assigned a vector of character strings, where factor values to be excluded are listed to the left of the "-&gt;" sign, and the corresponding outcomes are listed to the right. For example,</p>
+<p>exclude = "A=1,C=3 -&gt; B=1"</p>
+<p>excludes that the value 1 of factor A and the value 3 of factor C are considered as causes of the value 1 of factor B. It is also possible to exclude factor values as potential causes of multiple outcomes; for instance,</p>
+<p>exclude = c("A,c -&gt; B", "b,H -&gt; D")</p>
+<p>In the context of cs and fs data, upper case letters are interpreted as 1, while lower case letters are interpreted as 0. If factor names have multiple letters, any upper case letter is interpreted as 1, and the absence of upper case letters as 0. For mv data, the "Factor=value" notation is required. The "exclude" argument can be used either independently or in conjunction with "outcome" and "ordering". But if the assignments to "outcome" and "ordering" contradict those to "exclude", the assignments to "exclude" will be disregarded.</p>
+<p>For example, the following call narrows down the search beyond what is specified in the "outcome" and "ordering" arguments by excluding the causal relevance of C=2 for T=2 and of T=1 and V=0 for PB=1:</p>
+<p>cna(d.pban, outcome = c("T=2", "PB=1"), ordering = "T, PB", con = .75, cov = .75, exclude = c("C=2 -&gt; T=2", "T=1,V=0 -&gt; PB=1"))</p>
+<p>Selective exclusion of certain causal relationship might also be the only type of prior knowledge available to an analyst. In that case, "exclude" can be used as sole search space constraint.</p>
+<p>cna(d.jobsecurity, con = .85, cov = .85, exclude = c("s,c -&gt; JSR",+ "jsr, L -&gt; R"))</p>
+<p>There are two main changes in version 3.6.0. First, the definition of a partial structural redundancy has changed, and second, the function msc() has a new argument "cases".</p>
+<p>A partial structural redundancy obtains when the data yield that some disjunctive normal form, say A*B + C*D, is an atomic solution for some outcome Y, but when that atomic solution is combined to a complex solution with atomic solutions for other outcomes inferred from the same data, the resulting complex solution logically implies that A*B + C*D contains a redundancy. Prior to version 3.6.0, a partial structural redundancy was taken to obtain if, and only if, the complex causal model CNA infers from a data set was logically equivalent to a proper submodel of itself. As of version 3.6.0, a partial structural redundancy is taken to obtain if, and only if, the complex model CNA infers from a data set logically implies a proper submodel of itself. Due to this change, more models count as containing a partial structural redundancy as of 3.6.0, and as CNA does not output such models, CNA 3.6.0 tends to output less models than previous versions. The change only affects models with causal cycles.</p>
+<p>Second, if the "cases" argument introduced into the msc() function is set to TRUE, a list with the cases in the data featuring the corresponding minimally sufficient condition in combination with the outcome is added to the table returned by msc(). This is of interest to users of Edward Miech's "msc" routine for factor selection.</p>
+<p>Here is a more technical overview of the changes:</p>
+<ul class="cna-news-list"><li>is.inus() has a new argument def accepting character strings "implication" (default) and "equivalence", corresponding to different definitions of the notion of a partial structural redundancy. Note that "equivalence" corresponds to the behavior of is.inus() in earlier versions of the package, i.e. the default behaviour has changed in version 3.6.0.</li><li>Correspondingly, argument inus.only in cna() also accepts "implication" and "equivalence". The default TRUE resolves to "implication". That is, the default output of cna() may be different than in earlier versions.</li><li>Default value of argument border in cna() has changed from "down" to "up".</li><li>New argument cases in msc().</li><li>New argument nobs in method as.data.frame.condList().</li></ul>
+<p>Changes in version 0.4.1 of frscore</p>
+<p>The changes in cna 3.6.0 and 3.6.2 required some technical adjustments in the frscore package. Hence, this is a mere patch release that fixes these technical issues. Importantly, if the cna package is updated to 3.6.0 or 3.6.2, frscore must likewise be updated to 0.4.1.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

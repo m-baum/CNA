@@ -1,0 +1,17 @@
+---
+title: "CNA applied in Peace Research"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · November 28, 2024</div>
+<div class="cna-news-hero"><img src="../assets/news/174479_0.png" alt="JPR"></div>
+<p class="cna-news-lead">Jordan Becker, Paul Poast, and Tim Haesebrouck combined CNA with Regression Analysis in a mixed method approach to investigate why countries with disparate geography and perceptions of the international security environment agreed on NATO’s Wales Pledge on Defense Investment.</p>
+<h2>Abstract</h2>
+<p>Why do countries mutually agree to constraints on their behavior? Why do they comply with such constraints in the absence of enforcement mechanisms? More specifically, why did NATO allies, with disparate geography and perceptions of the international security environment, agree to ‘aim to move towards’ increased defense spending (2% of GDP on defense and 20% of defense budgets on equipment modernization) at their 2014 Wales Summit? Moreover, why have they largely complied with this agreement subsequently? We argue that the ‘Interest Based’ framework for understanding the success or failure of environmental agreements is useful for understanding the agreement and implementation of the Wales Pledge. This argument finds support from interviews with participants and a purpose-built dataset including outcomes of interest (overall defense spending and share of defense budgets allocated to equipment modernization) and key independent variables (vulnerability to security threats and ‘abatement cost’ of meeting the Wales Pledge aims). We find that vulnerability and abatement costs affected both the order in which states agreed the pledge, and the extent to which they have complied with it.</p>
+<p>The authors use a multi-method research design that combines multivariate regression analysis with coincidence analysis (CNA) and participant interviews reconstructing the sequence of agreement.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Becker, J., Poast, P., & Haesebrouck, T. (2024). Setting targets: Abatement cost, vulnerability, and the agreement of NATO’s Wales Pledge on Defense Investment. Journal of Peace Research, 0(0). <a href="https://doi.org/10.1177/00223433241267798">https://doi.org/10.1177/00223433241267798</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

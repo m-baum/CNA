@@ -1,0 +1,13 @@
+---
+title: "Martyna Swiatczak has joined the CNA project"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · January 22, 2020</div>
+<div class="cna-news-hero"><img src="../assets/news/133077_0.png" alt="Martyna Swiatczak"></div>
+<p>The business economist Martyna Swiatczak has joined the Coincidence Analysis project from the University of Speyer (Germany). She is a specialist in management control, performance measurement and work motivation. Martyna has broad experience in both quantitative and qualitative methods and, in particular, Qualitative Comparative Analysis. In the context of our project, she will conduct empirical data analyses using CNA within her field of expertise.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,17 @@
+---
+title: "Guidance for factor selection in configurational comparative analysis"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 19, 2026</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/com_imp_cover.webp" alt="Implementation Science Communications"></div>
+<p class="cna-news-lead">Laura Caci, Kathrin Blum, Lauren Clack, and Bianca Albers provide guidance for implementation researchers on selecting a manageable set of factors for Coincidence Analysis and other configurational comparative methods.</p>
+<h2>Abstract</h2>
+<p>Configurational comparative methods (CCMs) are designed for the systematic comparison of case data to identify necessary and sufficient conditions for an outcome. The complex interplay of contextual factors, implementation strategies, and intervention components makes CCMs particularly suitable for implementation studies. Factor selection is a stage in CCMs during which researchers determine a limited set of variables of interest for analysis. Guidance that helps implementation researchers to select a manageable set of factors from a plethora of potentially interesting components is warranted but lacking, especially, for pre-data collection. The authors provide such guidance with an emphasis on (1) intentional data collection, and (2) broad engagement of interest-holders across different stages of factor selection.</p>
+<p>Their suggested approach consists of four stages: (1) factor identification, (2) factor prioritization, (3) factor determination, and (4) factor operationalization. Throughout these stages, the authors highlight opportunities for engaging interest-holders. They illustrate all stages using experience from a multinational hybrid implementation-effectiveness trial in the field of infection prevention. First, they conducted a systematic review to identify potentially relevant factors. Second, they applied the Nominal Group Technique in meetings with interest-holders to prioritize previously identified factors. Third, they conducted two project workshops to decide on a final set of factors. Fourth, they operationalized factors into measurable units and assessed them using qualitative and quantitative methods.</p>
+<p>The authors present a methodology and applied case example for pre-data collection factor selection for CCMs. The proposed method comprises four stages, each requiring implementation researchers to balance scientific rigor with pragmatism, while ensuring meaningful engagement of interest-holders. This guidance closes a gap in existing recommendations, which have primarily focused on factor selection during data analysis. Making CCMs more accessible and increasing their use should remain a central priority in implementation science.</p>
+<div class="cna-factbox"><strong>Publication</strong><p>Caci, L., Blum, K., Clack, L., Albers, B. (2026), Factor selection in configurational comparative analysis – guidance for implementation researchers, Implementation Science Communications. <a href="https://doi.org/10.1186/s43058-026-00981-4">https://doi.org/10.1186/s43058-026-00981-4</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

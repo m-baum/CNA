@@ -1,0 +1,14 @@
+---
+title: "New R package for drawing causal Hypergraphs"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · April 06, 2025</div>
+<div class="cna-news-hero"><img src="../assets/news/169522_0.png" alt="causalHyperGraph Logo"></div>
+<p class="cna-news-lead">Christoph Falk, Mathias Ambühl, and Michael Baumgartner released a new R package called causalHyperGraph on CRAN. It draws causal Hypergraphs from solution formulas of the CNA method.</p>
+<p>This R package finally makes it possible to graphically represent the Boolean functions output by CNA and related configurational comparative methods of data analysis. In contrast to edges in a directed acyclic graph (DAG), edges in a causal hypergraph can connect more than two nodes. This feature makes them suited for representing causal complexity, which is the main search target of CNA. In addition and unlike DAGs, hypergraphs can be cyclic, which aligns well with the fact that CNA models (contrary to causal Bayes nets, for example) may feature causal cycles. Visualizing CNA models by causal hypergraphs strikes an optimal balance between simplicity and expressiveness. The package can be downloaded from CRAN in the usual way.</p>
+<div class="cna-factbox"><strong>Publication</strong><p><a href="https://cran.r-project.org/package=causalHyperGraph">https://cran.r-project.org/package=causalHyperGraph</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

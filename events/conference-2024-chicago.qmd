@@ -1,0 +1,46 @@
+---
+title: "3rd International Conference on Current Issues in Coincidence Analysis"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<p class="cna-kicker">Conference · May 24–25, 2024 · Chicago</p>
+<p class="cna-evloc">BMO Institute for Health Equity, RUSH University, Chicago, USA</p>
+<div class="cna-evhero"><img src="../assets/events/166576_0.jpg" alt="3rd International Conference on Current Issues in Coincidence Analysis"></div>
+
+<div class="cna-evtwo">
+<div class="cna-evmain">
+<div class="cna-evdesc">
+<p class="cna-evtag">The third international conference dedicated exclusively to the configurational comparative method of Coincidence Analysis (CNA).</p>
+<p>The third edition of this international conference on Coincidence Analysis provides a platform for exchange between CNA methodologists and applied researchers. The newest methodological developments and open questions will be presented alongside exemplary applications from an open range of disciplines.</p>
+</div>
+<h2>Confirmed speakers</h2>
+<ul class="cna-speakers">
+<li>Deborah Cragun / Nina Sperber (Univ. of South Florida / Duke University): The value of contrapositive consistency and coverage in selecting among causal chain models explaining the adoption of pharmacogenetic testing for antidepressants</li>
+<li>Pavel Svačina / Jonathan Freitas (VSE Prague / Univ. of Minas Gerais): Do transaction costs or transactional value matter in technology licensing? Lessons learned from configurational causal modelling</li>
+<li>Jessica Dodge (VA Pittsburgh): Difference making implementation strategies for significant implementation: Coincidence Analysis on a global systematic review of implementation studies</li>
+<li>Jonathan Freitas (Univ. of Minas Gerais): Developing an online/hybrid course on CNA</li>
+<li>Yinfei Duan (University of Alberta): Process and context factors contributing to or impeding successful implementation of a complex team-based behavioral intervention: a configurational analysis of the INFORM trial data</li>
+<li>Dennis H. Li / Alithia Zamantakis / Reiping Huang (Northwestern University): Contextual factors predicting reach of a digital HIV intervention delivered by community-based organizations across the US</li>
+<li>Luna De Souter / Michael Baumgartner (Univ. of Bergen): Evaluating sufficiency and necessity in model building with Coincidence Analysis</li>
+<li>Martyna Swiatczak (Univ. of Bergen): A Comparative Configurational Analysis on the Introduction of Statutory Minimum Wage</li>
+<li>Meghan Lane-Fall / Sapna Mendon-Plasek (University of Pennsylvania / RAND): Systematic review of the use of Configurational Comparative Methods (including QCA and CNA) in the field of implementation science</li>
+</ul>
+<p><a href="https://www.uib.no/sites/www.uib.no/files/attachments/program_36.pdf">Tentative program</a> · <a href="https://www.uib.no/sites/w3.uib.no/files/attachments/cfp_cna24.pdf">Call for papers</a>.</p>
+</div>
+
+<div class="cna-evside">
+<h4>Location</h4>
+<div class="cna-evmap">
+<iframe src="https://maps.google.com/maps?q=BMO+Institute+for+Health+Equity+Rush+University+Chicago&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="BMO Institute for Health Equity Rush University Chicago"></iframe>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=BMO+Institute+for+Health+Equity+Rush+University+Chicago" target="_blank" rel="noopener">Google Maps →</a>
+</div>
+<div class="cna-evphotos">
+<h4 style="margin-top:1rem">Photos</h4>
+<figure><a class="cna-lb" href="../assets/events/166576_0.jpg" data-caption="3rd Conference, Chicago 2024"><img src="../assets/events/166576_0.jpg" alt="2024 conference photo"></a><figcaption>3rd Conference, Chicago 2024</figcaption></figure>
+</div>
+</div>
+</div>
+<p class="cna-backtop"><a href="../events.html">← All events</a></p>
+</div>

@@ -1,0 +1,12 @@
+---
+title: "CNA Training"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · January 22, 2020</div>
+<div class="cna-news-hero"><img src="../assets/news/133079_0.png" alt="Regenstrief Institute"></div>
+<p class="cna-news-lead">From September 21 to 25, 2020, Michael Baumgartner and Alrik Thiem (University of Lucerne) will hold a training seminar on configurational causal modeling with a heavy focus on CNA at the Regenstrief Institute for public health in Indianapolis.</p>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

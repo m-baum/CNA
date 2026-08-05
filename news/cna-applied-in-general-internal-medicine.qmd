@@ -1,0 +1,15 @@
+---
+title: "CNA applied in General Internal Medicine"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 22, 2023</div>
+<div class="cna-news-hero"><img src="../assets/news/163416_0.jpg" alt="jgim_logo"></div>
+<p class="cna-news-lead">Jessica Dodge et al. (2023) conducted a Coincidence Analysis investigating various factors influencing timely implementation of research findings into clinical practice in the Veterans Health Administration (VHA).</p>
+<p>The Veterans Health Administration (VHA) has prioritized timely access to care and has invested substantially in research aimed at optimizing veteran access. However, implementing research findings into clinical practice remains challenging, both within and outside VHA. Here, we assessed the implementation status of recent VHA access-related research projects and explored factors associated with successful implementation. Only two factors were identified as “difference-makers” to adoption of project findings into practice: (1) engagement with national VHA leadership or (2) support and commitment from local site leadership. These findings highlight the importance of leadership engagement for successful implementation of research findings. Efforts to strengthen communication and engagement between the research community and VHA local/national leaders should be expanded to ensure VHA’s investment in research leads to meaningful improvements in veterans' care.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Dodge, J.R., Youles, B., Caldararo, J. et al. (2023), Engaging Operational Partners Is Critical for Successful Implementation of Research Products: a Coincidence Analysis of Access-Related Projects in the Veterans Affairs Healthcare System, Journal of General Internal Medicine. <a href="https://doi.org/10.1007/s11606-023-08115-5">https://doi.org/10.1007/s11606-023-08115-5</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

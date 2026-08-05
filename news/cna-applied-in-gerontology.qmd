@@ -1,0 +1,23 @@
+---
+title: "CNA applied in Gerontology"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · May 31, 2024</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/171023_0.jpg" alt="gerontCover"></div>
+<p class="cna-news-lead">Chava Pollak, Joe Verghese, Helena M Blumen use CNA to identify combinations of social factors that make a difference for frailty among older adults.</p>
+<h2>Abstract</h2>
+<p>Background and Objectives</p>
+<p>Social disconnection is highly prevalent in older adults and is associated with frailty. It is unclear which aspects of social disconnection are most associated with frailty, which ones are difference-making, and which combination of social factors are directly linked to frailty.</p>
+<p>Research Design and Methods</p>
+<p>We conducted a secondary coincidence analysis (CNA) of 1,071 older adults from the Rush Memory and Aging Project (mean age 79.3 ± 7.1; 75.8% female) to identify combinations of social factors that are difference-making for frailty. We included 7 demographic (e.g., age, sex, socioeconomic status) and structural (e.g., social network), functional (e.g., social support, social activity), and quality (e.g., loneliness) aspects of social connection. An established cut score of 0.2 on a frailty index was used to define frailty as the outcome.</p>
+<p>Results</p>
+<p>CNA produced 46 solution models for the presence of frailty in the data set. The top-scoring model was underfit, leaving a final complex solution path for frailty with the highest fit-robustness score that met the fit parameter cutoffs. We found that the combination of loneliness, low social activity, and older age was present 82% of the time when frailty was present.</p>
+<p>Discussion and Implications</p>
+<p>The combination of loneliness, social activity, and old age is difference-making for frailty, and supports the inclusion of social factors in frailty prevention and intervention. Further research is needed in diverse data sets to better understand the interrelationships between the 3 aspects of social connection and frailty.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Chava Pollak, Joe Verghese, Helena M Blumen (2024), Difference-Making Pathways to Frailty Through Social Factors: A Configurational Analysis, The Gerontologist, Volume 64, Issue 6, gnad173. <a href="https://doi.org/10.1093/geront/gnad173">https://doi.org/10.1093/geront/gnad173</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

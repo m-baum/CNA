@@ -1,0 +1,19 @@
+---
+title: "Coincidence Analysis introduced to medical informatics"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · September 07, 2022</div>
+<div class="cna-news-hero"><img src="../assets/news/156524_0.jpg" alt="ACI"></div>
+<p class="cna-news-lead">The data analysis method of Coincidence Analysis has been introduced to the field of medical informatics: Womack DM, Miech EJ, Fox NJ, Silvey LC, Somerville AM, Eldredge DH, Steege LM. (2022), Coincidence Analysis: A Novel Approach to Modeling Nurses' Workplace Experience, Applied Clinical Informatics, (4):794-802. doi: 10.1055/s-0042-1756368.</p>
+<h2>Abstract</h2>
+<p>Objectives: The purpose of this study is to identify combinations of workplace conditions that uniquely differentiate high, medium, and low registered nurse (RN) ratings of appropriateness of patient assignment during daytime intensive care unit (ICU) work shifts.</p>
+<p>Methods: A collective case study design and coincidence analysis were employed to identify combinations of workplace conditions that link directly to high, medium, and low RN perception of appropriateness of patient assignment at a mid-shift time point. RN members of the study team hypothesized a set of 55 workplace conditions as potential difference makers through the application of theoretical and empirical knowledge. Conditions were derived from data exported from electronic systems commonly used in nursing care.</p>
+<p>Results: Analysis of 64 cases (25 high, 24 medium, and 15 low) produced three models, one for each level of the outcome. Each model contained multiple pathways to the same outcome. The model for "high" appropriateness was the simplest model with two paths to the outcome and a shared condition across pathways. The first path comprised of the absence of overtime and a before-noon patient discharge or transfer, and the second path comprised of the absence of overtime and RN assignment to a single ICU patient.</p>
+<p>Conclusion: Specific combinations of workplace conditions uniquely distinguish RN perception of appropriateness of patient assignment at a mid-shift time point, and these difference-making conditions provide a foundation for enhanced observability of nurses' work experience during hospital work shifts. This study illuminates the complexity of assessing nursing work system status by revealing that multiple paths, comprised of multiple conditions, can lead to the same outcome. Operational decision support tools may best reflect the complex adaptive nature of the work systems they intend to support by utilizing methods that accommodate both causal complexity and equifinality.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Womack DM, Miech EJ, Fox NJ, Silvey LC, Somerville AM, Eldredge DH, Steege LM. (2022), Coincidence Analysis: A Novel Approach to Modeling Nurses' Workplace Experience, Applied Clinical Informatics, (4):794-802. <a href="https://doi.org/10.1055/s-0042-1756368">https://doi.org/10.1055/s-0042-1756368</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

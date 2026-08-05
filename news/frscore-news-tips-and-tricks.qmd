@@ -1,0 +1,14 @@
+---
+title: "frscore news, tips and tricks"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · September 19, 2022</div>
+<div class="cna-news-hero"><img src="../assets/news/156762_0.png" alt="frscore plot"></div>
+<p class="cna-news-lead">In a series of news articles, Veli-Pekka Parkkinen informs about new developments concerning the frscore package for CNA robustness analysis. To make the best of frscore, users are encouraged to follow these updates.</p>
+<p>For those using or interested in the CNA extension package frscore, a series of short articles about upcoming changes in the package, and about how to minimize pain when working with the functions, will be published at Veli-Pekka's website. The first post in the series considers how to visualize the sometimes overwhelming output of the main functions.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

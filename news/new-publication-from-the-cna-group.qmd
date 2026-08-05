@@ -1,0 +1,16 @@
+---
+title: "New publication from the CNA group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 17, 2024</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/172237_0.jpg" alt="JCI"></div>
+<p class="cna-news-lead">Michael Baumgartner and Christoph Falk published a paper entitled "Quantifying the quality of configurational causal models" in the Journal of Causal Inference. The paper introduces quantitative quality criteria for causal models output by CNA. Thereby, it broadens and sharpens the resources for CNA benchmarking.</p>
+<h2>Abstract</h2>
+<p>There is a growing number of studies benchmarking the performance of configurational comparative methods (CCMs) of causal data analysis. A core benchmark criterion used in these studies is a dichotomous (i.e., non-quantitative) correctness criterion, which measures whether all causal claims entailed by a model are true of the data-generating causal structure or not. To date, Arel-Bundock [The double bind of Qualitative Comparative Analysis] is the only one who has proposed a measure quantifying correctness. That measure, however, as this study argues, is problematic because it tends to overcount errors in models. Moreover, we show that all available correctness measures are unsuited to assess relations of indirect causation. We therefore introduce a new correctness measure that adequately quantifies errors and does justice to indirect causation. We also offer a new completeness measure quantifying the informativeness of CCM models. Together, these new measures broaden and sharpen the resources for CCM benchmarking.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Baumgartner, Michael and Falk, Christoph. "Quantifying the quality of configurational causal models" Journal of Causal Inference, vol. 12, no. 1, 2024, pp. 20230032. <a href="https://doi.org/10.1515/jci-2023-0032">https://doi.org/10.1515/jci-2023-0032</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

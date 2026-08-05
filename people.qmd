@@ -1,0 +1,26 @@
+---
+title: "People"
+toc: false
+format: html
+---
+
+<div class="cna-bg" aria-hidden="true" style="background-image:url('assets/g1.svg')"></div>
+<div class="cna-page">
+<div class="cna-peer"><div class="label">Current core team · UiB</div><ul><li><a href="https://m-baum.github.io/">Michael Baumgartner</a></li><li>Mathias Ambühl</li><li><a href="https://www.uib.no/finn-ansatte/hans.steinsland">Hans Steinsland</a></li><li><a href="https://jonaswahl.com/">Jonas Wahl</a></li></ul></div>
+<div class="cna-peer"><div class="label">Guest researchers · UiB</div><ul><li><a href="https://vpparkkinen.github.io/">Veli-Pekka Parkkinen</a></li><li><a href="https://www.researchgate.net/profile/Martyna-Klein">Martyna Klein</a></li><li><a href="https://luna-de-souter.github.io/">Luna De Souter</a></li></ul></div>
+<div class="cna-peer"><div class="label">Affiliated researchers</div><ul><li><a href="https://medicine.iu.edu/faculty/7419/miech-edward">Edward Miech</a></li><li><a href="https://www.researchgate.net/profile/Jonathan-Freitas-2">Jonathan Simões Freitas</a></li><li><a href="https://health.usf.edu/publichealth/overviewcoph/faculty/dcragun">Deborah Cragun</a></li><li><a href="https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=46012">Reiping Huang</a></li><li><a href="https://socialwelfare.berkeley.edu/people/emmeline-chuang">Emmeline Chuang</a></li><li><a href="https://www.chcs.org/person/john-a-rich-md-mph/">John Rich</a></li><li><a href="https://www.fernuni-hagen.de/philosophie/lg1/en/staff/timm.lampert.shtml">Timm Lampert</a></li></ul></div>
+<div class="cna-peer"><div class="label">Community of practice<br>All Things Configured · 350+ members</div><ul><li><a href="https://ohsu-psu-sph.org/our-school/faculty-directory/name/kelly-coates/">Kelly Coates</a> </li><li><a href="https://www.cherp.research.va.gov/CHERP/people/jessica-dodge.asp">Jessica Dodge</a> </li></ul></div>
+<div class="cna-peer"><div class="label">Former group members</div><ul><li><a href="https://www.uib.no/en/cna/143425/dr-christoph-falk-has-joined-cna-project">Christoph Falk</a></li><li><a href="http://www.alrik-thiem.net/">Alrik Thiem</a></li></ul></div>
+
+## Contacts at the University of Bergen
+
+| Name | Role | Email |
+|---|---|---|
+| Michael C. Baumgartner | Professor, Philosophy | michael.baumgartner@uib.no |
+| Veli Pekka Kalevi Parkkinen | Adviser, Psychosocial Science | veli-pekka.parkkinen@uib.no |
+| Martyna Daria Klein | Guest Researcher, Philosophy | martyna.klein@uib.no |
+| Luna de Souter | Guest Researcher, Philosophy | luna.souter@uib.no |
+| Jonas Wahl | Professor, Philosophy | jonas.wahl@uib.no |
+
+The CNA community of practice, "All Things Configured" (+350 members worldwide), is coordinated by Kelly Coates and Jessica Dodge.
+</div>

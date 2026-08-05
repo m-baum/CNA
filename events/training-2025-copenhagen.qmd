@@ -1,0 +1,48 @@
+---
+title: "Introduction to Causal Data Analysis & Modeling with Coincidence Analysis"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<p class="cna-kicker">Training · May 19–22, 2025 · Copenhagen</p>
+<p class="cna-evloc">The National Research Centre for the Working Environment (NFA), Copenhagen</p>
+<div class="cna-evhero"><img src="../assets/events/172726_0.jpg" alt="Introduction to Causal Data Analysis &amp; Modeling with Coincidence Analysis"></div>
+
+<div class="cna-evtwo">
+<div class="cna-evmain">
+<div class="cna-evdesc">
+<p class="cna-evtag">Learning causal data analysis with Coincidence Analysis from the ground up.</p>
+<p>This workshop offers an intensive 4-day introduction to causal modeling with Coincidence Analysis (CNA), a novel configurational comparative method of data analysis geared towards causal complexity, which has seen a considerable uptick in applications in recent years. No prior knowledge of CNA is required.</p>
+<p>In plenary lectures, the main developer of CNA, Michael Baumgartner, and a team of experienced CNA methodologists and practitioners will guide participants through the nuts and bolts of configurational data analysis as well as cutting-edge methodological innovations. In smaller practice groups, the instructors will demonstrate how to make the most of current software for CNA and offer advice on practical issues, such as getting funded and published with CNA.</p>
+<p>From Boolean algebra and the philosophical roots of regularity theories of causation, over the basic ideas behind CNA's search algorithm, and measures of fit to multi-outcome structures, model ambiguities, and robustness analyses this introduction will enable participants to conduct CNA analyses themselves and review those of other researchers in a sophisticated manner. This will also be an opportunity to get to know researchers working with and on CNA from all over the world.</p>
+<p>The workshop is co-organized by NFA and the University of Bergen.</p>
+</div>
+<h2>Practical information</h2>
+<ul>
+<li><strong>Dates:</strong> May 19 – 22, 2025, The National Research Centre for the Working Environment (NFA), Copenhagen</li>
+<li><strong>Registration deadline:</strong> April 26, 2025</li>
+<li><strong>Main instructor:</strong> Michael Baumgartner, University of Bergen, Norway</li>
+<li><strong>Additional presentations by:</strong> Deborah Cragun, University of South Florida, USA; Edward Miech, Indiana University School of Medicine, USA; Reiping Huang, American College of Surgeons, USA; Veli-Pekka Parkkinen, University of Bergen, Norway; Martyna Klein (formerly Swiatczak), University of Bergen, Norway; Jonathan Freitas, University of Minas Gerais, Brazil</li>
+</ul>
+<h2>Participation, Registration, Tuition</h2>
+<p>Registration is open. As the financial side of the course is organized through the University of Bergen, course fees are in NOK. The registration fee is NOK 7600 (ca. €650/$680).</p>
+<p>The fee includes tuition as well as lunches, coffee break catering, and one workshop dinner. We can offer a small amount of tuition scholarships to people without sufficient institutional funding (grad students, post-docs, etc.). If you are interested in a scholarship, write to michael.baumgartner@uib.no for more information.</p>
+<p>After successful completion of the course, we can provide participation certificates to those interested, stating, among other things, that the course is worth 5 ECTS points (e.g. to PhD students).</p>
+<p>Space is limited. There will be a waiting list, once all enrolment slots are reserved. For questions, please, write to michael.baumgartner@uib.no.</p>
+</div>
+
+<div class="cna-evside">
+<h4>Location</h4>
+<div class="cna-evmap">
+<iframe src="https://maps.google.com/maps?q=National+Research+Centre+for+the+Working+Environment+Copenhagen&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="National Research Centre for the Working Environment Copenhagen"></iframe>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=National+Research+Centre+for+the+Working+Environment+Copenhagen" target="_blank" rel="noopener">Google Maps →</a>
+</div>
+<div class="cna-evphotos">
+<h4 style="margin-top:1rem">Photos</h4>
+<figure><a class="cna-lb" href="../assets/events/copenhagen25_large.jpg" data-caption="CNA training 2025, Copenhagen"><img src="../assets/events/copenhagen25_large.jpg" alt="CNA training group 2025, Copenhagen"></a><figcaption>CNA training 2025, Copenhagen</figcaption></figure>
+</div>
+</div>
+</div>
+<p class="cna-backtop"><a href="../events.html">← All events</a></p>
+</div>

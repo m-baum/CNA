@@ -1,0 +1,231 @@
+---
+title: "Literature"
+toc: false
+format: html
+---
+
+<div id="literature-top"></div>
+
+<div class="cna-page cna-lit">
+
+<div class="cna-nav">
+<a href="#methodological">Methodological</a>
+<a href="#applied">Applied</a>
+<a href="#conceptual">Conceptual</a>
+<a href="#protocol">Protocol</a>
+<a href="#book-chapters">Book chapters</a>
+<a href="#phd-theses">PhD theses</a>
+</div>
+
+<div class="cna-intro">
+The methodological literature on CNA and the applied literature using CNA is rapidly growing. This page provides a mere snapshot. For a full list of CNA resources visit the [Zotero CNA Group library](https://www.zotero.org/groups/4567107/coincidence.analysis/library).
+</div>
+
+<div class="cna-sec">
+
+## Methodological {#methodological}
+
+The details of the state of the art of the CNA method, as implemented in the **cna** R package, are described in:
+
+- Baumgartner, M. and Ambühl, M. (2025), [cna: An R Package for Configurational Causal Inference and Modeling](https://cran.r-project.org/web/packages/cna/vignettes/cna.pdf), R package vignette, The Comprehensive R Archive Network.
+- Baumgartner, M. and Ambühl, M. (2020), [Causal Modeling with Multi-Value and Fuzzy-Set Coincidence Analysis](https://doi.org/10.1017/psrm.2018.45), *Political Science Research and Methods* 8, 526-542, doi: 10.1017/psrm.2018.45. Replication material at [10.7910/DVN/YIEAF1](https://doi.org/10.7910/DVN/YIEAF1).
+
+**Short and informal introductions to configurational causal modeling are provided in the following papers:**
+
+- von Thiele Schwarz, U., Sørensen, O. H., Tafvelin, S., and Roczniewska, M. (2024), [Complexity Embraced: A New Perspective on the Evaluation of Organisational Interventions](https://doi.org/10.1080/02678373.2024.2349000), *Work & Stress*, 1-7, doi: 10.1080/02678373.2024.2349000
+- Whitaker, R.G., Sperber, N., Baumgartner, M., et al. (2020), [Coincidence Analysis: A New Method for Causal Inference in Implementation Science](https://implementationscience.biomedcentral.com/articles/10.1186/s13012-020-01070-3), *Implementation Science* 15, 108, doi: 10.1186/s13012-020-01070-3
+- Distel, B., Plattfaut, R., and Baumgartner, M. (2026), [Coincidence Analysis: An Alternative Method for Studying Causal Complexity in IS Research](https://aisel.aisnet.org/cais/vol59/iss1/46), *Communications of the Association for Information Systems* 59.
+
+**This paper introduces CNA robustness scoring, as implemented in the frscore R package:**
+
+- Parkkinen, V.P. and Baumgartner, M. (2023), [Robustness and Model Selection in Configurational Causal Modeling](https://doi.org/10.1177/0049124120986200), *Sociological Methods & Research* 52(1), 176-208, doi: 10.1177/0049124120986200
+
+**This paper discusses a protocol for finding optimally obtainable consistency and coverage scores for a given data set. (The algorithms introduced in this paper are implemented in the cnaOpt R package):**
+
+- Baumgartner, M. and Ambühl, M. (2021), [Optimizing Consistency and Coverage in Configurational Causal Modeling](https://doi.org/10.1177/0049124121995554), *Sociological Methods & Research*, doi: 10.1177/0049124121995554
+
+**These papers uncover shortcomings of consistency and coverage and introduce two evaluation measures:**
+
+- De Souter, L. (2024), [Evaluating Boolean Relationships in Configurational Comparative Methods](https://doi.org/10.1515/jci-2023-0014), *Journal of Causal Inference* 12(1), doi: 10.1515/jci-2023-0014
+- De Souter, L. and Baumgartner, M. (2025), [New Sufficiency and Necessity Measures for Model Building with Coincidence Analysis](https://doi.org/10.5281/zenodo.13619580), *Zenodo*, doi: 10.5281/zenodo.13619580 (preprint).
+
+**This paper investigates the impact of data imbalances (skewness) on CNA's performance:**
+
+- Swiatczak, M. and Baumgartner, M. (2024), [Data Imbalances in Coincidence Analysis: A Simulation Study](https://doi.org/10.1177/00491241241227039), *Sociological Methods & Research*, doi: 10.1177/00491241241227039
+
+**These papers compare CNA and QCA:**
+
+- Swiatczak, M. (2022), [Different Algorithms, Different Models](https://link.springer.com/article/10.1007/s11135-021-01193-9), *Quality & Quantity* 56, 1913-1937
+- Haesebrouck, T. and Thomann, E. (2022), [Introduction: Causation, Inferences, and Solution Types in Configurational Comparative Methods](https://doi.org/10.1007/s11135-021-01209-4), *Quality & Quantity* 56, 1867-1888
+
+**This paper compares CNA and Logic Regression:**
+
+- Baumgartner, M. and Falk, C. (2023), [Configurational Causal Modeling and Logic Regression](https://doi.org/10.1080/00273171.2021.1971510), *Multivariate Behavioral Research* 58(2), 292-310
+
+**Older versions of the CNA method are introduced/discussed here:**
+
+- Baumgartner, M. and Thiem, A. (2015), [Identifying Complex Causal Dependencies in Configurational Data with Coincidence Analysis](https://journal.r-project.org/articles/RJ-2015-014/RJ-2015-014.pdf), *The R Journal* 7, 176-184
+- Baumgartner, M. (2013), [Detecting Causal Chains in Small-N Data](http://dx.doi.org/10.1177/1525822X12462527), *Field Methods* 25, 3-24
+- Baumgartner, M. (2009), [Uncovering Deterministic Causal Structures: A Boolean Approach](https://doi.org/10.1007/s11229-008-9348-0), *Synthese* 170, 71-96
+- Baumgartner, M. (2009), [Inferring Causal Complexity](http://smr.sagepub.com/cgi/content/abstract/38/1/71), *Sociological Methods & Research* 38, 71-101
+
+<a class="cna-backtop" href="#">↑ Back to top</a>
+
+</div>
+
+<div class="cna-sec">
+
+## Applied {#applied}
+
+- Semenza, Daniel C., Edward J. Miech, Brielle Savage, and Devon Ziminski (2026), [How local prevention efforts and state regulations intersect to reduce fatal shootings: a configurational analysis of firearm policies in the United States](https://doi.org/10.1057/s41271-026-00654-5), *Journal of Public Health Policy*, doi: 10.1057/s41271-026-00654-5
+- Zhang, Jingwen, Yanan Li, Yuhao Wang, and Bing Feng (2026), [High-Fatality Escalation Pathways in Hazardous Chemical Accidents: A Hierarchical Configurational Analysis for Process Safety](https://doi.org/10.3390/pr14132077), *Processes* 14(13), 2077
+- Tavernier, Rebecca L. Emery, Kelly E. Coates, May Oo, et al. (2026), [Using coincidence analysis to understand implementation of a play-promotion program through a national learning collaborative](https://doi.org/10.1016/j.acap.2026.103368), *Academic Pediatrics*, 103368
+- Rehn, Henrik J., Alexandre Sukhov, Lars E. Olsson, and Margareta Friman (2026), [Exploring the 'window of opportunity' for car use reduction with a configurational comparative method](https://doi.org/10.1016/j.jenvp.2026.103093), *Journal of Environmental Psychology*, 103093
+- Caci, L., Blum, K., Johnson, C. et al. (2026), [Organizational readiness for implementing infection control in European hospitals: insights from Coincidence Analysis](https://doi.org/10.1186/s43058-026-00884-4), *Implement Sci Commun* 7, 65
+- Caci, L., Blum, K., Clack, L., and Albers, B. (2026), [Factor selection in configurational comparative analysis – guidance for implementation researchers](https://doi.org/10.1186/s43058-026-00981-4), *Implement Sci Commun*, doi: 10.1186/s43058-026-00981-4
+- Huang, Zishuo, Gonghang Qiu, Changmiao Shi, et al. (2026), [Implementing multidomain non-pharmaceutical interventions for preventing cognitive decline in community-dwelling older adults in China: An embedded mixed-methods implementation study of determinants and strategies](https://doi.org/10.1002/alz.71560), *Alzheimer's & Dementia* 22(6), e71560
+- Rich, John, Edward Miech, Kate Mackie, Deborah Cragun, Eve Shapiro, Sage Kim, Minyoung Do, Jessica Bishop-Royse, David Ansell, and Theodore Corbin (2026), [How segregation, low birth weight, unemployment, and violence link to low life expectancy in Chicago](https://doi.org/10.1093/haschl/qxag080), *Health Affairs Scholar* 4(4), qxag080, doi: 10.1093/haschl/qxag080
+- Gothilander, J., Miech, E.J., Almqvist, L., Fritz, J., and Eriksson, C. (2026), [Exploring paths to participation and non-participation in physical exercise among Swedish adolescents](https://doi.org/10.3389/fpubh.2026.1723898), *Frontiers in Public Health* 14, 1723898, doi: 10.3389/fpubh.2026.1723898
+- Rhodes, Jesse (2025), [Laboratories of democratic renewal: explaining substantial improvement in the quality of democracy in the American States](https://doi.org/10.1017/psrm.2025.10051), *Political Science Research and Methods*, 1-18, doi: 10.1017/psrm.2025.10051
+- Adamu, Abdu A., Ndwandwe, Duduzile, Uthman, Olalekan A., and Wiysonge, Charles S. (2025), [Enhancing the use of routine program data for immunization decision-making: The role of Coincidence Analysis in localized learning and adaptation](https://doi.org/10.1080/21645515.2025.2582302), *Human Vaccines & Immunotherapeutics* 21(1), 2582302, doi: 10.1080/21645515.2025.2582302
+- Talal, A.H., Markatou, M., Zeremski, M. et al. (2025), [Opioid treatment program-integrated facilitated telemedicine for hepatitis C treatment: a hybrid effectiveness-implementation analysis](https://doi.org/10.1186/s12906-025-05138-9), *BMC Complement Med Ther* 25, 377, doi: 10.1186/s12906-025-05138-9
+- Zamantakis, A., Gomez, W., Lukose, L. et al. (2025), [Barriers to Same-Day Pre-exposure Prophylaxis (PrEP) Implementation in Federally Funded HIV Clinics Within High-Burden Areas of the U.S.: A Coincidence Analysis](https://doi.org/10.1007/s10461-025-04898-2), *AIDS Behav*, doi: 10.1007/s10461-025-04898-2
+- Wasmuth, Sally, Bravata, Dawn, and Miech, Edward (2025), [Difference-Making Conditions for the Successful Implementation of IDEAS: A Provider Stigma-Reduction Training for and by Occupational Therapy Practitioners](https://doi.org/10.5014/ajot.2025.051085), *Am J Occup Ther* 79(5), 7905205070, doi: 10.5014/ajot.2025.051085
+- Tafvelin, S. and Stenling, A. (2025), [How Do Individual and Work Environment Factors Combine in Their Influence on Transfer of Leadership Training? A Configural Approach](https://doi.org/10.1111/ijtd.12373), *International Journal of Training and Development*, doi: 10.1111/ijtd.12373
+- Huang, Reiping, Remer, Sarah L., Knapp, Leandra K., Cohen, Mark E., Rosen, Michael A., Hall, Bruce L., Wick, Elizabeth C., and Ko, Clifford Y. (2025), [Hospital Configurations Leading to Successful Implementation of Enhanced Recovery Programs](https://doi.org/10.1097/SLA.0000000000006731), *Annals of Surgery*, doi: 10.1097/SLA.0000000000006731
+- Pratt-Chapman, M.L., Miech, E.J., Mullins, M.A., Chang, S., Quinn, G.P., Maingi, S., Schabath, M.B., and Kamen, C. (2025), [Difference-Makers for Collecting Sexual Orientation and Gender Identity Data in Oncology Settings](https://doi.org/10.1002/cam4.70727), *Cancer Medicine* 14, e70727, doi: 10.1002/cam4.70727
+- Matson, T.E., Lee, A.K., Miech, E.J., Wartko, P.D., et al., Bradley, K.A. (2025), [The Difference-Making Role of Staff Support in Implementing Nurse Care Management for Opioid Use Disorder Treatment: A Configurational Analysis](https://doi.org/10.1016/j.josat.2025.209642), *J Subst Use Addict Treat*, 209642, doi: 10.1016/j.josat.2025.209642
+- Chuang, E., Bunger, A., Smith, R. et al. (2024), [Collaboration strategies affecting implementation of a cross-systems intervention for child welfare and substance use treatment: a mixed methods analysis](https://doi.org/10.1186/s43058-024-00666-w), *Implement Sci Commun* 5, 127, doi: 10.1186/s43058-024-00666-w
+- Kelley, A.T., Incze, M.A., Baumgartner, M., Campbell, A.N.C., Nunes, E.V., and Scharfstein, D.O. (2024), [Predictors of urine toxicology and other biological specimen missingness in randomized trials of substance use disorders](https://doi.org/10.1016/j.drugalcdep.2024.111368), *Drug and Alcohol Dependence* 260, doi: 10.1016/j.drugalcdep.2024.111368
+- Becker, J., Poast, P., and Haesebrouck, T. (2024), [Setting targets: Abatement cost, vulnerability, and the agreement of NATO's Wales Pledge on Defense Investment](https://doi.org/10.1177/00223433241267798), *Journal of Peace Research*, doi: 10.1177/00223433241267798
+- Duan, Y., Wang, J., Lanham, H.J. et al. (2024), [How context links to best practice use in long-term care homes: a mixed methods study](https://doi.org/10.1186/s43058-024-00600-0), *Implement Sci Commun* 5, 63, doi: 10.1186/s43058-024-00600-0
+- Barroso, M. B. C. and Moraes, S. M. (2024), [Influencing factors of the purchase intention of virtual cosmetic goods in online games](https://doi.org/10.5585/remark.v23i2.23369), *Brazilian Journal of Marketing* 23(2), 580-602, doi: 10.5585/remark.v23i2.23369
+- Haesebrouck, T. (2024), [EU Member State Support to Ukraine](https://doi.org/10.1093/fpa/orae005), *Foreign Policy Analysis* 20(2), orae005, doi: 10.1093/fpa/orae005
+- Kaye, S., Hood, S., Cragun, D. et al. (2024), [Maintaining Family Engagement During Home Visitor Turnover: a Mixed Methods Study of Best Practices](https://doi.org/10.1007/s11121-024-01669-8), *Prevention Science*, doi: 10.1007/s11121-024-01669-8
+- Akerstrom, M., Severin, J., Miech, E.J., Wikström, E., and Roczniewska, M. (2024), [Reducing sickness absence among public-sector healthcare employees: The difference-making roles of managerial and employee participation](https://doi.org/10.1007/s00420-024-02048-0), *Int Arch Occup Environ Health*, doi: 10.1007/s00420-024-02048-0
+- Johnson, C., AlRasheed, R., Gray, C., Triplett, N., Mbwayo, A., Weinhold, A., Whetten, K., and Dorsey, S. (2024), [Uncovering determinants of perceived feasibility of TF-CBT through Coincidence Analysis](https://journals.sagepub.com/doi/10.1177/26334895231220277), *Implementation Research and Practice* 5, doi: 10.1177/26334895231220277
+- Pollak, Chava, Verghese, Joe, Blumen, Helena M. (2024), [Difference-Making Pathways to Frailty Through Social Factors: A Configurational Analysis](https://doi.org/10.1093/geront/gnad173), *The Gerontologist* 64(6), gnad173, doi: 10.1093/geront/gnad173
+- Roczniewska, M., Tafvelin, S., Nielsen, K., von Thiele Schwarz, U., Miech, E.J., Hasson, H., Edwards, K., Abildgaard, J.S., and Sorensen, O.H. (2023), [Simple Roads to Failure, Complex Paths to Success: An Evaluation of Conditions Explaining Perceived Fit of an Organizational Occupational Health Intervention](https://iaap-journals.onlinelibrary.wiley.com/doi/10.1111/apps.12502), *Applied Psychology*, doi: 10.1111/apps.12502
+- Damush, T.M., Wilkinson, J.R., Martin, H., Miech, E.J., et al. (2023), [The VA National TeleNeurology Program implementation: a mixed-methods evaluation guided by RE-AIM framework](https://doi.org/10.3389/frhs.2023.1210197), *Frontiers in Health Services* 3, 1210197, doi: 10.3389/frhs.2023.1210197
+- Dean, M., Tezak, A., Johnson, S., Weidner, A., Almanza, D., Pal, T., and Cragun, D. (2023), [Factors that Differentiate Cancer Risk Management Decisions Among Females with Pathogenic/Likely Pathogenic Variants in PALB2, CHEK2, and ATM](https://www.gimjournal.org/article/S1098-3600(23)00958-9/fulltext), *Genetics in Medicine* 25, 100945, doi: 10.1016/j.gim.2023.100945
+- Piper, K.N., Anderson, K.M., Kokubun, C.W., Sheth, A.N., and Sales, J. (2023), [Using Qualitative Comparative Analysis To Understand The Conditions That Produce Successful PrEP Implementation In Family Planning Clinics](https://doi.org/10.1186/s43058-023-00450-2), *Implementation Science Communications* 4(1), 64, doi: 10.1186/s43058-023-00450-2
+- Dodge, J.R., Youles, B., Caldararo, J. et al. (2023), [Engaging Operational Partners Is Critical for Successful Implementation of Research Products: a Coincidence Analysis of Access-Related Projects in the Veterans Affairs Healthcare System](https://link.springer.com/article/10.1007/s11606-023-08115-5), *Journal of General Internal Medicine*, doi: 10.1007/s11606-023-08115-5
+- Salvati, Z.M., Rahm, A.K., Williams, M.S., ... Cragun, D. (2023), [A picture Is worth a thousand words: advancing the use of visualization tools in implementation science through process mapping and matrix heat mapping](https://implementationsciencecomms.biomedcentral.com/articles/10.1186/s43058-023-00424-4), *Implementation Science Communications* 4, 43, doi: 10.1186/s43058-023-00424-4
+- Knott, C.L., Miech, E.J., Woodward, N., and Huq, M. (2023), [The role of organizational capacity in intervention efficacy in a church-based cancer education program: a configurational analysis](https://link.springer.com/article/10.1007/s43477-023-00089-0), *Global Implementation Research and Applications*, doi: 10.1007/s43477-023-00089-0
+- Haesebrouck, T. (2023), [The populist radical right and military intervention: A coincidence analysis of military deployment votes](https://doi.org/10.1080/03050629.2023.2184815), *International Interactions*, doi: 10.1080/03050629.2023.2184815
+- Sprang, G., Miech, E.J., and Gusler, S. (2023), [The role of secondary traumatic stress breakthrough champions in reducing worker trauma and improving organizational health using a configurational analysis approach](https://doi.org/10.1177/26334895231164582), *Implementation Research and Practice* 4, doi: 10.1177/26334895231164582
+- Dodge, J., Sullivan, K., Miech, E., Clomax, A., Riviere, L., and Castro, C. (2024), [Exploring the Social Determinants of Mental Health by Race and Ethnicity in Army Wives](https://doi.org/10.1007/s40615-023-01551-3), *Journal of Racial and Ethnic Health Disparities* 11(2), 669-684, doi: 10.1007/s40615-023-01551-3
+- Santos, L.F.M., Martins, R.S., and Freitas, J.S. (2023), [Explanatory settings of the development of resilience in public administration supply networks](https://doi.org/10.1590/0034-761220220209), *Revista de Administração Pública* 57(1), e-2022-0209, doi: 10.1590/0034-761220220209
+- Cragun, D.L., Hunt, P.P., Dean, M., Weidner, A., Shields, A.K., Tezak, A., and Pal, T. (2023), [Applying the Framework for Developing and Evaluating Complex Interventions to Increase Family Communication About Hereditary Cancer](https://doi.org/10.1016/j.pecinn.2023.100133), *PEC Innovation* 2, 100133, doi: 10.1016/j.pecinn.2023.100133
+- Rattray, Nicholas, Miech, Edward J., True, Gala, Natividad, Diana, Laws, Brian, Frankel, Richard M., and Kukla, Marina (2022), [Modeling Contingency in Veteran Community Reintegration: A Mixed Approach](https://doi.org/10.1177/15586898211059616), *Journal of Mixed Methods Research*, doi: 10.1177/15586898211059616
+- Damschroder, L.J., Miech, E.J., Freitag, M.B., Evans, R., Burns, J.A., Raffa, S.D., Goldstein, M.G., Annis, A., Spohr, S.A., and Wiitala, W.L. (2022), [Facility-level program components leading to population impact: a coincidence analysis of obesity treatment options within the Veterans Health Administration](https://doi.org/10.1093/tbm/ibac051), *Translational Behavioral Medicine* 12(11), 1029-1037, doi: 10.1093/tbm/ibac051
+- Sánchez Ibáñez, A., Franco Hidalgo-Chacón, M.M., Sánchez-Romero, E.A., and Cuenca-Zaldivar, J.N. (2022), [Situation of Physiotherapy Clinics in the Community of Madrid in Relation to the Concept of Sustainability: A Survey Study](https://doi.org/10.3390/su142416439), *Sustainability* 14(24), 16439, doi: 10.3390/su142416439
+- Adams, K.K., Miech, E.J., and Sobieraj, D.M. (2022), [Factors that distinguish opioid withdrawal during induction with buprenorphine microdosing: a configurational analysis](https://ascpjournal.biomedcentral.com/articles/10.1186/s13722-022-00336-z), *Addiction Science & Clinical Practice* 17(1), 55, doi: 10.1186/s13722-022-00336-z
+- Rich, J.A., Miech, E.J., Semenza, D.C., and Corbin, T.J. (2022), [How combinations of state firearm laws link to low firearm suicide and homicide rates: A configurational analysis](https://www.sciencedirect.com/science/article/pii/S0091743522003115), *Preventive Medicine*, doi: 10.1016/j.ypmed.2022.107262
+- Charns, M.P., Lerner, B., Yakovchenko, V., Urech, T.H., Shin, M.H., Kim, B., Engle, R.L., and Vashi, A.A. (2022), [Achieving transformation to Lean Management Systems in health care](https://onlinelibrary.wiley.com/doi/10.1111/1475-6773.14072), *Health Services Research*, doi: 10.1111/1475-6773.14072
+- Sperber, N.R., Miech, E.J., Clary, A.S., Perry, K., Edwards-Orr, M., Rudolph, J.L., Van Houtven, C.H., and Thomas, K.S. (2022), [Determinants of inter-organizational implementation success: A mixed-methods evaluation of Veteran Directed Care](https://doi.org/10.1016/j.hjdsi.2022.100653), *Healthcare* 10(4), 100653, doi: 10.1016/j.hjdsi.2022.100653
+- Womack, D.M., Miech, E.J., Fox, N.J., Silvey, L.C., Somerville, A.M., Eldredge, D.H., and Steege, L.M. (2022), [Coincidence Analysis: A Novel Approach to Modeling Nurses' Workplace Experience](https://pubmed.ncbi.nlm.nih.gov/36044917/), *Applied Clinical Informatics* 4, 794-802, doi: 10.1055/s-0042-1756368
+- Gwayi-Chore, M.C., Aruldas, K., Avokpaho, E. et al. (2022), [Defining optimal implementation packages for delivering community-wide mass drug administration for soil-transmitted helminths with high coverage](https://doi.org/10.1186/s12913-022-08080-5), *BMC Health Serv Res* 22, 792, doi: 10.1186/s12913-022-08080-5
+- Miech, E.J., Perkins, A.J., Zhang, Y., Myers, L.J., Sico, J.J., Daggy, J., and Bravata, D.M. (2022), [Pairing regression and configurational analysis in health services research: modelling outcomes in an observational cohort using a split-sample design](https://bmjopen.bmj.com/content/12/6/e061469), *BMJ Open* 12, e061469, doi: 10.1136/bmjopen-2022-061469
+- Rich, J.A., Miech, E.J., Bilal, U., and Corbin, T.J. (2022), [How education and racial segregation intersect in neighborhoods with persistently low COVID-19 vaccination rates in Philadelphia](https://doi.org/10.1186/s12889-022-13414-3), *BMC Public Health* 22, 1044, doi: 10.1186/s12889-022-13414-3
+- Mulrooney, M., Smith, M., Sobieraj, D., Shipley, B., and Miech, E. (2022), [Factors Influencing Primary Care Organization Commitment to Technical Assistance Services for Clinical Pharmacist Integration Using Configurational Comparative Methods](https://www.japha.org/article/S1544-3191(22)00091-7/fulltext), *Journal of the American Pharmacists Association*, doi: 10.1016/j.japh.2022.03.019
+- Davis, M.M., Schneider, J.L., Petrik, A.F., Miech, E.J., Younger, B., Escaron, A.L., Rivelli, J.S., Thompson, J.H., Nyongesa, D., and Coronado, G.D. (2022), [Clinic Factors Associated With Mailed Fecal Immunochemical Test (FIT) Completion: The Difference-Making Role of Support Staff](https://pubmed.ncbi.nlm.nih.gov/35346927/), *Ann Fam Med* 20(2), 123-129, doi: 10.1370/afm.2772
+- Edianto, Achmed, Trencher, Gregory, and Matsubae, Kazuyo (2022), [Why Do Some Countries Receive More International Financing for Coal-Fired Power Plants than Renewables? Influencing Factors in 23 Countries](https://doi.org/10.1016/j.esd.2021.12.004), *Energy for Sustainable Development* 66, 177-188, doi: 10.1016/j.esd.2021.12.004
+- Winchester, B., Cragun, D., Redlinger-Grosse, K., et al., Zierhut, H. (2022), [Application of motivational interviewing strategies with the extended parallel process model to improve risk communication for parents of children with familial hypercholesterolemia](https://onlinelibrary.wiley.com/doi/10.1002/jgc4.1554), *Journal of Genetic Counseling*, doi: 10.1002/jgc4.1554
+- Yakovchenko, V., Morgan, T.R., Miech, E.J., et al., Rogal, S.S. (2022), [Core implementation strategies for improving cirrhosis care in the Veterans Health Administration](https://aasldpubs.onlinelibrary.wiley.com/doi/abs/10.1002/hep.32395), *Hepatology*, doi: 10.1002/hep.32395
+- Knott, C.L., Miech, E.J., Slade, J., Woodard, N., Robinson-Shaneman, B.J., and Huq, M. (2022), [Evaluation of Organizational Capacity in the Implementation of a Church-Based Cancer Education Program](https://doi.org/10.1007/s43477-021-00033-0), *Glob Implement Res Appl*, doi: 10.1007/s43477-021-00033-0
+- Dy, S.M., Acton, R.M., Yuan, C.T., Hsu, Y.J., Lai, A.Y., Marsteller, J., et al. (2022), [Association of Implementation and Social Network Factors With Patient Safety Culture in Medical Homes. A Coincidence Analysis](https://doi.org/10.1097/PTS.0000000000000752), *The Journal of Patient Safety* 18(1), e249-e256, doi: 10.1097/PTS.0000000000000752
+- Schlick, C.J., Huang, R., Brajcich, B.C., Halverson, A.L., Yang, A.D., Kreutzer, L., et al. (2021), [Unbundling bundles: Evaluating the effectiveness of individual colorectal surgical site infection reduction bundle elements in a statewide collaborative](https://journals.lww.com/dcrjournal/Abstract/9000/Unbundling_Bundles__Evaluating_the_Association_of.99255.aspx), *Diseases of the Colon and Rectum*, doi: 10.1097/DCR.0000000000002223
+- Swiatczak, M.D. (2021), [Towards a neo-configurational theory of intrinsic motivation](https://doi.org/10.1007/s11031-021-09906-1), *Motivation and Emotion*, doi: 10.1007/s11031-021-09906-1
+- Miech, E.J., Freitag, M.B., Evans, R.R. et al. (2021), [Facility-level conditions leading to higher reach: a configurational analysis of national VA weight management programming](https://doi.org/10.1186/s12913-021-06774-w), *BMC Health Serv Res* 21, 797, doi: 10.1186/s12913-021-06774-w
+- Cohen, D.J., Sweeney, Shannon M., Miller, William L., et al., Marino, Miguel (2021), [Improving smoking and blood pressure outcomes: The interplay between operational changes and local context](https://www.annfammed.org/content/19/3/240), *The Annals of Family Medicine* 19(3), 240-248, doi: 10.1370/afm.2668
+- Coury, J., Miech, E., Styer, P. et al. (2021), [What's the "secret sauce"? How implementation variation affects the success of colorectal cancer screening outreach](https://doi.org/10.1186/s43058-020-00104-7), *Implement Sci Commun* 2, 5
+- Nunes, F.A.S.F. and Freitas, J.S. (2021), [Combination of factors for the presence of the public: a look at the lower levels of football in Minas Gerais](http://www.rigd.periodikos.com.br/article/doi/10.51995/2237-3373.v11i1e110022), *Revista Intercontinental de Gestão Desportiva* 11(e1122), 1-11, doi: 10.51995/2237-3373.v11i1e110022
+- Whitaker, R.G., Sperber, N., Baumgartner, M., et al. (2020), [Coincidence Analysis: A New Method for Causal Inference in Implementation Science](https://implementationscience.biomedcentral.com/articles/10.1186/s13012-020-01070-3), *Implementation Science* 15, 108, doi: 10.1186/s13012-020-01070-3
+- Chebbi Nekhili, D. and Chakroun, H. (2021), [Performance environnementale et performance financière: Le cas des entreprises françaises](https://doi.org/10.3917/rsg.303.0099), *La Revue des Sciences de Gestion* (303-304), 95-104, doi: 10.3917/rsg.303.0099
+- Petrik, A., Green, B., Schneider, J. et al. (2020), [Factors influencing implementation of a colorectal cancer screening improvement program in community health centers: an applied use of configurational comparative methods](https://link.springer.com/article/10.1007/s11606-020-06186-2), *Journal of General Internal Medicine*, doi: 10.1007/s11606-020-06186-2
+- Hickman, S.E., Miech, E. et al. (2020), [Identifying the Implementation Conditions Associated With Positive Outcomes in a Successful Nursing Facility Demonstration Project](https://academic.oup.com/gerontologist/advance-article/doi/10.1093/geront/gnaa041/5841891), *The Gerontologist*, doi: 10.1093/geront/gnaa041
+- Yakovchenko, V., Miech, E. et al. (2020), [Strategy Configurations Directly Linked to Higher Hepatitis C Virus Treatment Starts. An Applied Use of Configurational Comparative Methods](https://journals.lww.com/lww-medicalcare/FullText/2020/05000/Strategy_Configurations_Directly_Linked_to_Higher.12.aspx), *Medical Care* 58(5), e31-e38, doi: 10.1097/MLR.0000000000001319
+- Moret, W. and Lorenzetti, L. (2020), [Realistic expectations: exploring the sustainability of graduation outcomes in a program for children affected by HIV in Kenya's Northern Arid Lands](https://www.tandfonline.com/doi/abs/10.1080/17450128.2020.1738022), *Vulnerable Children and Youth Studies*, doi: 10.1080/17450128.2020.1738022
+- Haesebrouck, T. (2019), [Who follows whom? A coincidence analysis of military action, public opinion and threats](https://journals.sagepub.com/doi/10.1177/0022343319854787), *Journal of Peace Research*, doi: 10.1177/0022343319854787
+- Epple, R. and Schief, S. (2016), [Fighting (for) gender equality: the roles of social movements and power resources](https://www.interfacejournal.net/wordpress/wp-content/uploads/2016/12/Interface-8-2-Epple-Schief.pdf), *Interface* 8(2), 394-432
+- Baumgartner, M. and Epple, R. (2014), [A Coincidence Analysis of a Causal Chain: The Swiss Minaret Vote](http://smr.sagepub.com/content/43/2/280), *Sociological Methods & Research* 43, 280-312
+
+<a class="cna-backtop" href="#">↑ Back to top</a>
+
+</div>
+
+<div class="cna-sec">
+
+### Conceptual {#conceptual}
+
+- Ding, H. (2023), [Qualitative Comparative Analysis: Search Target, Reflection on the Top-Down Approach, and Introduction of the Bottom-Up Approach](https://doi.org/10.1177/16094069231182634), *International Journal of Qualitative Methods* 22, doi: 10.1177/16094069231182634
+- McGinty, E.E. et al. (2024), [Scaling Interventions to Manage Chronic Disease: Innovative Methods at the Intersection of Health Policy Research and Implementation Science](https://doi.org/10.1007/s11121-022-01427-8), *Prevention Science* 25(S1), 96-108, doi: 10.1007/s11121-022-01427-8
+- Quintana, R. (2022), [Embracing complexity in social science research](https://doi.org/10.1007/s11135-022-01349-1), *Quality & Quantity*, doi: 10.1007/s11135-022-01349-1
+- Veri, F. and Barrowman, H. (2022), [The added value of configurational meta-analyses](https://doi.org/10.1111/spsr.12485), *Swiss Political Science Review* 28(1), 116-128, doi: 10.1111/spsr.12485
+- Rendle, K.A. and Beidas, R.S. (2021), [Four strategic areas to advance equitable implementation of evidence-based practices in cancer care](https://doi.org/10.1093/tbm/ibab105), *Translational Behavioral Medicine* 11(11), 1980-1988, doi: 10.1093/tbm/ibab105
+- Baumgartner, M. and Falk, C. (2023), [Boolean Difference-Making: A Modern Regularity Theory of Causation](https://doi.org/10.1093/bjps/axz047), *The British Journal for the Philosophy of Science* 74(1), 171-197, doi: 10.1093/bjps/axz047
+- Baumgartner, M. (2015), [Parsimony and Causality](https://doi.org/10.1007/s11135-014-0026-7), *Quality & Quantity* 49(2), 839-856, doi: 10.1007/s11135-014-0026-7
+- Baumgartner, M. (2008), [Regularity Theories Reassessed](https://doi.org/10.1007/s11406-007-9114-4), *Philosophia* 36(3), 327-354, doi: 10.1007/s11406-007-9114-4
+
+<a class="cna-backtop" href="#">↑ Back to top</a>
+
+</div>
+
+<div class="cna-sec">
+
+### Protocol {#protocol}
+
+- Fisher, E.R., Cragun, D., Dedrick, R.F., Lumpkins, C.Y., Ramírez, M., Kaphingst, K.A., Petersen, A., MacFarlane, I.M., Redlinger-Grosse, K., Shire, A., Culhane-Pera, K.A., and Zierhut, H.A. (2024), [Linking genetic counseling communication skills to patient outcomes and experiences using a community-engagement and provider-engagement approach: research protocol for the GC-PRO mixed methods sequential explanatory study](https://doi.org/10.1136/bmjopen-2024-085472), *BMJ Open* 14(4), e085472, doi: 10.1136/bmjopen-2024-085472
+- Wang, R., Rouleau, G., Booth, G.L., Brazeau, A.-S., El-Dassouki, N., Taylor, M., Cafazzo, J.A., Greenberg, M., Nakhla, M., Shulman, R., and Desveaux, L. (2023), [Understanding Whether and How a Digital Health Intervention Improves Transition Care for Emerging Adults Living With Type 1 Diabetes: Protocol for a Mixed Methods Realist Evaluation](https://doi.org/10.2196/46115), *JMIR Research Protocols* 12, e46115, doi: 10.2196/46115
+- Roczniewska, M., Rogala, A., Marszałek, M., Hasson, H., Bakker, A.B., and von Thiele Schwarz, U. (2023), [Job crafting interventions: what works, for whom, why, and in which contexts? Research protocol for a systematic review with coincidence analysis](https://doi.org/10.1186/s13643-023-02170-z), *Systematic Reviews* 12(1), 10, doi: 10.1186/s13643-023-02170-z
+- Sperber, N.R., Cragun, D., Roberts, M.C., Bendz, L.M., Ince, P., Gonzales, S., Haga, S.B., Wu, R.R., Petry, N.J., Ramsey, L., and Uber, R. (2022), [A Mixed-Methods Protocol to Identify Best Practices for Implementing Pharmacogenetic Testing in Clinical Settings](https://doi.org/10.3390/jpm12081313), *Journal of Personalized Medicine* 12(8), 1313
+- Wasmuth, S., Belkiewitz, J., Bravata, D., Horsford, C., Harris, A., Smith, C., Austin, C., and Miech, E. (2022), [Protocol for evaluating external facilitation as a strategy to nationally implement a novel stigma reduction training tool for healthcare providers](https://doi.org/10.1186/s43058-022-00332-z), *Implementation Science Communications* 3(1), 88
+- Cragun, D., Beckstead, J., Farmer, M., Hooker, G., Dean, M., Matloff, E., Reid, S., Tezak, A., Weidner, A., Whisenant, J.G., and Pal, T. (2021), [IMProving care After inherited Cancer Testing (IMPACT) study: protocol of a randomized trial evaluating the efficacy of two interventions designed to improve cancer risk management and family communication of genetic test results](https://doi.org/10.1186/s12885-021-08822-4), *BMC Cancer* 21(1), 1099
+- Rogal, S.S., Yakovchenko, V., Morgan, T., Bajaj, J.S., Gonzalez, R., Park, A., Beste, L., Miech, E.J., et al. (2020), [Getting to implementation: a protocol for a Hybrid III stepped wedge cluster randomized evaluation of using data-driven implementation strategies to improve cirrhosis care for Veterans](https://doi.org/10.1186/s13012-020-01050-7), *Implementation Science* 15(1), 92
+- Rahm, A.K., Cragun, D., Hunter, J.E., Epstein, M.M., Lowery, J., Lu, C.Y., Pawloski, P.A., Sharaf, R.N., Liang, S.Y., Burnett-Hartman, A.N., Gudgeon, J.M., Hao, J., Snyder, S., Gogoi, R., Ladd, I., and Williams, M.S. (2018), [Implementing universal Lynch syndrome screening (IMPULSS): protocol for a multi-site study to identify strategies to implement, adapt, and sustain genomic medicine programs in different organizational contexts](https://doi.org/10.1186/s12913-018-3636-2), *BMC Health Services Research* 18(1), 824
+
+<a class="cna-backtop" href="#">↑ Back to top</a>
+
+</div>
+
+<div class="cna-sec">
+
+### Book chapters {#book-chapters}
+
+- Brownson, R.C., Colditz, G.A., and Proctor, E.K., eds. (2023), [Dissemination and Implementation Research in Health: Translating Science to Practice](https://global.oup.com/academic/product/dissemination-and-implementation-research-in-health-9780197660690), 3rd ed., Oxford University Press, New York.
+- Cragun, D. (2020), [Configurational Comparative Methods](https://doi.org/10.4337/9781788975995.00034), in: *Handbook on Implementation Science*, eds. P. Nilsen &amp; S. A. Birken, Northampton, MA: Edward Elgar Publishing, doi: 10.4337/9781788975995.00034
+
+<a class="cna-backtop" href="#">↑ Back to top</a>
+
+</div>
+
+<div class="cna-sec">
+
+## PhD theses using or on CNA {#phd-theses}
+
+- **Anna C. Quon**, 2025 (Rush University), "Exploring factors associated with mammography screening among women with autism spectrum disorder and/or intellectual disabilities."
+- **Sarah Shaw**, 2025 (University of Washington), "Moving Beyond Research Settings to Strengthen HIV Services: Determinants of Intervention Sustainability and Community-Generated Implementation Strategies." [link](https://www.proquest.com/openview/fde7e20a1b1daf5c5be8e89afa29326a/1)
+- **Luna de Souter**, 2025 (University of Bergen), "Defining and discovering causal regularities."
+- **Nattarinee Jittiang**, 2025 (RMIT University), "What Drives Transition from Natural Rubber to Other Types of Farming in Thailand: An Exploratory Study." [link](https://digital.lib.washington.edu/researchworks/items/0c2f512b-af64-4d47-a476-12d498aecf6a)
+- **Jennifer Gothilander**, 2025 (Mälardalen University), "Exploring contexts for participation in daily and physical activities among adolescents with and without disabilities." [link](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1953739&dswid=-4902)
+- **Lauren Niles**, 2022 (Johns Hopkins University, Baltimore, MD), "Effectiveness of Maryland Opioid Treatment Program Response During the COVID-19 Pandemic and National Regulatory Exemption Period." [link](https://jscholarship.library.jhu.edu/handle/1774.2/67640)
+- **Claire Gwayi-Chore**, 2022 (University of Washington, Seattle), "Scaling up deworming programs: implementation science approaches to guide the transition from school-based to community-wide mass drug administration for soil-transmitted helminths." (This multi-method study included a CNA analysis to identify necessary and/or sufficient combinations of intervention delivery activities related to successful implementation of a community-wide public health intervention in three countries: Benin, India and Malawi.)
+- **Sepheen Byron**, 2022 (University of North Carolina – Chapel Hill), "State Medicaid Policy Levers Related to Successful Health Information Exchange Among Providers."
+- **Laysse Fernanda Macêdo dos Santos**, 2022 (Universidade Federal de Minas Gerais, UFMG/Brazil), "O desenvolvimento da resiliência nas redes de suprimentos da administração pública: a perspectiva do capital social." (ENG: "The development of resilience in public administration supply networks: the perspective of social capital")
+- **Kelly Coates**, 2021 (Portland State), "Affecting Absenteeism Through School-Based Health Services Delivery: A Configurational Comparative Methods Study of Oregon's Public Secondary Schools." [link](https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=6825&context=open_access_etds) (First standalone use of CNA in an applied analysis in any doctoral-level dissertation in any subject.)
+- **Jessica Dodge**, 2021 (USC), "Exploring the Social Determinants of Health in a Population with Similar Access to Healthcare: Experiences from United States Active-Duty Army Wives." (First formal pairing of CNA and QCA in an applied analysis in any doctoral-level dissertation in any subject.)
+- **Davi Pires Andrade Brescia**, 2021 (Universidade Federal de Minas Gerais, UFMG/Brazil), "Respostas gerenciais a dilemas estratégicos: capturando políticas de decisão e suas fundações morais." (ENG: "Managerial responses to strategic dilemmas: capturing decision-making policies and their moral foundations")
+- **Christoph Falk**, 2020 (University of Geneva), "Konfigurationales kausales Modellieren. Ein theoretisches Fundament und Verfahren für Kausalanalysen mit crisp-set Konfigurationen."
+- **Bruno de Castro Rozenberg**, 2020 (Universidade Federal de Minas Gerais, UFMG/Brazil), "Complexidade causal na seleção de startups para programas públicos de aceleração: uma abordagem configuracional comparativa." (ENG: "Causal complexity in the selection of startups for public acceleration programs: a comparative configurational approach.")
+- **Felipe Alexandre de Souza Félix Nunes**, 2020 (Universidade Federal de Minas Gerais, UFMG/Brazil), "Comportamento de não consumo de produtos dos patrocinadores de Cruzeiro e Atlético-MG pelos torcedores do clube rival." (ENG: "Non-consumption of products from the sponsors of Cruzeiro and Atlético-MG by fans of the rival club")
+- **Rebecca Whitaker**, 2019 (UNC-Chapel Hill), "A Study of Preventable Hospital Utilization Among Medicaid-Insured Pediatric Patients in North Carolina's Federally Qualified Health Centers." (First doctoral-level dissertation in the United States to prominently feature CNA in an applied analysis.)
+- **Rui Fernando Correia Ferreira**, 2018 (Universidade Federal de Minas Gerais, UFMG/Brazil), "Estratégia de influência: O ganho de vantagens competitivas de empresas em suas relações com o Estado." (ENG: "Influence strategy: Gaining competitive advantages for companies in their relations with the State")
+
+<a class="cna-backtop" href="#">↑ Back to top</a>
+
+</div>
+
+A [Zotero Group Library on CNA](https://www.zotero.org/groups/4567107/coincidence.analysis/library) provides more detailed bibliographic information.
+
+</div>

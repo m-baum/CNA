@@ -1,0 +1,14 @@
+---
+title: "Version 0.3.1 of `frscore` is released"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · May 03, 2023</div>
+<div class="cna-news-hero"><img src="../assets/news/162345_0.png" alt="frscore.png"></div>
+<p class="cna-news-lead">A new version of the `frscore` extension package for `cna` is now available on CRAN.</p>
+<p>Version 0.3.1 of the frscore add-on package for CNA is now available. This version introduces some new features and changes to old default behaviors. An overview of the most significant changes, and an explanation of the reasons behind them, is provided here.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,16 @@
+---
+title: "CNA applied in Psychology"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · May 31, 2024</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/171022_0.jpg" alt="appPsych cover"></div>
+<p class="cna-news-lead">Marta Roczniewska, Ole Henning Sørensen, Susanne Tafvelin et al. use CNA to invesitigate the causes of how employees perceive the relevance of health interventions at the workplace.</p>
+<h2>Abstract</h2>
+<p>Organizational occupational health interventions (OOHIs) that are perceived by employees as relevant for their workplace are more likely to be implemented successfully, yet little is known about the conditions that produce such perceptions. This study identifies the conditions that create a perception among employees that an intervention fits their organization as well as the conditions that result in low levels of perceived fit. We used two-wave data from 40 Danish preschools that underwent a quasi-experimental OOHI. Perceived fit was assessed through employee ratings at follow-up, while survey responses from implementation team members at five time points were used to assess four context and 14 process factors. The results of a coincidence analysis showed that high levels of perceived fit were achieved through two paths. Each path consisted of a lack of co-occurring changes together with either very high levels of managerial support (path_1) or a combination of implementation team role clarity, staff involvement, and team learning (path_2). In contrast, low levels of perceived fit were brought about by single factors: limited leader support, low degree of role clarity, or concurrent organizational changes. The findings reveal the complexity involved in implementing OOHIs and offer insights into reasons they may fail.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Roczniewska M, Tafvelin S, Nielsen K, von Thiele Schwarz U, Miech EJ, Hasson H, Edwards K, Abildgaard JS, Sorensen OH (2023), Simple Roads to Failure, Complex Paths to Success: An Evaluation of Conditions Explaining Perceived Fit of an Organizational Occupational Health Intervention, Applied Psychology. <a href="https://doi.org/10.1111/apps.12502">https://doi.org/10.1111/apps.12502</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

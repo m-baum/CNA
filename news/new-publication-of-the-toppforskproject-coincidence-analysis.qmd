@@ -1,0 +1,14 @@
+---
+title: "New publication of the Toppforskproject \"Coincidence Analysis\""
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · October 22, 2019</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/130822_0.png" alt="BJPS"></div>
+<p class="cna-news-lead">Michael Baumgartner and Christoph Falk, Boolean Difference-Making: A Modern Regularity Theory of Causation, The British Journal for the Philosophy of Science</p>
+<p>A regularity theory of causation analyses type-level causation in terms of Boolean difference-making. The essential ingredient that helps this theoretical framework overcome the problems of Hume’s and Mill’s classical accounts is a principle of non-redundancy: only Boolean dependency structures from which no elements can be eliminated track causation. The first part of this paper argues that the recent regularity theoretic literature has not consistently implemented this principle, for it disregarded an important type of redundancies: structural redundancies. Moreover, it is shown that a regularity theory needs to be underwritten by a hitherto neglected metaphysical background assumption stipulating that the world's causal makeup is not ambiguous. Against that background, the second part then develops a new regularity theory that does justice to all types of redundancies and, thereby, provides the first all-inclusive notion of Boolean difference-making.</p>
+<p>Link to paper.</p>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

@@ -1,0 +1,14 @@
+---
+title: "Article on Causation in the SAGE Handbook of Political Science"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · February 25, 2020</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/134041_0.jpg" alt="cover page"></div>
+<p class="cna-news-lead">Michael Baumgartner published an article introducing the main theories of causation to political scientists in the SAGE Handbook of Political Science.</p>
+<p>Michael Baumgartner (2020), Causation, in: The SAGE Handbook of Political Science, ed. by D. Berg-Schlosser, B. Bradie, L. Morlino, London: SAGE, pp. 305--321.</p>
+<ul class="cna-news-list"><li>Twitter</li><li>LinkedIn</li><li>Facebook</li></ul>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

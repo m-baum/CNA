@@ -1,0 +1,19 @@
+---
+title: "CNA applied in Genetics in Medicine"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · August 17, 2024</div>
+<div class="cna-news-hero cna-news-cover"><img src="../assets/news/172238_0.jpg" alt="Genetics in Medicine"></div>
+<p class="cna-news-lead">Deborah Cragun, Zachary M. Salvati, Jennifer L. Schneider, et al. use CNA to identify factors and causal chains associated with optimal implementation of Lynch syndrome tumor screening.</p>
+<h2>Abstract</h2>
+<p>This study compared Lynch syndrome universal tumor screening (UTS) across multiple health systems (some of which had 2 or more distinct UTS programs) to understand multilevel factors that may affect the successful implementation of complex programs.</p>
+<p>Data from 66 stakeholder interviews were used to conduct multivalue coincidence analysis and identify key factors that consistently make a difference in whether UTS programs were implemented and optimized at the system level.</p>
+<p>The selected coincidence analysis model revealed combinations of conditions that distinguish 4 optimized UTS programs, 10 nonoptimized programs, and 4 systems with no program. Fully optimized UTS programs had both a maintenance champion and a positive inner setting. Two independent paths were unique to nonoptimized programs: (1) positive attitudes and a mixed inner setting or (2) limited planning and engaging among stakeholders. Negative views about UTS evidence or lack of knowledge about UTS led to a lack of planning and engaging, which subsequently prevented program implementation.</p>
+<p>The model improved our understanding of program implementation in health care systems and informed the creation of a toolkit to guide UTS implementation, optimization, and changes. Our findings and toolkit may serve as a use case to increase the successful implementation of other complex precision health programs.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>Deborah Cragun, Zachary M. Salvati, Jennifer L. Schneider, et al., Alanna Kulchak Rahm, (2024) Identifying factors and causal chains associated with optimal implementation of Lynch syndrome tumor screening: An application of Coincidence Analysis, Genetics in Medicine, 26(10), 101201. <a href="https://doi.org/10.1016/j.gim.2024.101201">https://doi.org/10.1016/j.gim.2024.101201</a></p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>

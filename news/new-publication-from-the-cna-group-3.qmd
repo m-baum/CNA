@@ -1,0 +1,15 @@
+---
+title: "New publication from the CNA group"
+toc: false
+format: html
+---
+
+<div class="cna-page">
+<div class="cna-news-kicker">News · June 03, 2021</div>
+<div class="cna-news-hero"><img src="../assets/news/145547_0.png" alt="smr"></div>
+<p class="cna-news-lead">New procedure estimating the robustness of configurational causal models introduced in a paper in Sociological Methods &amp; Research</p>
+<p>In recent years, proponents of configurational comparative methods (CCMs) have advanced various dimensions of robustness as instrumental to model selection. But these robustness considerations have not led to computable robustness measures, and they have typically been applied to the analysis of real-life data with unknown underlying causal structures, rendering it impossible to determine exactly how they influence the correctness of selected models. This article develops a computable criterion of fit-robustness, which quantifies the degree to which a CCM model agrees with other models inferred from the same data under systematically varied threshold settings of fit parameters. Based on two extended series of inverse search trials on data simulated from known causal structures, the article moreover provides a precise assessment of the degree to which fit-robustness scoring is conducive to finding a correct causal model and how it compares to other approaches of model selection.</p>
+
+<div class="cna-factbox"><strong>Publication</strong><p>V.P. Parkkinen and M. Baumgartner (2021), Robustness and Model Selection in Configurational Causal Modeling, Sociological Methods &amp; Research. [penultimate draft]</p></div>
+<p class="cna-backtop"><a href="../news.html">← All news</a></p>
+</div>
