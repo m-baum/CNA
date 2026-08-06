@@ -347,6 +347,20 @@ h3{font-size:1.2rem}
 /* misc */
 .abstract{background:var(--paper-2);border:1px solid var(--line);border-left:3px solid var(--accent);padding:1.1rem 1.3rem;border-radius:4px;margin:1.5rem 0}
 code{background:var(--paper-2);border-radius:3px;padding:0 .25rem}
+/* label R code blocks with an "R" badge */
+pre.sourceCode.r{position:relative;padding-top:1.6rem}
+pre.sourceCode.r::before{
+  content:"R";
+  position:absolute;
+  top:.4rem; left:.5rem;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.62rem; font-weight:600; letter-spacing:.06em;
+  color:var(--accent);
+  border:1px solid var(--line); border-radius:4px;
+  background:var(--paper-2);
+  padding:.05rem .45rem;
+  line-height:1.2;
+}
 img{border-radius:3px}
 table{width:100%;border-collapse:collapse}
 th,td{padding:.6rem .8rem;border-bottom:1px solid var(--rule);text-align:left}

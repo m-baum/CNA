@@ -2,29 +2,58 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Software – Coincidence Analysis</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -42,10 +71,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,30 +208,14 @@ cna
 The cna package provides the base functionalities required to analyze data by means of CNA. The package vignette introduces to the theoretical foundation of CNA as well as to the main functions of the cna package.
 </p>
 <div class="vers">
-CRAN: <a href="https://cran.r-project.org/package=cna">cran.r-project.org/package=cna</a> · Vignette: <a href="https://cran.r-project.org/web/packages/cna/vignettes/cna.pdf">cna.pdf</a>
+CRAN: <a href="https://cran.r-project.org/package=cna">cran.r-project.org/package=cna</a> · Vignette: <a href="https://cran.r-project.org/web/packages/cna/vignettes/cna.pdf">cna.pdf</a> · Source: <a href="https://github.com/cran/cna">github.com/cran/cna</a> · Current version: 4.0.3 · <a href="https://cran.r-project.org/src/contrib/Archive/cna/">Older versions</a>
 </div>
 </div>
-<p><strong>Version/release history (cna):</strong></p>
-<ul>
-<li>On 06/02/2025, update 4.0.3 has been released on CRAN.</li>
-<li>On 04/04/2025, version 4.0.0 of the cna R-package has been released on CRAN.</li>
-<li>On 12/21/2023, update 3.5.6 has been released on CRAN.</li>
-<li>On 08/10/2023, update 3.5.4 has been released on CRAN.</li>
-<li>On 03/09/2023, update 3.5.1 has been released on CRAN.</li>
-<li>On 02/17/2023, version 3.5.0 of the cna R-package has been released on CRAN.</li>
-<li>On 07/08/2022, version 3.4.0 of the cna R-package has been released on CRAN.</li>
-<li>On 12/17/2021, version 3.3.0 of the cna R-package has been released on CRAN.</li>
-<li>On 06/14/2021, version 3.2.0 of the cna R-package has been released on CRAN.</li>
-<li>On 05/28/2021, version 3.1.0 of the cna R-package has been released on CRAN.</li>
-<li>On 11/06/2020, update 3.0.1 has been released on CRAN.</li>
-<li>On 09/13/2020, version 3.0.0 of the cna R-package has been released on CRAN.</li>
-<li>On 05/20/2020, update 2.2.3 has been released on CRAN.</li>
-<li>On 06/12/2019, update 2.2.2 has been released on CRAN.</li>
-<li>On 08/09/2019, update 2.2.1 has been released on CRAN.</li>
-<li>On 04/13/2019, update 2.2.0 has been released on CRAN.</li>
-<li>On 06/13/2018, update 2.1.1 has been released on CRAN.</li>
-<li>On 06/01/2018, version 2.1.0 of the cna R-package has been released on CRAN.</li>
-</ul>
+<p><strong>Example (cna):</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"cna"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cna)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cna</span>(d.women)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cna</span>(d.jobsecurity, <span class="at">ordering =</span> <span class="st">"JSR"</span>, <span class="at">con =</span> .<span class="dv">85</span>, <span class="at">cov =</span> .<span class="dv">85</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr class="cna-hr">
 <div class="cna-soft">
 <span class="mono">Add-on package</span>
@@ -213,18 +226,17 @@ frscore
 The frscore package provides functions for calculating the fit-robustness of CNA models — a robustness measure tailor-made for configurational methods. CNA robustness scoring is discussed in Parkkinen &amp; Baumgartner (2021), <em>Robustness and Model Selection in Configurational Causal Modeling</em>.
 </p>
 <div class="vers">
-CRAN: <a href="https://cran.r-project.org/package=frscore">cran.r-project.org/package=frscore</a>
+CRAN: <a href="https://cran.r-project.org/package=frscore">cran.r-project.org/package=frscore</a> · Source: <a href="https://github.com/cran/frscore">github.com/cran/frscore</a> · Current version: 0.5.2 · <a href="https://cran.r-project.org/src/contrib/Archive/frscore/">Older versions</a>
 </div>
 </div>
-<p><strong>Version/release history (frscore):</strong></p>
-<ul>
-<li>On 07/05/2025, version 0.5.2 of frscore has been released on CRAN.</li>
-<li>On 04/25/2024, version 0.4.0 of frscore has been released on CRAN.</li>
-<li>On 04/28/2023, version 0.3.1 of frscore has been released on CRAN.</li>
-<li>On 05/20/2022, version 0.2.0 of the frscore R-package has been released on CRAN.</li>
-<li>On 10/01/2022, update 0.1.1 has been released on CRAN.</li>
-<li>On 07/22/2021, version 0.1.0 of the frscore R-package has been released on CRAN.</li>
-</ul>
+<p><strong>Example (frscore):</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cna)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(frscore)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>sols <span class="ot">&lt;-</span> <span class="fu">rean_cna</span>(d.error, <span class="at">attempt =</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fl">0.8</span>, <span class="sc">-</span><span class="fl">0.1</span>))</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>sols <span class="ot">&lt;-</span> <span class="fu">do.call</span>(rbind, sols)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">frscore</span>(sols<span class="sc">$</span>condition)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">frscored_cna</span>(d.error)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr class="cna-hr">
 <div class="cna-soft">
 <span class="mono">Add-on package</span>
@@ -235,18 +247,13 @@ cnaOpt
 The cnaOpt package provides various functions for optimizing consistency and coverage scores of models of configurational comparative methods as CNA and QCA. The underlying theory is presented in Baumgartner &amp; Ambühl (2021), <em>Optimizing Consistency and Coverage in Configurational Causal Modeling</em>.
 </p>
 <div class="vers">
-CRAN: <a href="https://cran.r-project.org/package=cnaOpt">cran.r-project.org/package=cnaOpt</a>
+CRAN: <a href="https://cran.r-project.org/package=cnaOpt">cran.r-project.org/package=cnaOpt</a> · Source: <a href="https://github.com/cran/cnaOpt">github.com/cran/cnaOpt</a> · Current version: 0.5.3 · <a href="https://cran.r-project.org/src/contrib/Archive/cnaOpt/">Older versions</a>
 </div>
 </div>
-<p><strong>Version/release history (cnaOpt):</strong></p>
-<ul>
-<li>On 08/20/2025, update 0.5.3 has been released on CRAN.</li>
-<li>On 07/08/2022, update 0.5.2 has been released on CRAN.</li>
-<li>On 12/17/2021, update 0.5.0 has been released on CRAN.</li>
-<li>On 09/14/2020, update 0.2.0 has been released on CRAN.</li>
-<li>On 09/12/2019, update 0.1.1 has been released on CRAN.</li>
-<li>On 21/10/2019, version 0.1.0 of the cnaOpt R-package has been released on CRAN.</li>
-</ul>
+<p><strong>Example (cnaOpt):</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cnaOpt)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">conCovOpt</span>(d.educate, <span class="st">"E"</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cnaOpt</span>(d.irrigate, <span class="st">"W"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr class="cna-hr">
 <div class="cna-soft">
 <span class="mono">Add-on package</span>
@@ -257,13 +264,16 @@ causalHyperGraph
 The causalHyperGraph package draws causal hypergraph plots from models output by configurational comparative methods such as Coincidence Analysis (CNA) or Qualitative Comparative Analysis (QCA).
 </p>
 <div class="vers">
-CRAN: <a href="https://cran.r-project.org/package=causalHyperGraph">cran.r-project.org/package=causalHyperGraph</a>
+CRAN: <a href="https://cran.r-project.org/package=causalHyperGraph">cran.r-project.org/package=causalHyperGraph</a> · Source: <a href="https://github.com/cran/causalHyperGraph">github.com/cran/causalHyperGraph</a> · Current version: 0.1.0 · <a href="https://cran.r-project.org/src/contrib/Archive/causalHyperGraph/">Older versions</a>
 </div>
 </div>
-<p><strong>Version/release history (causalHyperGraph):</strong></p>
-<ul>
-<li>On 03/21/2024, version 0.1.0 has been released on CRAN.</li>
-</ul>
+<p><strong>Example (causalHyperGraph):</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cna)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(causalHyperGraph)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">cna</span>(d.women)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">causalHyperGraph</span>(<span class="st">"(A*b + C*D*f &lt;-&gt; E)*(E*g + H*J &lt;-&gt; K)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -412,14 +422,13 @@ CRAN: <a href="https://cran.r-project.org/package=causalHyperGraph">cran.r-proje
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
