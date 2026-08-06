@@ -6,66 +6,60 @@ format: html
 
 <div class="cna-page">
 
-
 All CNA software is written for the R environment for statistical computing and graphics. It is open source and can be downloaded from the links provided below. To run it, the latest version of R must be installed along with a suitable editor, for example, RStudio.
 
-<div class="cna-soft"><span class="mono">Base package</span><h2 style="border-bottom:0">cna</h2><p>The cna package provides the base functionalities required to analyze data by means of CNA. The package vignette introduces to the theoretical foundation of CNA as well as to the main functions of the cna package.</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=cna">cran.r-project.org/package=cna</a> · Vignette: <a href="https://cran.r-project.org/web/packages/cna/vignettes/cna.pdf">cna.pdf</a></div></div>
+<div class="cna-soft"><span class="mono">Base package</span><h2 style="border-bottom:0">cna</h2><p>The cna package provides the base functionalities required to analyze data by means of CNA. The package vignette introduces to the theoretical foundation of CNA as well as to the main functions of the cna package.</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=cna">cran.r-project.org/package=cna</a> · Vignette: <a href="https://cran.r-project.org/web/packages/cna/vignettes/cna.pdf">cna.pdf</a> · Source: <a href="https://github.com/cran/cna">github.com/cran/cna</a> · Current version: 4.0.3 · <a href="https://cran.r-project.org/src/contrib/Archive/cna/">Older versions</a></div></div>
 
-**Version/release history (cna):**
+**Example (cna):**
 
-- On 06/02/2025, update 4.0.3 has been released on CRAN.
-- On 04/04/2025, version 4.0.0 of the cna R-package has been released on CRAN.
-- On 12/21/2023, update 3.5.6 has been released on CRAN.
-- On 08/10/2023, update 3.5.4 has been released on CRAN.
-- On 03/09/2023, update 3.5.1 has been released on CRAN.
-- On 02/17/2023, version 3.5.0 of the cna R-package has been released on CRAN.
-- On 07/08/2022, version 3.4.0 of the cna R-package has been released on CRAN.
-- On 12/17/2021, version 3.3.0 of the cna R-package has been released on CRAN.
-- On 06/14/2021, version 3.2.0 of the cna R-package has been released on CRAN.
-- On 05/28/2021, version 3.1.0 of the cna R-package has been released on CRAN.
-- On 11/06/2020, update 3.0.1 has been released on CRAN.
-- On 09/13/2020, version 3.0.0 of the cna R-package has been released on CRAN.
-- On 05/20/2020, update 2.2.3 has been released on CRAN.
-- On 06/12/2019, update 2.2.2 has been released on CRAN.
-- On 08/09/2019, update 2.2.1 has been released on CRAN.
-- On 04/13/2019, update 2.2.0 has been released on CRAN.
-- On 06/13/2018, update 2.1.1 has been released on CRAN.
-- On 06/01/2018, version 2.1.0 of the cna R-package has been released on CRAN.
+```r
+install.packages("cna")
+library(cna)
+cna(d.women)
+cna(d.jobsecurity, ordering = "JSR", con = .85, cov = .85)
+```
 
 <hr class="cna-hr">
 
-<div class="cna-soft"><span class="mono">Add-on package</span><h2 style="border-bottom:0">frscore</h2><p>The frscore package provides functions for calculating the fit-robustness of CNA models — a robustness measure tailor-made for configurational methods. CNA robustness scoring is discussed in Parkkinen &amp; Baumgartner (2021), *Robustness and Model Selection in Configurational Causal Modeling*.</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=frscore">cran.r-project.org/package=frscore</a></div></div>
+<div class="cna-soft"><span class="mono">Add-on package</span><h2 style="border-bottom:0">frscore</h2><p>The frscore package provides functions for calculating the fit-robustness of CNA models — a robustness measure tailor-made for configurational methods. CNA robustness scoring is discussed in Parkkinen &amp; Baumgartner (2021), *Robustness and Model Selection in Configurational Causal Modeling*.</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=frscore">cran.r-project.org/package=frscore</a> · Source: <a href="https://github.com/cran/frscore">github.com/cran/frscore</a> · Current version: 0.5.2 · <a href="https://cran.r-project.org/src/contrib/Archive/frscore/">Older versions</a></div></div>
 
-**Version/release history (frscore):**
+**Example (frscore):**
 
-- On 07/05/2025, version 0.5.2 of frscore has been released on CRAN.
-- On 04/25/2024, version 0.4.0 of frscore has been released on CRAN.
-- On 04/28/2023, version 0.3.1 of frscore has been released on CRAN.
-- On 05/20/2022, version 0.2.0 of the frscore R-package has been released on CRAN.
-- On 10/01/2022, update 0.1.1 has been released on CRAN.
-- On 07/22/2021, version 0.1.0 of the frscore R-package has been released on CRAN.
+```r
+library(cna)
+library(frscore)
+sols <- rean_cna(d.error, attempt = seq(1, 0.8, -0.1))
+sols <- do.call(rbind, sols)
+frscore(sols$condition)
 
-<hr class="cna-hr">
-
-<div class="cna-soft"><span class="mono">Add-on package</span><h2 style="border-bottom:0">cnaOpt</h2><p>The cnaOpt package provides various functions for optimizing consistency and coverage scores of models of configurational comparative methods as CNA and QCA. The underlying theory is presented in Baumgartner &amp; Ambühl (2021), *Optimizing Consistency and Coverage in Configurational Causal Modeling*.</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=cnaOpt">cran.r-project.org/package=cnaOpt</a></div></div>
-
-**Version/release history (cnaOpt):**
-
-- On 08/20/2025, update 0.5.3 has been released on CRAN.
-- On 07/08/2022, update 0.5.2 has been released on CRAN.
-- On 12/17/2021, update 0.5.0 has been released on CRAN.
-- On 09/14/2020, update 0.2.0 has been released on CRAN.
-- On 09/12/2019, update 0.1.1 has been released on CRAN.
-- On 21/10/2019, version 0.1.0 of the cnaOpt R-package has been released on CRAN.
+frscored_cna(d.error)
+```
 
 <hr class="cna-hr">
 
-<div class="cna-soft"><span class="mono">Add-on package</span><h2 style="border-bottom:0">causalHyperGraph</h2><p>The causalHyperGraph package draws causal hypergraph plots from models output by configurational comparative methods such as Coincidence Analysis (CNA) or Qualitative Comparative Analysis (QCA).</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=causalHyperGraph">cran.r-project.org/package=causalHyperGraph</a></div></div>
+<div class="cna-soft"><span class="mono">Add-on package</span><h2 style="border-bottom:0">cnaOpt</h2><p>The cnaOpt package provides various functions for optimizing consistency and coverage scores of models of configurational comparative methods as CNA and QCA. The underlying theory is presented in Baumgartner &amp; Ambühl (2021), *Optimizing Consistency and Coverage in Configurational Causal Modeling*.</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=cnaOpt">cran.r-project.org/package=cnaOpt</a> · Source: <a href="https://github.com/cran/cnaOpt">github.com/cran/cnaOpt</a> · Current version: 0.5.3 · <a href="https://cran.r-project.org/src/contrib/Archive/cnaOpt/">Older versions</a></div></div>
 
-**Version/release history (causalHyperGraph):**
+**Example (cnaOpt):**
 
-- On 03/21/2024, version 0.1.0 has been released on CRAN.
+```r
+library(cnaOpt)
+conCovOpt(d.educate, "E")
+cnaOpt(d.irrigate, "W")
+```
 
+<hr class="cna-hr">
 
+<div class="cna-soft"><span class="mono">Add-on package</span><h2 style="border-bottom:0">causalHyperGraph</h2><p>The causalHyperGraph package draws causal hypergraph plots from models output by configurational comparative methods such as Coincidence Analysis (CNA) or Qualitative Comparative Analysis (QCA).</p><div class="vers">CRAN: <a href="https://cran.r-project.org/package=causalHyperGraph">cran.r-project.org/package=causalHyperGraph</a> · Source: <a href="https://github.com/cran/causalHyperGraph">github.com/cran/causalHyperGraph</a> · Current version: 0.1.0 · <a href="https://cran.r-project.org/src/contrib/Archive/causalHyperGraph/">Older versions</a></div></div>
+
+**Example (causalHyperGraph):**
+
+```r
+library(cna)
+library(causalHyperGraph)
+x <- cna(d.women)
+plot(x)
+
+causalHyperGraph("(A*b + C*D*f <-> E)*(E*g + H*J <-> K)")
+```
 
 </div>

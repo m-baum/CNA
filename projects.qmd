@@ -8,7 +8,7 @@ format: html
 
 <div class="cna-intro">
 <div class="cna-kicker">Research Projects</div>
-<p>Current and past research projects on Coincidence Analysis, causal modeling, constitution, and interventionism.</p>
+<p>This page collects information about all ongoing and past research projects dedicated to developing or applying CNA.</p>
 </div>
 
 <div class="cna-nav">
