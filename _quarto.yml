@@ -9,7 +9,7 @@ project:
 website:
   title: "Coincidence Analysis"
   site-url: https://cna-method.com
-  search: true
+  search: false
   navbar:
     left:
       - text: "Overview"
