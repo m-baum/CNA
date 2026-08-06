@@ -25,8 +25,8 @@ website:
         href: events.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "People"
-        href: people.qmd
+      - text: "Community"
+        href: community.qmd
 
 format:
   html:

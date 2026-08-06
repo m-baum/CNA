@@ -8,7 +8,7 @@ format: html
 
 <div class="cna-intro">
 <div class="cna-kicker">Research Projects</div>
-<p>Current and past research projects on coincidence analysis, causal modeling, constitution, and interventionism.</p>
+<p>Current and past research projects on Coincidence Analysis, causal modeling, constitution, and interventionism.</p>
 </div>
 
 <div class="cna-nav">
@@ -20,6 +20,8 @@ format: html
 
 <div class="cna-proj cna-proj-ongoing">
 <h3>Research Council of Norway (FRIPRO) (2021&ndash;2026): <a href="https://www.uib.no/en/cna/146141/fripro-project-granted">Advancing Causal Modeling with Coincidence Analysis (AdCNA)</a></h3>
+
+<p><strong>Institution.</strong> University of Bergen, Norway</p>
 
 <p><strong>Allocated funds.</strong> NOK 12M.</p>
 
@@ -39,6 +41,8 @@ format: html
 <div class="cna-proj cna-proj-ongoing">
 <h3>Peder Sather Grant (2025&ndash;2026): Coincidence Analysis (CNA) workshop and applied health services research comparing CNA with regression analysis</h3>
 
+<p><strong>Institution.</strong> UC Berkeley &amp; University of Bergen</p>
+
 <p>The Peder Sather Center for Advanced Study supports projects carried out by researchers at UC Berkeley in collaboration with researchers from eight Norwegian universities. This project brings together <a href="https://socialwelfare.berkeley.edu/people/emmeline-chuang">Prof. Emmeline Chuang</a> (UC Berkeley) and Prof. Michael Baumgartner (University of Bergen) to organize a CNA training at UC Berkeley in spring 2026 and to facilitate virtual collaboration between both teams.</p>
 
 <p>The comparative study focuses on an applied health services research question: why the U.S. spends more per capita on health care than other high-income countries while at the same time showing worse health outcomes, including higher rates of multiple chronic conditions and higher death rates for treatable conditions. The project compares results generated with CNA to those produced by quantitative regression-based approaches.</p>
@@ -46,6 +50,8 @@ format: html
 
 <div class="cna-proj cna-proj-ongoing">
 <h3><a href="https://www.uib.no/fia/144685/styringsgruppen-forskningssamarbeid-mellom-uib-og-equinor">UiB Akademieavtalen utlysning IV</a> (2026&ndash;2028)</h3>
+
+<p><strong>Institution.</strong> University of Bergen, Norway</p>
 
 <p><strong>Allocated funds.</strong> NOK 1.176M.</p>
 
@@ -62,6 +68,8 @@ format: html
 
 <div class="cna-proj">
 <h3>Research Project for the <a href="https://mohnfoundation.no/kompetanse/toppforskprogrammet/">Toppforsk-programme</a> (2017&ndash;2023): <a href="https://www.uib.no/en/cna/151209/cna-toppforsk-project">Coincidence Analysis</a></h3>
+
+<p><strong>Institution.</strong> University of Bergen, Norway</p>
 
 <p><strong>Allocated funds.</strong> NOK 17M.</p>
 
@@ -80,6 +88,8 @@ format: html
 
 <div class="cna-proj">
 <h3>Research Professorship by the Swiss National Science Foundation (2014&ndash;2017): Coincidence Analysis</h3>
+
+<p><strong>Institution.</strong> University of Geneva</p>
 
 <p><strong>Allocated funds.</strong> CHF 1.355M.</p>
 

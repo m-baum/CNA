@@ -1,0 +1,46 @@
+---
+title: "Community"
+toc: false
+format: html
+---
+
+<div class="cna-bg" aria-hidden="true" style="background-image:url('assets/g1.svg')"></div>
+<div class="cna-page">
+<p class="cna-intro">CNA is developed and used by a worldwide community of methodologists and applied researchers. In the list below, people are grouped by role. If you would like to join us, contact us via one of the channels listed at the end of the page.</p>
+
+<div class="cna-peer"><div class="label">Core</div><ul>
+<li><a href="https://m-baum.github.io/">Michael Baumgartner</a>; University of Bergen · philosophy; (development)</li>
+<li>Mathias Ambühl; ConsultAG · R software &amp; computational methods; (development)</li>
+<li><a href="https://medicine.iu.edu/faculty/7419/miech-edward">Edward Miech</a>; Indiana University · health services research; (development &amp; application)</li>
+<li><a href="https://www.researchgate.net/profile/Jonathan-Freitas-2">Jonathan Simões Freitas</a>; Federal University of Minas Gerais · business administration; (development &amp; application)</li>
+<li><a href="https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=46012">Reiping Huang</a>; American College of Surgeons · surgery &amp; quality research; (application)</li>
+<li><a href="https://health.usf.edu/publichealth/overviewcoph/faculty/dcragun">Deborah Cragun</a>; University of South Florida · public health; (application)</li>
+<li><a href="https://jonaswahl.com/">Jonas Wahl</a>; German Research Centre for Artificial Intelligence (DFKI) &amp; University of Bergen · mathematics; (development)</li>
+<li><a href="https://www.uib.no/finn-ansatte/hans.steinsland">Hans Steinsland</a>; University of Bergen · philosophy; (development)</li>
+<li><a href="https://luna-de-souter.github.io/">Luna De Souter</a>; Witten/Herdecke University · philosophy; (development)</li>
+<li><a href="https://www.researchgate.net/profile/Martyna-Klein">Martyna Klein</a>; University of Bergen · philosophy; (application)</li>
+<li><a href="https://vpparkkinen.github.io/">Veli-Pekka Parkkinen</a>; University of Bergen · philosophy; (development)</li>
+</ul></div>
+
+<div class="cna-peer"><div class="label">Affiliated</div><ul>
+<li><a href="https://socialwelfare.berkeley.edu/people/emmeline-chuang">Emmeline Chuang</a>; UC Berkeley · social welfare &amp; health policy; (application)</li>
+<li><a href="https://www.chcs.org/person/john-a-rich-md-mph/">John Rich</a>; RUSH University, Chicago · health equity; Director, RUSH BMO Institute for Health Equity; (application)</li>
+<li><a href="https://www.fernuni-hagen.de/philosophie/lg1/en/staff/timm.lampert.shtml">Timm Lampert</a>; FernUniversität Hagen · philosophy &amp; logic; (development)</li>
+</ul></div>
+
+<div class="cna-peer"><div class="label">Community of practice<br>All Things Configured · 350+ members</div><ul>
+<li><a href="https://ohsu-psu-sph.org/our-school/faculty-directory/name/kelly-coates/">Kelly Coates</a>; Oregon Health &amp; Science University – Portland State University School of Public Health; coordinator</li>
+<li><a href="https://www.cherp.research.va.gov/CHERP/people/jessica-dodge.asp">Jessica Dodge</a>; Center for Healthcare Evaluation Research and Promotion, Pittsburgh VA; coordinator</li>
+</ul></div>
+
+<div class="cna-peer"><div class="label">Former group members</div><ul>
+<li><a href="https://www.uib.no/en/cna/143425/dr-christoph-falk-has-joined-cna-project">Christoph Falk</a></li>
+<li><a href="http://www.alrik-thiem.net/">Alrik Thiem</a></li>
+</ul></div>
+
+## How to connect
+
+- **CNA Discussions**; ask questions, share ideas, and help each other: [github.com/m-baum/CNA/discussions](https://github.com/m-baum/CNA/discussions), in categories *General · Help &amp; Support · Ideas · Announcements*.
+- **All Things Configured**; the CNA community of practice and mailing list: [join here](https://docs.google.com/forms/d/e/1FAIpQLSe_vZjj4cJw9uyhGtyl8hLRimkV8PFaTFIv2QrrJL8oIgLt3g/viewform).
+- **Email**; <a href="mailto:info@cna-method.com">info@cna-method.com</a>.
+</div>
