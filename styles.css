@@ -331,14 +331,14 @@ h3{font-size:1.2rem}
 .cna-peer li{font-size:1rem;padding:.2rem 0}
 
 /* ---------------------------------------------------------------- footer */
-.cna-footer{background:var(--paper-2);border-top:1px solid var(--line);margin-top:3rem;font-family:'Space Grotesk',sans-serif;width:100vw;margin-left:calc(50% - 50vw)}
-.cna-footer-inner{max-width:1240px;margin:0 auto;padding:2rem 30px 2.4rem;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px}
-.cna-footer h4{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:.7rem}
-.cna-footer p,.cna-footer a{color:var(--ink-2);font-size:.9rem;text-decoration:none;margin:0}
+.cna-footer{background:var(--paper-2);border-top:1px solid var(--line);margin-top:2rem;font-family:'Space Grotesk',sans-serif;width:100vw;margin-left:calc(50% - 50vw)}
+.cna-footer-inner{max-width:1240px;margin:0 auto;padding:1.4rem 30px 1.5rem;display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;align-items:center}
+.cna-footer h4{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 .4rem}
+.cna-footer p,.cna-footer a{color:var(--ink-2);font-size:.84rem;line-height:1.5;text-decoration:none;margin:0}
 .cna-footer a:hover{color:var(--accent)}
-.cna-footer-links{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.3rem .85rem}
+.cna-footer-links{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem .8rem}
 .cna-footer-links li{margin:0}
-.cna-footer-links a{font-size:.88rem}
+.cna-footer-links a{font-size:.82rem;line-height:1.5}
 /* hide any leftover quarto footer */
 #quarto-footer{display:none !important}
 
