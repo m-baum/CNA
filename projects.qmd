@@ -7,7 +7,7 @@ format: html
 <div class="cna-page" id="projects-top">
 
 <div class="cna-intro">
-<div class="cna-kicker">Research Projects as PI</div>
+<div class="cna-kicker">Research Projects</div>
 <p>Current and past research projects on coincidence analysis, causal modeling, constitution, and interventionism.</p>
 </div>
 
